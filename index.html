@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prime Hub | Suppling Dental</title>
+<meta name="description" content="Prime Hub Trading - Your complete partner for dental laboratory materials, CAD/CAM solutions, technical services and training in Egypt since 2010.">
+<link rel="icon" href="assets/img/PrimeHub_Favicon.webp" type="image/webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ TOP BAR ============ -->
+<div class="topbar">
+  <div class="container topbar__inner">
+    <div class="topbar__info">
+      <span><i class="fa-solid fa-location-dot"></i> 9 El Saudi Building, Nasr City, Cairo, Egypt</span>
+      <span><i class="fa-solid fa-phone"></i> +20 109 000 9508</span>
+      <span><i class="fa-brands fa-whatsapp"></i> WhatsApp</span>
+      <span><i class="fa-regular fa-envelope"></i> <a href="mailto:info@primehubeg.com">info@primehubeg.com</a></span>
+    </div>
+    <div class="topbar__social">
+      <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+      <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+    </div>
+  </div>
+</div>
+
+<!-- ============ HEADER / NAV ============ -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#home" class="brand">
+      <img src="assets/img/PrimeHub_Logo.webp" alt="Prime Hub Trading" class="brand__logo">
+      <span class="brand__text">
+        <strong>Prime Hub <br/><em>Trading</em></strong>
+        <!-- <small>Dental Laboratory &amp; CAD/CAM Solutions</small> -->
+      </span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li class="has-dropdown">
+          <a href="#products">Products <i class="fa-solid fa-chevron-down"></i></a>
+          <ul class="dropdown">
+            <li><a href="#products">Dental Materials</a></li>
+            <li><a href="#products">Equipment &amp; Devices</a></li>
+            <li><a href="#products">Consumables</a></li>
+          </ul>
+        </li>
+        <li class="has-dropdown">
+          <a href="#solutions">Solutions <i class="fa-solid fa-chevron-down"></i></a>
+          <ul class="dropdown">
+            <li><a href="#solutions">CAD/CAM Solutions</a></li>
+            <li><a href="#solutions">Digital Workflow</a></li>
+            <li><a href="#solutions">Technical Services</a></li>
+          </ul>
+        </li>
+        <li><a href="#training">Training Center</a></li>
+        <li><a href="#downloads">Download Center</a></li>
+        <li><a href="#service">Service Center</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <a href="#contact" class="btn btn--orange header__cta">Request A Quote</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><i class="fa-solid fa-bars"></i></button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero__slides">
+    <div class="hero__slide is-active" style="background-image:url('assets/img/hero-1.webp')"></div>
+    <div class="hero__slide" style="background-image:url('assets/img/hero-2.webp')"></div>
+  </div>
+  <div class="hero__overlay"></div>
+  <div class="container hero__inner">
+    <p class="eyebrow eyebrow--light">Prime Hub Trading</p>
+    <h1 class="hero__title">Your Complete Partner for Dental Laboratory &amp; <span class="text-blue">CAD/CAM</span> <span class="text-orange">Solutions</span></h1>
+    <p class="hero__subtitle">Serving <strong>1000+</strong> Customers Across Egypt Since <strong>2010</strong></p>
+    <div class="hero__actions">
+      <a href="#contact" class="btn btn--orange">Request A Quote <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="#" class="btn btn--outline" id="watchVideoBtn"><i class="fa-solid fa-circle-play"></i> Watch Video</a>
+    </div>
+  </div>
+  <div class="hero__controls">
+    <span class="hero__count"><span id="slideCurrent">01</span></span>
+    <div class="hero__progress"><span id="heroProgress"></span></div>
+    <span class="hero__count">02</span>
+    <button class="hero__arrow" id="heroPrev" aria-label="Previous slide"><i class="fa-solid fa-chevron-left"></i></button>
+    <button class="hero__arrow" id="heroNext" aria-label="Next slide"><i class="fa-solid fa-chevron-right"></i></button>
+  </div>
+</section>
+
+<!-- ============ STATS ============ -->
+<section class="stats">
+  <div class="container stats__grid">
+    <div class="stat">
+      <span class="stat__icon-box"><i class="fa-solid fa-award"></i></span>
+      <div class="stat__info">
+        <span class="stat__num">15+</span>
+        <span class="stat__label">Years of Experience</span>
+      </div>
+    </div>
+    <div class="stat">
+      <span class="stat__icon-box"><i class="fa-solid fa-user-group"></i></span>
+      <div class="stat__info">
+        <span class="stat__num">1000+</span>
+        <span class="stat__label">Happy Customers</span>
+      </div>
+    </div>
+    <div class="stat">
+      <span class="stat__icon-box"><i class="fa-solid fa-globe"></i></span>
+      <div class="stat__info">
+        <span class="stat__num">8</span>
+        <span class="stat__label">International Brands</span>
+      </div>
+    </div>
+    <div class="stat">
+      <span class="stat__icon-box"><i class="fa-solid fa-headset"></i></span>
+      <div class="stat__info">
+        <span class="stat__num">24/7</span>
+        <span class="stat__label">Technical Support</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="about" id="about">
+  <div class="container about__grid">
+    <div class="about__media">
+      <img src="assets/img/About_us.webp" alt="About Prime Hub">
+    </div>
+    <div class="about__content">
+      <p class="eyebrow">About Prime Hub</p>
+      <h2>Trusted Partner for Dental Laboratories in Egypt</h2>
+      <p class="about__text">Since 2010, Prime Hub Trading has been delivering advanced dental laboratory materials, equipment, digital solutions, professional training, and technical support across Egypt. We are committed to quality, innovation, and long-term partnerships with our clients.</p>
+      <a href="#contact" class="btn btn--primary">Learn More About Us <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOLUTIONS ============ -->
+<section class="solutions" id="solutions">
+  <div class="container">
+    <p class="eyebrow eyebrow--center">Our Solutions</p>
+    <div class="solutions__grid">
+      <div class="solution-card">
+        <span class="solution-card__icon icon-blue"><i class="fa-solid fa-tooth"></i></span>
+        <h3>Dental Materials</h3>
+        <p>High quality materials and consumables for every laboratory need.</p>
+        <a href="#products" class="link-arrow">Explore Products <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="solution-card">
+        <span class="solution-card__icon icon-orange"><i class="fa-solid fa-desktop"></i></span>
+        <h3>CAD/CAM Solutions</h3>
+        <p>Complete digital workflow solutions and advanced equipment.</p>
+        <a href="#solutions" class="link-arrow">Explore Solutions <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="solution-card">
+        <span class="solution-card__icon icon-blue"><i class="fa-solid fa-gear"></i></span>
+        <h3>Technical Services</h3>
+        <p>Maintenance, repair, calibration and technical support for your equipment.</p>
+        <a href="#service" class="link-arrow">Our Services <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURED PRODUCTS ============ -->
+<section class="featured" id="products">
+  <div class="container">
+    <div class="section-head">
+      <h2>Featured Products</h2>
+      <a href="#products" class="link-arrow">View All Products <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+
+    <div class="carousel" id="productCarousel">
+      <button class="carousel__arrow carousel__arrow--prev" id="prodPrev" aria-label="Previous products"><i class="fa-solid fa-chevron-left"></i></button>
+
+      <div class="carousel__track-wrap">
+        <div class="carousel__track" id="prodTrack">
+
+          <article class="product-card">
+            <div class="product-card__media product-card__media--light">
+              <img src="assets/img/product-steamer.svg" alt="Renfert Power Steamer">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__brand brand--renfert">Renfert</span>
+              <h3>Power Steamer</h3>
+              <p>Professional steam cleaning system for efficient laboratory cleaning and maintenance.</p>
+              <a href="#" class="btn btn--outline-sm">View Product</a>
+            </div>
+          </article>
+
+          <article class="product-card product-card--dark">
+            <div class="product-card__media product-card__media--dark">
+              <img src="assets/img/product-furnace.svg" alt="Teknik Dental Tegra Speed Furnace">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__brand brand--teknik">tb Teknik Dental</span>
+              <h3>Tegra SPEED Furnace</h3>
+              <p>High-speed sintering furnace for zirconia restorations with maximum performance.</p>
+              <a href="#" class="btn btn--outline-sm btn--outline-sm-light">View Product</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__media product-card__media--blue">
+              <img src="assets/img/product-scanner.svg" alt="Profeta S100 Scanner">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__brand brand--profeta"><i class="fa-solid fa-hexagon-nodes"></i> Profeta</span>
+              <h3>S100 Scanner</h3>
+              <p>High-precision scanner for accurate digital dentistry and CAD/CAM workflows.</p>
+              <a href="#" class="btn btn--outline-sm">View Product</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__media product-card__media--light">
+              <img src="assets/img/product-mixer.svg" alt="AUDent Vacuum Mixer">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__brand brand--audent">AUDent</span>
+              <h3>Vacuum Mixer Pro</h3>
+              <p>Precision vacuum mixing unit for bubble-free plaster and investment materials.</p>
+              <a href="#" class="btn btn--outline-sm">View Product</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__media product-card__media--blue">
+              <img src="assets/img/product-milling.svg" alt="JJTOOLS Milling Machine">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__brand brand--jjtools">JJTOOLS</span>
+              <h3>5-Axis Milling Unit</h3>
+              <p>High-precision dry milling machine for zirconia, PMMA and wax restorations.</p>
+              <a href="#" class="btn btn--outline-sm">View Product</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <button class="carousel__arrow carousel__arrow--next" id="prodNext" aria-label="Next products"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+
+    <div class="carousel__dots" id="prodDots"></div>
+  </div>
+</section>
+
+<!-- ============ SERVICE + TRAINING ============ -->
+<section class="dual" id="service">
+  <div class="container dual__grid">
+    <a href="#contact" class="dual__card" aria-label="Request a maintenance or repair service">
+      <img src="assets/img/Service_1.webp" alt="Service Center - Maintenance &amp; Repair Services. Authorized support for Renfert, Teknik Dental and Profeta. Preventive maintenance, calibration &amp; testing, emergency repairs, performance check, spare parts support, technical consultation. Service hotline +20 109 000 9508, 9:00 AM - 6:00 PM, Saturday to Thursday.">
+    </a>
+    <a href="#contact" class="dual__card" id="training" aria-label="Book a hands-on training course">
+      <img src="assets/img/Service_2.webp" alt="Training Center - Hands-on Courses &amp; Professional Training. CAD/CAM training, zirconia courses, equipment training, technical education, workshops and seminars.">
+    </a>
+  </div>
+</section>
+
+<!-- ============ DOWNLOAD CENTER ============ -->
+<section class="downloads" id="downloads">
+  <div class="container">
+    <p class="eyebrow eyebrow--center">Download Center</p>
+    <div class="downloads__grid">
+
+      <div class="download-card">
+        <span class="download-card__logo">BSM</span>
+        <div class="download-card__links">
+          <a href="#"><i class="fa-solid fa-download"></i> Catalog</a>
+          <a href="#"><i class="fa-solid fa-download"></i> Manual</a>
+        </div>
+      </div>
+
+      <div class="download-card">
+        <span class="download-card__logo download-card__logo--audent">AUDent</span>
+        <div class="download-card__links">
+          <a href="#"><i class="fa-solid fa-download"></i> Catalog</a>
+          <a href="#"><i class="fa-solid fa-download"></i> Manual</a>
+        </div>
+      </div>
+
+      <div class="download-card">
+        <span class="download-card__logo download-card__logo--denpark">Denpark</span>
+        <div class="download-card__links">
+          <a href="#"><i class="fa-solid fa-download"></i> Catalog</a>
+          <a href="#"><i class="fa-solid fa-download"></i> Manual</a>
+        </div>
+      </div>
+
+      <div class="download-card">
+        <span class="download-card__logo download-card__logo--jjtools"><i class="fa-solid fa-diamond"></i> JJTOOLS</span>
+        <div class="download-card__links">
+          <a href="#"><i class="fa-solid fa-download"></i> Catalog</a>
+          <a href="#"><i class="fa-solid fa-download"></i> Manual</a>
+        </div>
+      </div>
+
+      <div class="download-card">
+        <span class="download-card__logo download-card__logo--fdt">FDT</span>
+        <div class="download-card__links">
+          <a href="#"><i class="fa-solid fa-download"></i> Catalog</a>
+          <a href="#"><i class="fa-solid fa-download"></i> Manual</a>
+        </div>
+      </div>
+
+      <div class="download-card">
+        <span class="download-card__logo download-card__logo--renfert">Renfert</span>
+        <div class="download-card__links">
+          <a href="#"><i class="fa-solid fa-download"></i> Catalog</a>
+          <a href="#"><i class="fa-solid fa-download"></i> Manual</a>
+        </div>
+      </div>
+
+      <div class="download-card">
+        <span class="download-card__logo download-card__logo--teknik">tb Teknik Dental</span>
+        <div class="download-card__links">
+          <a href="#"><i class="fa-solid fa-download"></i> Catalog</a>
+          <a href="#"><i class="fa-solid fa-download"></i> Manual</a>
+        </div>
+      </div>
+
+      <div class="download-card">
+        <span class="download-card__logo download-card__logo--profeta"><i class="fa-solid fa-hexagon-nodes"></i> Profeta</span>
+        <div class="download-card__links">
+          <a href="#"><i class="fa-solid fa-download"></i> Catalog</a>
+          <a href="#"><i class="fa-solid fa-download"></i> Manual</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ REQUEST A QUOTE ============ -->
+<section class="quote" id="contact">
+  <div class="container quote__grid">
+    <div class="quote__intro">
+      <h2>Request A Quote</h2>
+      <p>Need pricing, technical information or product recommendations? Our team will contact you within 24 hours.</p>
+    </div>
+    <form class="quote__form" id="quoteForm">
+      <div class="form-row">
+        <div class="form-field">
+          <i class="fa-regular fa-user"></i>
+          <input type="text" placeholder="Your Name" required>
+        </div>
+        <div class="form-field">
+          <i class="fa-regular fa-building"></i>
+          <input type="text" placeholder="Company">
+        </div>
+        <div class="form-field">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+          <input type="tel" placeholder="Mobile Number" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-field">
+          <i class="fa-regular fa-envelope"></i>
+          <input type="email" placeholder="Email Address" required>
+        </div>
+        <div class="form-field">
+          <i class="fa-solid fa-chevron-down"></i>
+          <select required>
+            <option value="" selected disabled>Product of Interest</option>
+            <option>Dental Materials</option>
+            <option>CAD/CAM Equipment</option>
+            <option>Technical Services / Maintenance</option>
+            <option>Training Courses</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <i class="fa-regular fa-message"></i>
+          <input type="text" placeholder="Message">
+        </div>
+      </div>
+      <button type="submit" class="btn btn--orange quote__submit">Submit Request</button>
+    </form>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="footer__col footer__brand">
+      <a href="#home" class="brand brand--footer">
+        <img src="assets/img/PrimeHub_Favicon.webp" alt="Prime Hub Trading" class="brand__logo">
+        <strong>Prime Hub Trading</strong>
+      </a>
+      <p>Your trusted partner for dental laboratory materials, equipment, CAD/CAM solutions, technical support and professional training. Serving 1000+ customers across Egypt since 2010.</p>
+      <div class="footer__social">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <div class="footer__col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#solutions">Solutions</a></li>
+        <li><a href="#training">Training Center</a></li>
+        <li><a href="#downloads">Download Center</a></li>
+        <li><a href="#service">Service Center</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <h4>Contact Info</h4>
+      <ul class="footer__contact">
+        <li><i class="fa-solid fa-location-dot"></i> 9 El Saudi Building, Nasr City, Cairo, Egypt</li>
+        <li><i class="fa-solid fa-phone"></i> +20 109 000 9508</li>
+        <li><i class="fa-brands fa-whatsapp"></i> +20 109 000 9508</li>
+        <li><i class="fa-regular fa-envelope"></i> <a href="mailto:info@primehubeg.com">info@primehubeg.com</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <h4>Why Choose Us</h4>
+      <ul class="check-list check-list--footer">
+        <li><i class="fa-solid fa-check"></i> 15+ Years Experience</li>
+        <li><i class="fa-solid fa-check"></i> 1000+ Happy Customers</li>
+        <li><i class="fa-solid fa-check"></i> Authorized Distributor</li>
+        <li><i class="fa-solid fa-check"></i> Technical Support 24/7</li>
+        <li><i class="fa-solid fa-check"></i> Training Center</li>
+        <li><i class="fa-solid fa-check"></i> Fast Delivery Across Egypt</li>
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <h4>Secure Payments</h4>
+      <p class="footer__payments-text">We accept Visa payments securely</p>
+      <div class="footer__payment-icons">
+        <span class="pay-icon"><i class="fa-brands fa-cc-visa"></i></span>
+        <span class="pay-icon"><i class="fa-brands fa-cc-mastercard"></i></span>
+      </div>
+      <a href="#" class="btn btn--whatsapp"><i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp</a>
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <div class="container footer__bottom-inner">
+      <p>&copy; 2010 - 2026 Prime Hub Trading. All Rights Reserved.</p>
+      <div class="footer__legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms &amp; Conditions</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="steamerBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e7ecf3"/>
+      <stop offset="1" stop-color="#c3cede"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="200" cy="340" rx="110" ry="16" fill="#c3cede" opacity="0.5"/>
+  <rect x="120" y="140" width="160" height="190" rx="18" fill="url(#steamerBody)" stroke="#9fb2cf" stroke-width="2"/>
+  <rect x="140" y="120" width="120" height="30" rx="10" fill="#15417f"/>
+  <circle cx="200" cy="100" r="18" fill="#15417f"/>
+  <rect x="192" y="70" width="16" height="34" rx="6" fill="#15417f"/>
+  <circle cx="200" cy="200" r="34" fill="#ffffff" stroke="#15417f" stroke-width="4"/>
+  <circle cx="200" cy="200" r="20" fill="#f7941d"/>
+  <rect x="150" y="250" width="100" height="14" rx="6" fill="#9fb2cf"/>
+  <rect x="150" y="274" width="70" height="10" rx="5" fill="#c3cede"/>
+  <path d="M175,60 C170,45 185,40 180,25" stroke="#b9c9e2" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M200,55 C195,40 210,35 205,20" stroke="#b9c9e2" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M225,60 C220,45 235,40 230,25" stroke="#b9c9e2" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>

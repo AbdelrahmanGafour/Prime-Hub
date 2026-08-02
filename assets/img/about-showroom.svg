@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
+  <defs>
+    <linearGradient id="aboutBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef2f8"/>
+      <stop offset="1" stop-color="#dbe4f0"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="650" fill="url(#aboutBg)"/>
+  <rect y="470" width="900" height="180" fill="#c7d4e6"/>
+
+  <!-- back wall display cabinet -->
+  <rect x="60" y="90" width="780" height="380" rx="10" fill="#ffffff" stroke="#c7d4e6" stroke-width="3"/>
+  <g>
+    <rect x="90" y="120" width="150" height="110" rx="6" fill="#eaf1fb" stroke="#b9c9e2" stroke-width="2"/>
+    <rect x="260" y="120" width="150" height="110" rx="6" fill="#eaf1fb" stroke="#b9c9e2" stroke-width="2"/>
+    <rect x="430" y="120" width="150" height="110" rx="6" fill="#eaf1fb" stroke="#b9c9e2" stroke-width="2"/>
+    <rect x="600" y="120" width="150" height="110" rx="6" fill="#eaf1fb" stroke="#b9c9e2" stroke-width="2"/>
+
+    <rect x="90" y="250" width="150" height="110" rx="6" fill="#eaf1fb" stroke="#b9c9e2" stroke-width="2"/>
+    <rect x="260" y="250" width="150" height="110" rx="6" fill="#f7941d" opacity="0.15" stroke="#f7941d" stroke-width="2"/>
+    <rect x="430" y="250" width="150" height="110" rx="6" fill="#eaf1fb" stroke="#b9c9e2" stroke-width="2"/>
+    <rect x="600" y="250" width="150" height="110" rx="6" fill="#eaf1fb" stroke="#b9c9e2" stroke-width="2"/>
+
+    <!-- product silhouettes -->
+    <circle cx="165" cy="175" r="30" fill="#15417f" opacity="0.75"/>
+    <rect x="305" y="150" width="60" height="60" rx="8" fill="#15417f" opacity="0.6"/>
+    <rect x="470" y="145" width="70" height="70" rx="35" fill="#5b9bf0" opacity="0.65"/>
+    <polygon points="675,145 715,215 635,215" fill="#f7941d" opacity="0.7"/>
+
+    <rect x="120" y="280" width="100" height="55" rx="6" fill="#15417f" opacity="0.55"/>
+    <circle cx="335" cy="305" r="26" fill="#f7941d" opacity="0.85"/>
+    <rect x="450" y="280" width="110" height="55" rx="6" fill="#5b9bf0" opacity="0.6"/>
+    <rect x="620" y="280" width="110" height="55" rx="6" fill="#15417f" opacity="0.55"/>
+  </g>
+
+  <!-- central table with monitor -->
+  <rect x="330" y="410" width="240" height="14" rx="6" fill="#9fb2cf"/>
+  <rect x="360" y="330" width="180" height="120" rx="8" fill="#12203a"/>
+  <rect x="372" y="342" width="156" height="96" rx="4" fill="#1d3a63"/>
+  <path d="M450,360 C430,360 422,378 426,394 C430,408 438,420 448,420 C452,420 453,410 450,410 C452,410 453,420 458,420 C468,420 476,408 480,394 C484,378 476,360 456,360 C450,360 448,368 450,368 C452,368 450,360 450,360Z" fill="#5b9bf0"/>
+  <rect x="430" y="452" width="40" height="8" rx="4" fill="#6b7f9e"/>
+  <rect x="410" y="460" width="80" height="8" rx="4" fill="#9fb2cf"/>
+</svg>

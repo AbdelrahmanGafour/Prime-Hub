@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560">
+  <defs>
+    <linearGradient id="trainBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3f6fb"/>
+      <stop offset="1" stop-color="#e2e9f3"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="560" fill="url(#trainBg)"/>
+  <rect y="400" width="900" height="160" fill="#d3dcea"/>
+
+  <!-- screens on wall -->
+  <rect x="80" y="60" width="220" height="140" rx="8" fill="#12203a"/>
+  <rect x="94" y="74" width="192" height="112" rx="4" fill="#1d3a63"/>
+  <rect x="340" y="60" width="220" height="140" rx="8" fill="#12203a"/>
+  <rect x="354" y="74" width="192" height="112" rx="4" fill="#f7941d" opacity="0.75"/>
+  <rect x="600" y="60" width="220" height="140" rx="8" fill="#12203a"/>
+  <rect x="614" y="74" width="192" height="112" rx="4" fill="#1d3a63"/>
+
+  <!-- rows of desks with chairs -->
+  <g>
+    <rect x="90" y="260" width="150" height="16" rx="6" fill="#9fb2cf"/>
+    <rect x="120" y="276" width="14" height="60" fill="#c3cede"/>
+    <rect x="196" y="276" width="14" height="60" fill="#c3cede"/>
+    <circle cx="160" cy="360" r="20" fill="#15417f" opacity="0.7"/>
+
+    <rect x="290" y="260" width="150" height="16" rx="6" fill="#9fb2cf"/>
+    <rect x="320" y="276" width="14" height="60" fill="#c3cede"/>
+    <rect x="396" y="276" width="14" height="60" fill="#c3cede"/>
+    <circle cx="360" cy="360" r="20" fill="#f7941d" opacity="0.8"/>
+
+    <rect x="490" y="260" width="150" height="16" rx="6" fill="#9fb2cf"/>
+    <rect x="520" y="276" width="14" height="60" fill="#c3cede"/>
+    <rect x="596" y="276" width="14" height="60" fill="#c3cede"/>
+    <circle cx="560" cy="360" r="20" fill="#15417f" opacity="0.7"/>
+
+    <rect x="690" y="260" width="150" height="16" rx="6" fill="#9fb2cf"/>
+    <rect x="720" y="276" width="14" height="60" fill="#c3cede"/>
+    <rect x="796" y="276" width="14" height="60" fill="#c3cede"/>
+    <circle cx="760" cy="360" r="20" fill="#5b9bf0" opacity="0.75"/>
+  </g>
+
+  <g>
+    <rect x="190" y="410" width="150" height="16" rx="6" fill="#9fb2cf"/>
+    <circle cx="260" cy="470" r="20" fill="#f7941d" opacity="0.75"/>
+
+    <rect x="390" y="410" width="150" height="16" rx="6" fill="#9fb2cf"/>
+    <circle cx="460" cy="470" r="20" fill="#15417f" opacity="0.7"/>
+
+    <rect x="590" y="410" width="150" height="16" rx="6" fill="#9fb2cf"/>
+    <circle cx="660" cy="470" r="20" fill="#5b9bf0" opacity="0.75"/>
+  </g>
+</svg>

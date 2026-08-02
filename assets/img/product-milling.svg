@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="millBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eaf1fb"/>
+      <stop offset="1" stop-color="#c9d7ec"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="200" cy="340" rx="120" ry="16" fill="#b9c9e2" opacity="0.5"/>
+  <rect x="110" y="150" width="180" height="170" rx="14" fill="url(#millBody)" stroke="#9fb2cf" stroke-width="2"/>
+  <rect x="130" y="170" width="140" height="80" rx="6" fill="#0e1f3f"/>
+  <rect x="145" y="185" width="50" height="50" rx="4" fill="#15417f"/>
+  <circle cx="170" cy="210" r="14" fill="#5b9bf0"/>
+  <rect x="205" y="185" width="50" height="50" rx="4" fill="#f7941d" opacity="0.85"/>
+  <rect x="150" y="264" width="100" height="14" rx="6" fill="#9fb2cf"/>
+  <rect x="150" y="286" width="60" height="10" rx="5" fill="#c3cede"/>
+  <rect x="60" y="230" width="50" height="16" rx="6" fill="#15417f"/>
+  <rect x="290" y="230" width="50" height="16" rx="6" fill="#15417f"/>
+</svg>

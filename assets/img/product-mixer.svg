@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="mixerBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e7ecf3"/>
+      <stop offset="1" stop-color="#c3cede"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="200" cy="340" rx="105" ry="16" fill="#c3cede" opacity="0.5"/>
+  <rect x="130" y="180" width="140" height="150" rx="14" fill="url(#mixerBody)" stroke="#9fb2cf" stroke-width="2"/>
+  <rect x="150" y="120" width="100" height="80" rx="10" fill="#15417f"/>
+  <circle cx="200" cy="160" r="26" fill="#0e1f3f"/>
+  <circle cx="200" cy="160" r="14" fill="#5b9bf0"/>
+  <rect x="150" y="220" width="100" height="16" rx="8" fill="#f7941d"/>
+  <rect x="150" y="250" width="100" height="10" rx="5" fill="#9fb2cf"/>
+  <rect x="150" y="270" width="60" height="10" rx="5" fill="#9fb2cf"/>
+  <rect x="110" y="300" width="180" height="16" rx="8" fill="#9fb2cf"/>
+</svg>

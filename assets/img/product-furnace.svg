@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="furnaceBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d3a63"/>
+      <stop offset="1" stop-color="#0e1f3f"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="200" cy="340" rx="120" ry="16" fill="#000000" opacity="0.2"/>
+  <rect x="100" y="120" width="200" height="200" rx="16" fill="url(#furnaceBody)" stroke="#2a4d86" stroke-width="2"/>
+  <rect x="122" y="142" width="156" height="90" rx="6" fill="#081326"/>
+  <text x="200" y="192" font-family="Poppins, Arial, sans-serif" font-size="26" font-weight="700" fill="#f7941d" text-anchor="middle">1560&#176;</text>
+  <rect x="122" y="248" width="70" height="46" rx="8" fill="#15417f"/>
+  <circle cx="157" cy="271" r="14" fill="#5b9bf0"/>
+  <circle cx="230" cy="271" r="20" fill="#f7941d"/>
+  <circle cx="270" cy="271" r="20" fill="#2a4d86" stroke="#5b9bf0" stroke-width="2"/>
+  <rect x="100" y="105" width="200" height="15" rx="6" fill="#2a4d86"/>
+</svg>
