@@ -534,6 +534,15 @@ input,select{ font-family:inherit; }
   color:var(--text-dark);
   margin-bottom:16px;
 }
+.download-card__logo--dark-chip{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  background:var(--blue-900);
+  border-radius:8px;
+  padding:10px 18px;
+  margin:0 auto 16px;
+}
 .download-card__links{ display:flex; justify-content:center; gap:16px; }
 .download-card__links a{
   font-size:.8rem;
@@ -798,6 +807,8 @@ input,select{ font-family:inherit; }
 }
 .brand-badge--logo{ padding:8px 24px; }
 .brand-badge--logo img{ height:22px; width:auto; }
+.brand-badge--dark-chip{ background:var(--blue-900); padding:9px 22px; border-color:var(--blue-900); }
+.brand-badge--dark-chip img{ height:20px; width:auto; }
 
 /* ---------- Category Quick Nav (Products) ---------- */
 .cat-nav{ background:#fff; border-bottom:1px solid var(--border); position:sticky; top:81px; z-index:100; }
