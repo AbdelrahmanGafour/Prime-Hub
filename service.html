@@ -65,25 +65,27 @@
   </div>
 </header>
 
-<!-- ============ PAGE BANNER ============ -->
-<section class="page-banner">
-  <div class="container page-banner__inner">
-    <p class="page-banner__breadcrumb"><a href="index.html">Home</a> <i class="fa-solid fa-chevron-right"></i> Service Center</p>
+<!-- ============ PAGE HERO ============ -->
+<section class="page-hero">
+  <div class="page-hero__bg" data-hero-zoom style="background-image:url('assets/img/pexels-service-banner.jpg')"></div>
+  <div class="page-hero__overlay"></div>
+  <div class="container page-hero__inner" data-hero-in>
+    <p class="page-hero__breadcrumb"><a href="index.html">Home</a> <i class="fa-solid fa-chevron-right"></i> Service Center</p>
     <h1>Service Center</h1>
     <p>Authorized maintenance, repair and calibration support for the equipment you rely on every day.</p>
   </div>
 </section>
 
 <!-- ============ SERVICE SHOWCASE ============ -->
-<section class="about">
-  <div class="container about__grid">
-    <div class="about__media">
-      <img src="assets/img/Service_1.webp" alt="Prime Hub Service Center - Maintenance and Repair Services">
+<section class="split">
+  <div class="container split__grid">
+    <div class="split__media" data-reveal-left>
+      <img src="assets/img/pexels-service-photo.jpg" alt="Prime Hub technician performing dental equipment maintenance">
     </div>
-    <div class="about__content">
+    <div class="split__content" data-reveal-right>
       <p class="eyebrow eyebrow--light">Authorized Technical Support</p>
       <h2>Keep Your Equipment Running at Its Best</h2>
-      <p class="about__text">Our technical team provides authorized maintenance, calibration and repair support for Renfert, Teknik Dental, Profeta and other brands we distribute. From routine preventive maintenance to emergency repairs, we help you avoid costly downtime.</p>
+      <p>Our technical team provides authorized maintenance, calibration and repair support for Renfert, Teknik Dental, Profeta and other brands we distribute. From routine preventive maintenance to emergency repairs, we help you avoid costly downtime.</p>
       <div class="hotline-inline">
         <span class="hotline-inline__icon"><i class="fa-solid fa-headset"></i></span>
         <div>
@@ -98,9 +100,9 @@
 <!-- ============ OUR PROCESS ============ -->
 <section class="process-section">
   <div class="container">
-    <p class="eyebrow eyebrow--center">How It Works</p>
-    <h2 class="section-title--center">Our Service Process</h2>
-    <div class="process-grid">
+    <p class="eyebrow eyebrow--center" data-reveal>How It Works</p>
+    <h2 class="section-title--center" data-reveal>Our Service Process</h2>
+    <div class="process-grid" data-reveal-group>
       <div class="process-step">
         <span class="process-step__num">1</span>
         <h4>Contact Us</h4>
@@ -128,9 +130,9 @@
 <!-- ============ SERVICES OFFERED ============ -->
 <section class="solutions">
   <div class="container">
-    <p class="eyebrow eyebrow--center">What We Offer</p>
-    <h2 class="section-title--center">Our Service Offerings</h2>
-    <div class="why-grid">
+    <p class="eyebrow eyebrow--center" data-reveal>What We Offer</p>
+    <h2 class="section-title--center" data-reveal>Our Service Offerings</h2>
+    <div class="why-grid" data-reveal-group>
       <div class="why-card">
         <span class="why-card__icon"><i class="fa-solid fa-shield-halved"></i></span>
         <h4>Preventive Maintenance</h4>
@@ -168,12 +170,12 @@
 <!-- ============ AUTHORIZED BRANDS ============ -->
 <section class="brands-strip">
   <div class="container">
-    <p class="eyebrow eyebrow--center">Authorized Support For</p>
-    <div class="brands-strip__grid">
+    <p class="eyebrow eyebrow--center" data-reveal>Authorized Support For</p>
+    <div class="brands-strip__grid" data-reveal-group>
       <span class="brand-badge brand-badge--logo"><img src="assets/partners/Renfert.png" alt="Renfert"></span>
-      <span class="brand-badge brand-badge--dark-chip"><img src="assets/partners/TeknikDental.png" alt="Teknik Dental"></span>
-      <span class="brand-badge"><i class="fa-solid fa-hexagon-nodes"></i> Profeta</span>
-      <span class="brand-badge brand-badge--dark-chip"><img src="assets/partners/BSM.png" alt="BSM"></span>
+      <span class="brand-badge brand-badge--logo"><img src="assets/partners/TeknikDental.webp" alt="Teknik Dental"></span>
+      <span class="brand-badge brand-badge--logo"><img src="assets/partners/profeta.webp" alt="Profeta"></span>
+      <span class="brand-badge brand-badge--logo"><img src="assets/partners/BMS.webp" alt="BSM"></span>
     </div>
   </div>
 </section>
@@ -181,11 +183,11 @@
 <!-- ============ REQUEST SERVICE FORM ============ -->
 <section class="quote" id="request">
   <div class="container quote__grid">
-    <div class="quote__intro">
+    <div class="quote__intro" data-reveal-left>
       <h2>Request Service</h2>
       <p>Tell us about your equipment and the issue you're facing - our technical team will contact you within 24 hours.</p>
     </div>
-    <form class="quote__form" id="serviceForm">
+    <form class="quote__form" id="serviceForm" data-reveal-right>
       <div class="form-row">
         <div class="form-field">
           <i class="fa-regular fa-user"></i>
@@ -302,5 +304,8 @@
 <button id="backToTop" class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
 
 <script src="js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/animations.js"></script>
 </body>
 </html>

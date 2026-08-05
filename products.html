@@ -65,192 +65,199 @@
   </div>
 </header>
 
-<!-- ============ PAGE BANNER ============ -->
-<section class="page-banner">
-  <div class="container page-banner__inner">
-    <p class="page-banner__breadcrumb"><a href="index.html">Home</a> <i class="fa-solid fa-chevron-right"></i> Products</p>
+<!-- ============ PAGE HERO ============ -->
+<section class="page-hero">
+  <div class="page-hero__bg" data-hero-zoom style="background-image:url('assets/img/pexels-products-banner.jpg')"></div>
+  <div class="page-hero__overlay"></div>
+  <div class="container page-hero__inner" data-hero-in>
+    <p class="page-hero__breadcrumb"><a href="index.html">Home</a> <i class="fa-solid fa-chevron-right"></i> Products</p>
     <h1>Our Products</h1>
     <p>Dental laboratory materials, CAD/CAM equipment and consumables from 8 authorized international brands.</p>
   </div>
 </section>
 
-<!-- ============ CATEGORY QUICK NAV ============ -->
-<section class="cat-nav">
-  <div class="container cat-nav__inner">
-    <a href="#materials"><i class="fa-solid fa-tooth"></i> Dental Materials</a>
-    <a href="#cadcam"><i class="fa-solid fa-desktop"></i> CAD/CAM Equipment</a>
-    <a href="#consumables"><i class="fa-solid fa-toolbox"></i> Consumables &amp; Tools</a>
-  </div>
-</section>
+<!-- ============ CATEGORY LAYOUT ============ -->
+<section class="cat-layout">
+  <div class="container cat-layout__grid">
 
-<!-- ============ DENTAL MATERIALS ============ -->
-<section class="cat-section" id="materials">
-  <div class="container">
-    <div class="section-head">
-      <div>
-        <p class="eyebrow">Dental Materials</p>
-        <h2>Laboratory Materials for Every Restoration</h2>
+    <aside class="cat-sidebar">
+      <p class="cat-sidebar__title">Browse Categories</p>
+      <a href="#materials" class="cat-sidebar__link"><i class="fa-solid fa-tooth"></i> Dental Materials</a>
+      <a href="#cadcam" class="cat-sidebar__link"><i class="fa-solid fa-desktop"></i> CAD/CAM Equipment</a>
+      <a href="#consumables" class="cat-sidebar__link"><i class="fa-solid fa-toolbox"></i> Consumables &amp; Tools</a>
+      <div class="cat-sidebar__cta">
+        <a href="contact.html" class="btn btn--primary btn--outline-sm">Request A Quote</a>
       </div>
-    </div>
-    <div class="material-grid">
-      <div class="material-card">
-        <span class="material-card__icon"><i class="fa-solid fa-cube"></i></span>
-        <h3>Zirconia Blocks</h3>
-        <p>Multilayer and monolithic zirconia blanks for strong, natural-looking crowns and bridges.</p>
-      </div>
-      <div class="material-card">
-        <span class="material-card__icon"><i class="fa-solid fa-layer-group"></i></span>
-        <h3>PMMA &amp; Wax Blanks</h3>
-        <p>Milling blanks for temporaries, try-ins and wax-up restorations.</p>
-      </div>
-      <div class="material-card">
-        <span class="material-card__icon"><i class="fa-solid fa-gem"></i></span>
-        <h3>Glass Ceramics</h3>
-        <p>Lithium disilicate and glass ceramic materials for premium esthetic restorations.</p>
-      </div>
-      <div class="material-card">
-        <span class="material-card__icon"><i class="fa-solid fa-droplet"></i></span>
-        <h3>Dyeing &amp; Coloring Liquids</h3>
-        <p>Shade-matching liquids for natural, lifelike zirconia coloration.</p>
-      </div>
-      <div class="material-card">
-        <span class="material-card__icon"><i class="fa-solid fa-palette"></i></span>
-        <h3>Stains &amp; Glaze</h3>
-        <p>Surface characterization and glazing materials for the final finishing touch.</p>
-      </div>
-      <div class="material-card">
-        <span class="material-card__icon"><i class="fa-solid fa-flask"></i></span>
-        <h3>Plaster &amp; Investment</h3>
-        <p>High-precision plaster and investment materials for accurate model work.</p>
-      </div>
-    </div>
-  </div>
-</section>
+    </aside>
 
-<!-- ============ CAD/CAM EQUIPMENT ============ -->
-<section class="cat-section cat-section--alt" id="cadcam">
-  <div class="container">
-    <div class="section-head">
-      <div>
-        <p class="eyebrow">CAD/CAM Equipment</p>
-        <h2>Complete Digital Workflow Solutions</h2>
+    <div class="cat-content">
+
+      <!-- ============ DENTAL MATERIALS ============ -->
+      <div class="cat-content__section" id="materials" data-cat-section>
+        <div class="section-head">
+          <div data-reveal>
+            <p class="eyebrow">Dental Materials</p>
+            <h2>Laboratory Materials for Every Restoration</h2>
+          </div>
+        </div>
+        <div class="material-grid" data-reveal-group>
+          <div class="material-card">
+            <span class="material-card__icon"><i class="fa-solid fa-cube"></i></span>
+            <h3>Zirconia Blocks</h3>
+            <p>Multilayer and monolithic zirconia blanks for strong, natural-looking crowns and bridges.</p>
+          </div>
+          <div class="material-card">
+            <span class="material-card__icon"><i class="fa-solid fa-layer-group"></i></span>
+            <h3>PMMA &amp; Wax Blanks</h3>
+            <p>Milling blanks for temporaries, try-ins and wax-up restorations.</p>
+          </div>
+          <div class="material-card">
+            <span class="material-card__icon"><i class="fa-solid fa-gem"></i></span>
+            <h3>Glass Ceramics</h3>
+            <p>Lithium disilicate and glass ceramic materials for premium esthetic restorations.</p>
+          </div>
+          <div class="material-card">
+            <span class="material-card__icon"><i class="fa-solid fa-droplet"></i></span>
+            <h3>Dyeing &amp; Coloring Liquids</h3>
+            <p>Shade-matching liquids for natural, lifelike zirconia coloration.</p>
+          </div>
+          <div class="material-card">
+            <span class="material-card__icon"><i class="fa-solid fa-palette"></i></span>
+            <h3>Stains &amp; Glaze</h3>
+            <p>Surface characterization and glazing materials for the final finishing touch.</p>
+          </div>
+          <div class="material-card">
+            <span class="material-card__icon"><i class="fa-solid fa-flask"></i></span>
+            <h3>Plaster &amp; Investment</h3>
+            <p>High-precision plaster and investment materials for accurate model work.</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="product-grid">
 
-      <article class="product-card">
-        <div class="product-card__media product-card__media--light">
-          <img src="assets/img/product-steamer.svg" alt="Renfert Power Steamer">
+      <!-- ============ CAD/CAM EQUIPMENT ============ -->
+      <div class="cat-content__section" id="cadcam" data-cat-section>
+        <div class="section-head">
+          <div data-reveal>
+            <p class="eyebrow">CAD/CAM Equipment</p>
+            <h2>Complete Digital Workflow Solutions</h2>
+          </div>
         </div>
-        <div class="product-card__body">
-          <span class="product-card__brand brand--renfert">Renfert</span>
-          <h3>Power Steamer</h3>
-          <p>Professional steam cleaning system for efficient laboratory cleaning and maintenance.</p>
-          <a href="contact.html" class="btn btn--outline-sm">Request Info</a>
-        </div>
-      </article>
+        <div class="product-grid" data-reveal-group>
 
-      <article class="product-card product-card--dark">
-        <div class="product-card__media product-card__media--dark">
-          <img src="assets/img/product-furnace.svg" alt="Teknik Dental Tegra Speed Furnace">
-        </div>
-        <div class="product-card__body">
-          <span class="product-card__brand brand--teknik">tb Teknik Dental</span>
-          <h3>Tegra SPEED Furnace</h3>
-          <p>High-speed sintering furnace for zirconia restorations with maximum performance.</p>
-          <a href="contact.html" class="btn btn--outline-sm btn--outline-sm-light">Request Info</a>
-        </div>
-      </article>
+          <article class="product-card">
+            <div class="product-card__media">
+              <img src="assets/img/pexels-product-steamer.jpg" alt="Renfert Power Steamer" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__brand"><img src="assets/partners/Renfert.png" alt="Renfert"></span>
+              <h3>Power Steamer</h3>
+              <p>Professional steam cleaning system for efficient laboratory cleaning and maintenance.</p>
+              <a href="contact.html" class="btn btn--outline-sm">Request Info</a>
+            </div>
+          </article>
 
-      <article class="product-card">
-        <div class="product-card__media product-card__media--blue">
-          <img src="assets/img/product-scanner.svg" alt="Profeta S100 Scanner">
-        </div>
-        <div class="product-card__body">
-          <span class="product-card__brand brand--profeta"><i class="fa-solid fa-hexagon-nodes"></i> Profeta</span>
-          <h3>S100 Scanner</h3>
-          <p>High-precision scanner for accurate digital dentistry and CAD/CAM workflows.</p>
-          <a href="contact.html" class="btn btn--outline-sm">Request Info</a>
-        </div>
-      </article>
+          <article class="product-card product-card--dark">
+            <div class="product-card__media">
+              <img src="assets/img/pexels-product-furnace.jpg" alt="Teknik Dental Tegra Speed Furnace" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__brand"><img src="assets/partners/TeknikDental.webp" alt="Teknik Dental"></span>
+              <h3>Tegra SPEED Furnace</h3>
+              <p>High-speed sintering furnace for zirconia restorations with maximum performance.</p>
+              <a href="contact.html" class="btn btn--outline-sm btn--outline-sm-light">Request Info</a>
+            </div>
+          </article>
 
-      <article class="product-card">
-        <div class="product-card__media product-card__media--light">
-          <img src="assets/img/product-mixer.svg" alt="AUDent Vacuum Mixer">
-        </div>
-        <div class="product-card__body">
-          <span class="product-card__brand brand--audent">AUDent</span>
-          <h3>Vacuum Mixer Pro</h3>
-          <p>Precision vacuum mixing unit for bubble-free plaster and investment materials.</p>
-          <a href="contact.html" class="btn btn--outline-sm">Request Info</a>
-        </div>
-      </article>
+          <article class="product-card">
+            <div class="product-card__media">
+              <img src="assets/img/pexels-product-scanner.jpg" alt="Profeta S100 Scanner" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__brand"><img src="assets/partners/profeta.webp" alt="Profeta"></span>
+              <h3>S100 Scanner</h3>
+              <p>High-precision scanner for accurate digital dentistry and CAD/CAM workflows.</p>
+              <a href="contact.html" class="btn btn--outline-sm">Request Info</a>
+            </div>
+          </article>
 
-      <article class="product-card">
-        <div class="product-card__media product-card__media--blue">
-          <img src="assets/img/product-milling.svg" alt="JJTOOLS Milling Machine">
-        </div>
-        <div class="product-card__body">
-          <span class="product-card__brand brand--jjtools">JJTOOLS</span>
-          <h3>5-Axis Milling Unit</h3>
-          <p>High-precision dry milling machine for zirconia, PMMA and wax restorations.</p>
-          <a href="contact.html" class="btn btn--outline-sm">Request Info</a>
-        </div>
-      </article>
+          <article class="product-card">
+            <div class="product-card__media">
+              <img src="assets/img/pexels-product-mixer.jpg" alt="AUDent Vacuum Mixer" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__brand"><img src="assets/partners/AUDents.webp" alt="AUDent"></span>
+              <h3>Vacuum Mixer Pro</h3>
+              <p>Precision vacuum mixing unit for bubble-free plaster and investment materials.</p>
+              <a href="contact.html" class="btn btn--outline-sm">Request Info</a>
+            </div>
+          </article>
 
-      <article class="product-card">
-        <div class="product-card__media product-card__media--dark">
-          <img src="assets/img/product-furnace.svg" alt="BSM Sintering Furnace">
-        </div>
-        <div class="product-card__body">
-          <span class="product-card__brand">BSM</span>
-          <h3>Sintering Furnace Pro</h3>
-          <p>Advanced sintering furnace built for consistent, high-strength zirconia results.</p>
-          <a href="contact.html" class="btn btn--outline-sm">Request Info</a>
-        </div>
-      </article>
+          <article class="product-card">
+            <div class="product-card__media">
+              <img src="assets/img/pexels-product-milling.jpg" alt="JJTOOLS Milling Machine" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__brand"><img src="assets/partners/JJTools.webp" alt="JJTOOLS"></span>
+              <h3>5-Axis Milling Unit</h3>
+              <p>High-precision dry milling machine for zirconia, PMMA and wax restorations.</p>
+              <a href="contact.html" class="btn btn--outline-sm">Request Info</a>
+            </div>
+          </article>
 
-    </div>
-  </div>
-</section>
+          <article class="product-card">
+            <div class="product-card__media">
+              <img src="assets/img/pexels-product-furnace.jpg" alt="BSM Sintering Furnace" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__brand"><img src="assets/partners/BMS.webp" alt="BSM"></span>
+              <h3>Sintering Furnace Pro</h3>
+              <p>Advanced sintering furnace built for consistent, high-strength zirconia results.</p>
+              <a href="contact.html" class="btn btn--outline-sm">Request Info</a>
+            </div>
+          </article>
 
-<!-- ============ CONSUMABLES & TOOLS ============ -->
-<section class="cat-section" id="consumables">
-  <div class="container">
-    <div class="section-head">
-      <div>
-        <p class="eyebrow">Consumables &amp; Tools</p>
-        <h2>Everyday Essentials for Your Lab</h2>
+        </div>
       </div>
-    </div>
-    <div class="material-grid material-grid--compact">
-      <div class="material-card">
-        <span class="material-card__icon"><i class="fa-solid fa-toolbox"></i></span>
-        <h3>Burs &amp; Polishers</h3>
-        <p>A full range of milling burs, polishing wheels and finishing kits.</p>
+
+      <!-- ============ CONSUMABLES & TOOLS ============ -->
+      <div class="cat-content__section" id="consumables" data-cat-section>
+        <div class="section-head">
+          <div data-reveal>
+            <p class="eyebrow">Consumables &amp; Tools</p>
+            <h2>Everyday Essentials for Your Lab</h2>
+          </div>
+        </div>
+        <div class="material-grid material-grid--compact" data-reveal-group>
+          <div class="material-card">
+            <span class="material-card__icon"><i class="fa-solid fa-toolbox"></i></span>
+            <h3>Burs &amp; Polishers</h3>
+            <p>A full range of milling burs, polishing wheels and finishing kits.</p>
+          </div>
+          <div class="material-card">
+            <span class="material-card__icon"><i class="fa-solid fa-hand-sparkles"></i></span>
+            <h3>Disposables &amp; PPE</h3>
+            <p>Gloves, masks, trays and other single-use laboratory essentials.</p>
+          </div>
+          <div class="material-card">
+            <span class="material-card__icon"><i class="fa-solid fa-vial"></i></span>
+            <h3>Impression Materials</h3>
+            <p>Alginate and silicone impression materials for accurate model work.</p>
+          </div>
+          <div class="material-card">
+            <span class="material-card__icon"><i class="fa-solid fa-screwdriver-wrench"></i></span>
+            <h3>Hand Instruments</h3>
+            <p>Precision hand tools for wax-up, model trimming and finishing work.</p>
+          </div>
+        </div>
       </div>
-      <div class="material-card">
-        <span class="material-card__icon"><i class="fa-solid fa-hand-sparkles"></i></span>
-        <h3>Disposables &amp; PPE</h3>
-        <p>Gloves, masks, trays and other single-use laboratory essentials.</p>
-      </div>
-      <div class="material-card">
-        <span class="material-card__icon"><i class="fa-solid fa-vial"></i></span>
-        <h3>Impression Materials</h3>
-        <p>Alginate and silicone impression materials for accurate model work.</p>
-      </div>
-      <div class="material-card">
-        <span class="material-card__icon"><i class="fa-solid fa-screwdriver-wrench"></i></span>
-        <h3>Hand Instruments</h3>
-        <p>Precision hand tools for wax-up, model trimming and finishing work.</p>
-      </div>
+
     </div>
   </div>
 </section>
 
 <!-- ============ CTA BANNER ============ -->
 <section class="cta-banner">
-  <div class="container cta-banner__inner">
+  <div class="container cta-banner__inner" data-reveal>
     <div>
       <h2>Can't Find What You're Looking For?</h2>
       <p>Send us your product list and our team will get back to you with pricing and availability.</p>
@@ -335,5 +342,8 @@
 <button id="backToTop" class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
 
 <script src="js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/animations.js"></script>
 </body>
 </html>

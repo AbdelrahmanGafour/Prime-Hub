@@ -72,7 +72,7 @@
     <div class="hero__slide" style="background-image:url('assets/img/hero-2.webp')"></div>
   </div>
   <div class="hero__overlay"></div>
-  <div class="container hero__inner">
+  <div class="container hero__inner" data-hero-in>
     <p class="eyebrow eyebrow--light">Prime Hub Trading</p>
     <h1 class="hero__title">Your Complete Partner for Dental Laboratory &amp; <span class="text-blue">CAD/CAM</span> <span class="text-orange">Solutions</span></h1>
     <p class="hero__subtitle">Serving <strong>1000+</strong> Customers Across Egypt Since <strong>2010</strong></p>
@@ -96,21 +96,21 @@
     <div class="stat">
       <span class="stat__icon-box"><i class="fa-solid fa-award"></i></span>
       <div class="stat__info">
-        <span class="stat__num">15+</span>
+        <span class="stat__num" data-counter="15" data-counter-suffix="+">15+</span>
         <span class="stat__label">Years of Experience</span>
       </div>
     </div>
     <div class="stat">
       <span class="stat__icon-box"><i class="fa-solid fa-user-group"></i></span>
       <div class="stat__info">
-        <span class="stat__num">1000+</span>
+        <span class="stat__num" data-counter="1000" data-counter-suffix="+">1000+</span>
         <span class="stat__label">Happy Customers</span>
       </div>
     </div>
     <div class="stat">
       <span class="stat__icon-box"><i class="fa-solid fa-globe"></i></span>
       <div class="stat__info">
-        <span class="stat__num">8</span>
+        <span class="stat__num" data-counter="8">8</span>
         <span class="stat__label">International Brands</span>
       </div>
     </div>
@@ -127,10 +127,10 @@
 <!-- ============ ABOUT ============ -->
 <section class="about">
   <div class="container about__grid">
-    <div class="about__media">
+    <div class="about__media" data-reveal-left>
       <img src="assets/img/About_us.webp" alt="About Prime Hub">
     </div>
-    <div class="about__content">
+    <div class="about__content" data-reveal-right>
       <p class="eyebrow">About Prime Hub</p>
       <h2>Trusted Partner for Dental Laboratories in Egypt</h2>
       <p class="about__text">Since 2010, Prime Hub Trading has been delivering advanced dental laboratory materials, equipment, digital solutions, professional training, and technical support across Egypt. We are committed to quality, innovation, and long-term partnerships with our clients.</p>
@@ -142,8 +142,8 @@
 <!-- ============ SOLUTIONS ============ -->
 <section class="solutions">
   <div class="container">
-    <p class="eyebrow eyebrow--center">Our Solutions</p>
-    <div class="solutions__grid">
+    <p class="eyebrow eyebrow--center" data-reveal>Our Solutions</p>
+    <div class="solutions__grid" data-reveal-group>
       <div class="solution-card">
         <span class="solution-card__icon icon-blue"><i class="fa-solid fa-tooth"></i></span>
         <h3>Dental Materials</h3>
@@ -169,23 +169,23 @@
 <!-- ============ FEATURED PRODUCTS ============ -->
 <section class="featured">
   <div class="container">
-    <div class="section-head">
+    <div class="section-head" data-reveal>
       <h2>Featured Products</h2>
       <a href="products.html" class="link-arrow">View All Products <i class="fa-solid fa-arrow-right"></i></a>
     </div>
 
-    <div class="carousel" id="productCarousel">
+    <div class="carousel" id="productCarousel" data-reveal>
       <button class="carousel__arrow carousel__arrow--prev" id="prodPrev" aria-label="Previous products"><i class="fa-solid fa-chevron-left"></i></button>
 
       <div class="carousel__track-wrap">
         <div class="carousel__track" id="prodTrack">
 
           <article class="product-card">
-            <div class="product-card__media product-card__media--light">
-              <img src="assets/img/product-steamer.svg" alt="Renfert Power Steamer">
+            <div class="product-card__media">
+              <img src="assets/img/pexels-product-steamer.jpg" alt="Renfert Power Steamer" loading="lazy">
             </div>
             <div class="product-card__body">
-              <span class="product-card__brand brand--renfert">Renfert</span>
+              <span class="product-card__brand"><img src="assets/partners/Renfert.png" alt="Renfert"></span>
               <h3>Power Steamer</h3>
               <p>Professional steam cleaning system for efficient laboratory cleaning and maintenance.</p>
               <a href="products.html#cadcam" class="btn btn--outline-sm">View Product</a>
@@ -193,11 +193,11 @@
           </article>
 
           <article class="product-card product-card--dark">
-            <div class="product-card__media product-card__media--dark">
-              <img src="assets/img/product-furnace.svg" alt="Teknik Dental Tegra Speed Furnace">
+            <div class="product-card__media">
+              <img src="assets/img/pexels-product-furnace.jpg" alt="Teknik Dental Tegra Speed Furnace" loading="lazy">
             </div>
             <div class="product-card__body">
-              <span class="product-card__brand brand--teknik">tb Teknik Dental</span>
+              <span class="product-card__brand"><img src="assets/partners/TeknikDental.webp" alt="Teknik Dental"></span>
               <h3>Tegra SPEED Furnace</h3>
               <p>High-speed sintering furnace for zirconia restorations with maximum performance.</p>
               <a href="products.html#cadcam" class="btn btn--outline-sm btn--outline-sm-light">View Product</a>
@@ -205,11 +205,11 @@
           </article>
 
           <article class="product-card">
-            <div class="product-card__media product-card__media--blue">
-              <img src="assets/img/product-scanner.svg" alt="Profeta S100 Scanner">
+            <div class="product-card__media">
+              <img src="assets/img/pexels-product-scanner.jpg" alt="Profeta S100 Scanner" loading="lazy">
             </div>
             <div class="product-card__body">
-              <span class="product-card__brand brand--profeta"><i class="fa-solid fa-hexagon-nodes"></i> Profeta</span>
+              <span class="product-card__brand"><img src="assets/partners/profeta.webp" alt="Profeta"></span>
               <h3>S100 Scanner</h3>
               <p>High-precision scanner for accurate digital dentistry and CAD/CAM workflows.</p>
               <a href="products.html#cadcam" class="btn btn--outline-sm">View Product</a>
@@ -217,11 +217,11 @@
           </article>
 
           <article class="product-card">
-            <div class="product-card__media product-card__media--light">
-              <img src="assets/img/product-mixer.svg" alt="AUDent Vacuum Mixer">
+            <div class="product-card__media">
+              <img src="assets/img/pexels-product-mixer.jpg" alt="AUDent Vacuum Mixer" loading="lazy">
             </div>
             <div class="product-card__body">
-              <span class="product-card__brand brand--audent">AUDent</span>
+              <span class="product-card__brand"><img src="assets/partners/AUDents.webp" alt="AUDent"></span>
               <h3>Vacuum Mixer Pro</h3>
               <p>Precision vacuum mixing unit for bubble-free plaster and investment materials.</p>
               <a href="products.html#cadcam" class="btn btn--outline-sm">View Product</a>
@@ -229,11 +229,11 @@
           </article>
 
           <article class="product-card">
-            <div class="product-card__media product-card__media--blue">
-              <img src="assets/img/product-milling.svg" alt="JJTOOLS Milling Machine">
+            <div class="product-card__media">
+              <img src="assets/img/pexels-product-milling.jpg" alt="JJTOOLS Milling Machine" loading="lazy">
             </div>
             <div class="product-card__body">
-              <span class="product-card__brand brand--jjtools">JJTOOLS</span>
+              <span class="product-card__brand"><img src="assets/partners/JJTools.webp" alt="JJTOOLS"></span>
               <h3>5-Axis Milling Unit</h3>
               <p>High-precision dry milling machine for zirconia, PMMA and wax restorations.</p>
               <a href="products.html#cadcam" class="btn btn--outline-sm">View Product</a>
@@ -253,10 +253,10 @@
 <!-- ============ SERVICE + TRAINING ============ -->
 <section class="dual">
   <div class="container dual__grid">
-    <a href="service.html" class="dual__card" aria-label="Visit our Service Center page">
+    <a href="service.html" class="dual__card" aria-label="Visit our Service Center page" data-reveal-left>
       <img src="assets/img/Service_1.webp" alt="Service Center - Maintenance &amp; Repair Services. Authorized support for Renfert, Teknik Dental and Profeta. Preventive maintenance, calibration &amp; testing, emergency repairs, performance check, spare parts support, technical consultation. Service hotline +20 109 000 9508, 9:00 AM - 6:00 PM, Saturday to Thursday.">
     </a>
-    <a href="training.html" class="dual__card" aria-label="Visit our Training Center page">
+    <a href="training.html" class="dual__card" aria-label="Visit our Training Center page" data-reveal-right>
       <img src="assets/img/Service_2.webp" alt="Training Center - Hands-on Courses &amp; Professional Training. CAD/CAM training, zirconia courses, equipment training, technical education, workshops and seminars.">
     </a>
   </div>
@@ -265,48 +265,79 @@
 <!-- ============ DOWNLOAD CENTER ============ -->
 <section class="downloads">
   <div class="container">
-    <p class="eyebrow eyebrow--center">Download Center</p>
-    <div class="downloads__grid downloads__grid--teaser">
-
-      <div class="download-card">
-        <span class="download-card__logo download-card__logo--dark-chip">
-          <img src="assets/partners/BSM.png" alt="BSM">
-        </span>
-        <div class="download-card__links">
-          <a href="#"><i class="fa-solid fa-download"></i> Catalog</a>
-          <a href="#"><i class="fa-solid fa-download"></i> Manual</a>
-        </div>
-      </div>
-
-      <div class="download-card">
-        <span class="download-card__logo download-card__logo--audent">AUDent</span>
-        <div class="download-card__links">
-          <a href="#"><i class="fa-solid fa-download"></i> Catalog</a>
-          <a href="#"><i class="fa-solid fa-download"></i> Manual</a>
-        </div>
-      </div>
-
-      <div class="download-card">
-        <span class="download-card__logo download-card__logo--renfert">
-          <img src="assets/partners/Renfert.png" alt="Renfert">
-        </span>
-        <div class="download-card__links">
-          <a href="#"><i class="fa-solid fa-download"></i> Catalog</a>
-          <a href="#"><i class="fa-solid fa-download"></i> Manual</a>
-        </div>
-      </div>
-
-      <div class="download-card">
-        <span class="download-card__logo download-card__logo--profeta"><i class="fa-solid fa-hexagon-nodes"></i> Profeta</span>
-        <div class="download-card__links">
-          <a href="#"><i class="fa-solid fa-download"></i> Catalog</a>
-          <a href="#"><i class="fa-solid fa-download"></i> Manual</a>
-        </div>
-      </div>
-
+    <div class="downloads__head" data-reveal>
+      <p class="eyebrow eyebrow--center">Download Center</p>
+      <h2>Product Catalogs &amp; Manuals</h2>
+      <p>Technical documentation for every brand we distribute across Egypt.</p>
     </div>
-    <div class="downloads__more">
-      <a href="downloads.html" class="btn btn--primary">View All Downloads <i class="fa-solid fa-arrow-right"></i></a>
+    <div class="downloads__grid" data-reveal-group>
+
+      <div class="download-card">
+        <span class="download-card__logo"><img src="assets/partners/BMS.webp" alt="BSM"></span>
+        <div class="download-card__links">
+          <a href="#"><i class="fa-solid fa-download"></i> Catalog</a>
+          <a href="#"><i class="fa-solid fa-download"></i> Manual</a>
+        </div>
+      </div>
+
+      <div class="download-card">
+        <span class="download-card__logo"><img src="assets/partners/AUDents.webp" alt="AUDent"></span>
+        <div class="download-card__links">
+          <a href="#"><i class="fa-solid fa-download"></i> Catalog</a>
+          <a href="#"><i class="fa-solid fa-download"></i> Manual</a>
+        </div>
+      </div>
+
+      <div class="download-card">
+        <span class="download-card__logo"><img src="assets/partners/Eraylar.webp" alt="Eraylar A.Ş."></span>
+        <div class="download-card__links">
+          <a href="#"><i class="fa-solid fa-download"></i> Catalog</a>
+          <a href="#"><i class="fa-solid fa-download"></i> Manual</a>
+        </div>
+      </div>
+
+      <div class="download-card">
+        <span class="download-card__logo"><img src="assets/partners/JJTools.webp" alt="JJTOOLS"></span>
+        <div class="download-card__links">
+          <a href="#"><i class="fa-solid fa-download"></i> Catalog</a>
+          <a href="#"><i class="fa-solid fa-download"></i> Manual</a>
+        </div>
+      </div>
+
+      <div class="download-card">
+        <span class="download-card__logo"><img src="assets/partners/TCS.webp" alt="TCS"></span>
+        <div class="download-card__links">
+          <a href="#"><i class="fa-solid fa-download"></i> Catalog</a>
+          <a href="#"><i class="fa-solid fa-download"></i> Manual</a>
+        </div>
+      </div>
+
+      <div class="download-card">
+        <span class="download-card__logo"><img src="assets/partners/Renfert.png" alt="Renfert"></span>
+        <div class="download-card__links">
+          <a href="#"><i class="fa-solid fa-download"></i> Catalog</a>
+          <a href="#"><i class="fa-solid fa-download"></i> Manual</a>
+        </div>
+      </div>
+
+      <div class="download-card">
+        <span class="download-card__logo">
+          <img src="assets/partners/TeknikDental.webp" alt="Teknik Dental">
+        </span>
+        <div class="download-card__links">
+          <a href="#"><i class="fa-solid fa-download"></i> Catalog</a>
+          <a href="#"><i class="fa-solid fa-download"></i> Manual</a>
+        </div>
+      </div>
+
+      <div class="download-card">
+        <span class="download-card__logo"><img src="assets/partners/profeta.webp" alt="Profeta"></span>
+        <div class="download-card__links">
+          <a href="#"><i class="fa-solid fa-download"></i> Catalog</a>
+          <a href="#"><i class="fa-solid fa-download"></i> Manual</a>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
@@ -314,11 +345,11 @@
 <!-- ============ REQUEST A QUOTE ============ -->
 <section class="quote" id="contact">
   <div class="container quote__grid">
-    <div class="quote__intro">
+    <div class="quote__intro" data-reveal-left>
       <h2>Request A Quote</h2>
       <p>Need pricing, technical information or product recommendations? Our team will contact you within 24 hours.</p>
     </div>
-    <form class="quote__form" id="quoteForm">
+    <form class="quote__form" id="quoteForm" data-reveal-right>
       <div class="form-row">
         <div class="form-field">
           <i class="fa-regular fa-user"></i>
@@ -435,5 +466,8 @@
 <button id="backToTop" class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
 
 <script src="js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/animations.js"></script>
 </body>
 </html>
