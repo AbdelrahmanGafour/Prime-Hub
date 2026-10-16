@@ -189,32 +189,37 @@
     var first = nodes[0]; if (first) { var b = $('h3 button', first); if (b) b.focus({ preventScroll: true }); }
   }
 
-  function renderCats() {
-    var c = facet('category', function (p) { return p.category; });
-    var all = (c.equipment || 0) + (c.material || 0);
-    $$('.cat-tile', el.catSwitch).forEach(function (t) {
-      var v = t.getAttribute('data-cat');
-      t.setAttribute('aria-checked', String(v === state.category));
-      t.tabIndex = (v === state.category) ? 0 : -1;
-      $('.cat-tile__count', t).textContent = v ? (c[v] || 0) : all;
-    });
-  }
-
   function buildBrandRail() {
     var items = DATA.brands.slice().sort(function (a, b) { return b.productCount - a.productCount || a.name.localeCompare(b.name); });
     el.rail.innerHTML = items.map(function (b) {
       return '<li><button class="brand-card" type="button" data-brand="' + esc(b.slug) + '" aria-pressed="false">' +
         '<span class="brand-card__logo">' + (b.logo ? '<img src="' + esc(b.logo) + '" alt="" loading="lazy" height="36">' : '<span class="wordmark">' + esc(b.name) + '</span>') + '</span>' +
-        '<span class="brand-card__meta"><span class="brand-card__n"><b class="tnum" data-n>0</b> <span>products</span></span>' +
-        '<span class="brand-card__badges">' + b.categories.map(function (c) { return '<span class="mini-badge mini-badge--' + (c === 'equipment' ? 'eq' : 'mat') + '">' + (c === 'equipment' ? 'Equipment' : 'Material') + '</span>'; }).join('') + '</span></span></button></li>';
+        '<span class="brand-card__meta"><span class="brand-card__badges">' + b.categories.map(function (c) { return '<span class="mini-badge mini-badge--' + (c === 'equipment' ? 'eq' : 'mat') + '">' + (c === 'equipment' ? 'Equipment' : 'Material') + '</span>'; }).join('') + '</span></span></button></li>';
     }).join('');
+  }
+  function initBrandCarousel() {
+    var rail = el.rail, prev = $('#brandPrev'), next = $('#brandNext'), dots = $('#brandDots');
+    if (!rail || !prev || !next) return;
+    function pages() { return Math.max(1, Math.round(rail.scrollWidth / rail.clientWidth)); }
+    function cur() { return Math.round(rail.scrollLeft / rail.clientWidth); }
+    function sync() {
+      var n = pages(), c = Math.min(cur(), n - 1);
+      prev.disabled = rail.scrollLeft <= 2; next.disabled = rail.scrollLeft + rail.clientWidth >= rail.scrollWidth - 2;
+      dots.hidden = n < 2;
+      dots.innerHTML = Array.apply(null, Array(n)).map(function (_, i) { return '<span' + (i === c ? ' class="is-on"' : '') + '></span>'; }).join('');
+    }
+    function go(dir) { rail.scrollBy({ left: dir * rail.clientWidth, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' }); }
+    prev.addEventListener('click', function () { go(-1); });
+    next.addEventListener('click', function () { go(1); });
+    var t; rail.addEventListener('scroll', function () { clearTimeout(t); t = setTimeout(sync, 60); }, { passive: true });
+    window.addEventListener('resize', sync);
+    sync();
   }
   function renderBrandRail() {
     var c = facet('brand', function (p) { return p.brand; });
     $$('.brand-card', el.rail).forEach(function (b) {
       var slug = b.getAttribute('data-brand');
       b.setAttribute('aria-pressed', String(state.brands.indexOf(slug) >= 0));
-      $('[data-n]', b).textContent = c[slug] || 0;
       b.classList.toggle('is-empty', (c[slug] || 0) === 0 && state.brands.indexOf(slug) < 0);
     });
     var h = el.brandHead;
@@ -293,7 +298,7 @@
 
   function renderAll(opts) {
     opts = opts || {};
-    renderCats(); renderBrandRail(); renderFilters(); renderActive(); renderGrid(opts.reset !== false);
+    renderBrandRail(); renderFilters(); renderActive(); renderGrid(opts.reset !== false);
   }
 
   /* ------------------------------------------------------------------ state mutations */
@@ -316,13 +321,6 @@
   /* ------------------------------------------------------------------ events */
   function bind() {
     // category radiogroup
-    el.catSwitch.addEventListener('click', function (e) { var t = e.target.closest('.cat-tile'); if (t) change(function (s) { s.category = t.getAttribute('data-cat'); }); });
-    el.catSwitch.addEventListener('keydown', function (e) {
-      var tiles = $$('.cat-tile', el.catSwitch), i = tiles.indexOf(d.activeElement);
-      if (i < 0) return;
-      var n = e.key === 'ArrowRight' || e.key === 'ArrowDown' ? (i + 1) % tiles.length : e.key === 'ArrowLeft' || e.key === 'ArrowUp' ? (i - 1 + tiles.length) % tiles.length : -1;
-      if (n >= 0) { e.preventDefault(); tiles[n].focus(); tiles[n].click(); }
-    });
     // brand rail
     el.rail.addEventListener('click', function (e) {
       var b = e.target.closest('.brand-card'); if (!b) return;
@@ -378,14 +376,14 @@
   /* ------------------------------------------------------------------ init */
   function init() {
     el = { grid: $('#grid'), empty: $('#empty'), more: $('#more'), moreCount: $('#moreCount'), loadMore: $('#loadMore'), count: $('#resultCount'), active: $('#activeFilters'),
-      clearAll: $('#clearAll'), q: $('#q'), qClear: $('#qClear'), sort: $('#sort'), catSwitch: $('#catSwitch'), rail: $('#brandRail'), brandHead: $('#brandHead'),
+      clearAll: $('#clearAll'), q: $('#q'), qClear: $('#qClear'), sort: $('#sort'), rail: $('#brandRail'), brandHead: $('#brandHead'),
       filters: $('#filters'), filtersBody: $('#filtersBody'), filtersOpen: $('#filtersOpen'), filtersClose: $('#filtersClose'), filtersApply: $('#filtersApply'),
       filtersReset: $('#filtersReset'), filtersOverlay: $('#filtersOverlay'), filtersN: $('#filtersN') };
 
     state = parse();
     var hash = location.hash;
     if (LEGACY[hash] && !location.search) { var m = LEGACY[hash]; state.category = m.category; state.subs = m.subs || []; }
-    buildBrandRail(); buildFilters(); bind();
+    buildBrandRail(); initBrandCarousel(); buildFilters(); bind();
     renderAll({ reset: true });
     if (state.product) { location.replace(pageUrl({ id: state.product })); return; }     // old ?product= links
     try { history.replaceState({ ph: 1 }, '', serialize(state)); } catch (e) {}

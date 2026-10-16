@@ -119,30 +119,6 @@
     <div class="container" style="padding-block:40px"><p><strong>Please enable JavaScript to browse and filter the catalog.</strong> You can still <a href="downloads.html">download every catalog</a> or <a href="contact.html">contact us</a> with your list.</p></div>
   </noscript>
 
-  <!-- ============ CATEGORY SWITCHER ============ -->
-  <section class="ph-section ph-section--tight cat-section" aria-labelledby="catTitle">
-    <div class="container">
-      <h2 class="sr-only" id="catTitle">Choose a category</h2>
-      <div class="cat-switch" role="radiogroup" aria-label="Product category" id="catSwitch">
-        <button class="cat-tile" type="button" role="radio" aria-checked="true" data-cat="">
-          <span class="cat-tile__icon"><i class="fa-solid fa-table-cells-large" aria-hidden="true"></i></span>
-          <span class="cat-tile__text"><strong>All products</strong><small>Equipment and materials together</small></span>
-          <span class="cat-tile__count tnum" data-count="all">316</span>
-        </button>
-        <button class="cat-tile" type="button" role="radio" aria-checked="false" data-cat="equipment">
-          <span class="cat-tile__icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></span>
-          <span class="cat-tile__text"><strong>Dental Equipment</strong><small>Scanners, milling &amp; 3D printing, furnaces, mixers, sandblasters, cleaning, extraction</small></span>
-          <span class="cat-tile__count tnum" data-count="equipment">69</span>
-        </button>
-        <button class="cat-tile" type="button" role="radio" aria-checked="false" data-cat="material">
-          <span class="cat-tile__icon"><i class="fa-solid fa-flask" aria-hidden="true"></i></span>
-          <span class="cat-tile__text"><strong>Dental Material</strong><small>Zirconia, ceramics, PMMA &amp; wax, resins, artificial teeth, polishing, lab supplies</small></span>
-          <span class="cat-tile__count tnum" data-count="material">247</span>
-        </button>
-      </div>
-    </div>
-  </section>
-
   <!-- ============ SHOP BY BRAND ============ -->
   <section class="ph-section ph-section--tight brands-section" id="brands" aria-labelledby="brandsTitle">
     <div class="container">
@@ -151,11 +127,14 @@
           <p class="eyebrow">Shop by brand</p>
           <h2 id="brandsTitle">Authorized <span class="accent">brands</span></h2>
         </div>
-        <p class="brands-head__hint">Select a brand to filter instantly. Select it again to clear.</p>
+        <div class="brands-nav">
+          <p class="brands-head__hint">Select a brand to filter instantly. Select it again to clear.</p>
+          <button class="bc-arrow" id="brandPrev" type="button" aria-label="Previous brands"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+          <button class="bc-arrow" id="brandNext" type="button" aria-label="Next brands"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+        </div>
       </div>
-      <ul class="brand-rail" id="brandRail" aria-label="Brands">
-        <li class="skeleton" style="height:128px"></li><li class="skeleton" style="height:128px"></li><li class="skeleton" style="height:128px"></li><li class="skeleton" style="height:128px"></li><li class="skeleton" style="height:128px"></li><li class="skeleton" style="height:128px"></li><li class="skeleton" style="height:128px"></li><li class="skeleton" style="height:128px"></li><li class="skeleton" style="height:128px"></li><li class="skeleton" style="height:128px"></li><li class="skeleton" style="height:128px"></li><li class="skeleton" style="height:128px"></li><li class="skeleton" style="height:128px"></li><li class="skeleton" style="height:128px"></li><li class="skeleton" style="height:128px"></li>
-      </ul>
+      <ul class="brand-rail" id="brandRail" aria-label="Brands"><li class="skeleton" style="height:96px"></li><li class="skeleton" style="height:96px"></li><li class="skeleton" style="height:96px"></li><li class="skeleton" style="height:96px"></li></ul>
+      <div class="bc-dots" id="brandDots" aria-hidden="true"></div>
       <div id="brandHead" class="brand-head" hidden></div>
     </div>
   </section>
