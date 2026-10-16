@@ -259,7 +259,6 @@ body.is-scrolled .brand img{ height:40px; }
 .ph-hero::before{ content:""; position:absolute; inset:0; z-index:-2; background:linear-gradient(115deg,rgba(4,19,46,.96) 8%,rgba(7,33,79,.90) 48%,rgba(0,48,111,.72) 100%); }
 .ph-hero::after{ content:""; position:absolute; inset:0; z-index:-1; pointer-events:none;
   background-image:radial-gradient(rgba(255,255,255,.14) 1px,transparent 1.3px); background-size:26px 26px; mask-image:radial-gradient(70% 90% at 90% 20%,#000,transparent 70%); -webkit-mask-image:radial-gradient(70% 90% at 90% 20%,#000,transparent 70%); }
-.ph-hero__art{ position:absolute; right:max(2vw,-40px); top:50%; width:min(46vw,560px); aspect-ratio:1; transform:translateY(-50%); z-index:-1; opacity:.5; pointer-events:none; color:#8fb4ea; }
 .ph-hero__inner{ padding-block:clamp(56px,8vw,104px) clamp(44px,6vw,72px); max-width:var(--container); }
 .crumbs{ display:inline-flex; align-items:center; flex-wrap:wrap; gap:8px; padding:7px 14px; border-radius:var(--r-pill); background:rgba(255,255,255,.10); border:1px solid rgba(255,255,255,.18); backdrop-filter:blur(8px); font-size:.8125rem; color:#cfdcf2; margin-bottom:22px; }
 .crumbs a{ color:#fff; font-weight:600; } .crumbs a:hover{ text-decoration:underline; text-underline-offset:3px; }

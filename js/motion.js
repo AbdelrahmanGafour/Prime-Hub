@@ -114,9 +114,6 @@
   d.querySelectorAll('[data-hero-in]').forEach(function (el) {
     gsap.from(el.children, { y: 26, duration: .9, stagger: .08, delay: .05, clearProps: 'transform' });   /* transform only: hero text stays visible for LCP */
   });
-  d.querySelectorAll('.ph-hero__art').forEach(function (el) {
-    gsap.fromTo(el, { rotate: -6, opacity: 0 }, { rotate: 0, opacity: .5, duration: 1.8, delay: .2 });
-  });
 
   /* ---------- timeline: scroll-drawn line + active nodes ---------- */
   d.querySelectorAll('.timeline').forEach(function (tl) {
