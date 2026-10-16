@@ -137,6 +137,9 @@ def main():
         page = replace_region(page, "HEADER", h)
         page = replace_region(page, "FOOTER", footer)
         page = apply_gen(page)
+        cats = {"all": len(products), "equipment": sum(1 for x in products if x["category"] == "equipment"), "material": sum(1 for x in products if x["category"] == "material")}
+        for k, v in cats.items():
+            page = re.sub(rf'(data-count="{k}">)[^<]*(<)', lambda m, v=v: m.group(1) + str(v) + m.group(2), page)
         for attr, key in (("data-brand-count", "BRAND_COUNT"), ("data-product-count", "PRODUCT_COUNT")):
             def bump(m, key=key):
                 tag = re.sub(r'data-counter="[^"]*"', f'data-counter="{VARS[key]}"', m.group(1))

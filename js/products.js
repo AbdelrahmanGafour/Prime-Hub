@@ -205,7 +205,7 @@
   function buildBrandRail() {
     var items = DATA.brands.slice().sort(function (a, b) { return b.productCount - a.productCount || a.name.localeCompare(b.name); });
     el.rail.innerHTML = items.map(function (b) {
-      return '<li><button class="brand-card" type="button" data-brand="' + esc(b.slug) + '" aria-pressed="false" aria-label="' + esc(b.name) + '">' +
+      return '<li><button class="brand-card" type="button" data-brand="' + esc(b.slug) + '" aria-pressed="false">' +
         '<span class="brand-card__logo">' + (b.logo ? '<img src="' + esc(b.logo) + '" alt="" loading="lazy" height="36">' : '<span class="wordmark">' + esc(b.name) + '</span>') + '</span>' +
         '<span class="brand-card__meta"><span class="brand-card__n"><b class="tnum" data-n>0</b> <span>products</span></span>' +
         '<span class="brand-card__badges">' + b.categories.map(function (c) { return '<span class="mini-badge mini-badge--' + (c === 'equipment' ? 'eq' : 'mat') + '">' + (c === 'equipment' ? 'Equipment' : 'Material') + '</span>'; }).join('') + '</span></span></button></li>';

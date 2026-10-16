@@ -5,6 +5,10 @@
    The home page does not load this file. Every rule is either a new .class or scoped under body.ph.
    ============================================================================= */
 
+/* metric-matched fallbacks so the web-font swap does not shift layout */
+@font-face{ font-family:'Poppins Fallback'; src:local('Arial'); size-adjust:112%; ascent-override:93%; descent-override:31%; line-gap-override:8%; }
+@font-face{ font-family:'Inter Fallback'; src:local('Arial'); size-adjust:107%; ascent-override:90%; descent-override:22%; line-gap-override:0%; }
+
 /* 1. Tokens ---------------------------------------------------------------- */
 :root{
   /* brand (exact logo pixels) */
@@ -30,8 +34,8 @@
   --sh-orange:0 8px 22px rgba(255,85,6,.28);
 
   /* type */
-  --f-display:'Poppins','Inter',system-ui,sans-serif;
-  --f-body:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --f-display:'Poppins','Poppins Fallback',system-ui,sans-serif;
+  --f-body:'Inter','Inter Fallback',system-ui,-apple-system,'Segoe UI',sans-serif;
   --fs-xs:clamp(.75rem,.73rem + .1vw,.8125rem);
   --fs-sm:clamp(.875rem,.85rem + .1vw,.9375rem);
   --fs-base:clamp(1rem,.97rem + .15vw,1.0625rem);
@@ -61,6 +65,8 @@ button,input,select,textarea{ font:inherit; color:inherit; }
 button{ cursor:pointer; }
 table{ border-collapse:collapse; }
 [hidden]{ display:none!important; }
+/* icon font loads async: reserve the glyph box so nothing shifts when it arrives */
+i.fa-solid,i.fa-regular,i.fa-brands{ display:inline-block; min-width:1em; height:1em; line-height:1; }
 
 /* 2b. Base (scoped) ---------------------------------------------------------- */
 html{ scroll-behavior:smooth; scroll-padding-top:calc(var(--header-h) + 20px); }
@@ -187,7 +193,9 @@ body.is-scrolled .brand img{ height:40px; }
 .nav__link::after{ content:""; position:absolute; left:clamp(7px,.8vw,11px); right:clamp(7px,.8vw,11px); bottom:4px; height:2px; background:var(--brand-orange); border-radius:2px; transform:scaleX(0); transform-origin:0 50%; transition:transform .35s var(--ease); }
 .nav__link:hover, .nav__link[aria-current="page"]{ color:var(--blue-700); }
 .nav__link:hover::after, .nav__link[aria-current="page"]::after{ transform:scaleX(1); }
-.dd-toggle{ display:inline-grid; place-items:center; width:26px; height:34px; margin-left:-8px; color:var(--muted); border-radius:8px; cursor:pointer; background:none; border:0; }
+.has-dropdown > .nav__link{ padding-right:2px; }
+.has-dropdown > .nav__link::after{ right:2px; }
+.dd-toggle{ display:inline-grid; place-items:center; width:28px; height:36px; margin-left:0; color:var(--muted); border-radius:8px; cursor:pointer; background:none; border:0; }
 .dd-toggle i{ font-size:.65rem; transition:transform .25s; }
 .has-dropdown:hover .dd-toggle i, .has-dropdown.is-open .dd-toggle i{ transform:rotate(180deg); }
 .dropdown{ position:absolute; top:calc(100% + 6px); left:-8px; min-width:250px; padding:8px; background:#fff; border:1px solid var(--line); border-radius:var(--r-lg); box-shadow:var(--sh-3);
@@ -348,7 +356,7 @@ body.is-scrolled .subnav{ top:60px; }
 .timeline__item.is-on::before{ border-color:var(--brand-orange); background:var(--brand-orange); transform:scale(1.15); }
 .timeline__year{ display:inline-block; font:800 1.25rem/1 var(--f-display); color:var(--blue-700); letter-spacing:-.02em; margin-bottom:8px; }
 .timeline__card h3{ font-size:var(--fs-h4); margin-bottom:.3em; }
-.stepper{ display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:0; counter-reset:step; position:relative; }
+.stepper{ list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:0; counter-reset:step; position:relative; }
 .step{ position:relative; padding:0 clamp(10px,1.4vw,22px) 0 0; counter-increment:step; }
 .step__num{ display:grid; place-items:center; width:52px; height:52px; border-radius:50%; background:#fff; color:var(--blue-700); border:2px solid var(--blue-500); font:800 1.1rem/1 var(--f-display); position:relative; z-index:1; margin-bottom:18px; transition:background-color .3s,color .3s,border-color .3s; }
 .step:hover .step__num, .step.is-on .step__num{ background:var(--blue-700); color:#fff; border-color:var(--blue-700); }

@@ -112,7 +112,7 @@
     gsap.to(el, { yPercent: 8, ease: 'none', scrollTrigger: { trigger: el.parentNode, start: 'top top', end: 'bottom top', scrub: true } });
   });
   d.querySelectorAll('[data-hero-in]').forEach(function (el) {
-    gsap.from(el.children, { opacity: 0, y: 28, duration: .9, stagger: .1, delay: .1, clearProps: 'transform,opacity' });
+    gsap.from(el.children, { y: 26, duration: .9, stagger: .08, delay: .05, clearProps: 'transform' });   /* transform only: hero text stays visible for LCP */
   });
   d.querySelectorAll('.ph-hero__art').forEach(function (el) {
     gsap.fromTo(el, { rotate: -6, opacity: 0 }, { rotate: 0, opacity: .5, duration: 1.8, delay: .2 });
