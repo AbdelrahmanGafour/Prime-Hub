@@ -140,11 +140,8 @@ def page(p):
         <div class="pd__badges">{chip_html(p)}</div>
         {f'<ul class="bul pd-list pd__adv">{feats}</ul>' if feats else ''}
         <div class="pd__cta">
-          <button class="btn btn--accent btn--lg" type="button" data-add aria-pressed="false"><i class="fa-solid fa-plus" aria-hidden="true"></i> Add to quote</button>
-          <a class="btn btn--wa btn--lg" href="https://wa.me/201090009508?text={html.escape(__import__("urllib.parse").parse.quote(wa))}" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Ask on WhatsApp</a>
           {dl_btn}
         </div>
-        <p class="pm__note">No prices online. We reply with pricing and availability.</p>
       </div>
     </div>
   </section>
