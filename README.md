@@ -3,7 +3,8 @@
 Static multipage site (HTML, CSS, vanilla JS + GSAP from a CDN). No framework, no build step needed to deploy.
 
 ```
-index / about / products / training / service / downloads / contact / 404 .html   all pages share the new brand theme
+index.html                  home page: original layout (css/style.css, js/script.js, js/animations.js) with the new logo and brand colors
+about / products / training / service / downloads / contact / 404 .html   new design system (css/theme.css)
 css/theme.css               design tokens + shared components (inner pages)
 css/products.css            products + downloads UI
 js/shell.js                 header, mobile menu, scroll progress, back-to-top, toasts
@@ -11,7 +12,7 @@ js/quote.js                 quote list (localStorage) + drawer
 js/motion.js                GSAP reveal / counters / magnetic / tilt (honours prefers-reduced-motion)
 js/products.js, downloads.js, forms.js, subnav.js
 data/                       products.json, brands.json, documents.json, taxonomy.json (+ asset-map.json for the build script)
-partials/                   head / header / footer shared by all pages
+partials/                   head / header / footer shared by the inner pages
 assets/products|brands|downloads|img/{brand,favicon,pages}
 scripts/                    asset pipeline and generators (see below)
 ```
@@ -68,7 +69,7 @@ MATERIALS_DIR=/path/to/Materials python3 scripts/build-assets.py
 
 ## Shared header / footer
 
-`partials/head.html`, `header.html` and `footer.html` are injected into every page between the `<!--SHELL:...-->` markers by
+`partials/head.html`, `header.html` and `footer.html` are injected into the inner pages between the `<!--SHELL:...-->` markers by
 
 ```bash
 python3 scripts/apply-shell.py          # SITE_URL=https://your-domain python3 scripts/apply-shell.py

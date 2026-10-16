@@ -15,7 +15,7 @@ import datetime, html, json, os, re
 ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 SITE_URL = os.environ.get("SITE_URL", "https://www.primehubeg.com").rstrip("/")
 PAGES = ["about", "products", "training", "service", "downloads", "contact"]
-SHELL_PAGES = ["index"] + PAGES + ["404"]   # 404 gets the shell but is not listed in the sitemap
+SHELL_PAGES = PAGES + ["404"]          # index.html keeps its own classic layout (own header/footer); 404 gets the shell
 read = lambda p: open(os.path.join(ROOT, p), encoding="utf-8").read()
 
 brands = json.load(open(os.path.join(ROOT, "data", "brands.json"), encoding="utf-8"))
