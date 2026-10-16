@@ -18,5 +18,5 @@ for f, widths in JOBS.items():
     base = f.replace("pexels-", "").rsplit(".", 1)[0]
     for w in widths:
         h = round(im.height * w / im.width)
-        im.resize((w, h), Image.LANCZOS).save(os.path.join(OUT, f"{base}-{w}.webp"), "WEBP", quality=72, method=6)
+        im.resize((w, h), Image.LANCZOS).save(os.path.join(OUT, f"{base}-{w}.webp"), "WEBP", quality=55, method=6)
         print(f"{base}-{w}.webp {w}x{h}")

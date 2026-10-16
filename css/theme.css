@@ -1,9 +1,19 @@
 /* =============================================================================
-   Prime Hub Trading — theme.css  (inner pages only; loaded AFTER css/style.css)
+   Prime Hub Trading — theme.css  (all pages)
    Clean clinical-tech: bright, spacious, precise.
    Blue = structure & trust · Orange = action only.
-   The home page does not load this file. Every rule is either a new .class or scoped under body.ph.
+   Every rule is either a new .class or scoped under body.ph.
    ============================================================================= */
+
+/* self-hosted fonts (latin) */
+@font-face{ font-family:'Inter'; font-style:normal; font-weight:400; font-display:swap; src:url(../assets/fonts/inter-400.woff2) format('woff2'); unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face{ font-family:'Inter'; font-style:normal; font-weight:500; font-display:swap; src:url(../assets/fonts/inter-500.woff2) format('woff2'); unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face{ font-family:'Inter'; font-style:normal; font-weight:600; font-display:swap; src:url(../assets/fonts/inter-600.woff2) format('woff2'); unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face{ font-family:'Inter'; font-style:normal; font-weight:700; font-display:swap; src:url(../assets/fonts/inter-700.woff2) format('woff2'); unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face{ font-family:'Poppins'; font-style:normal; font-weight:500; font-display:swap; src:url(../assets/fonts/poppins-500.woff2) format('woff2'); unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face{ font-family:'Poppins'; font-style:normal; font-weight:600; font-display:swap; src:url(../assets/fonts/poppins-600.woff2) format('woff2'); unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face{ font-family:'Poppins'; font-style:normal; font-weight:700; font-display:swap; src:url(../assets/fonts/poppins-700.woff2) format('woff2'); unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face{ font-family:'Poppins'; font-style:normal; font-weight:800; font-display:swap; src:url(../assets/fonts/poppins-800.woff2) format('woff2'); unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
 
 /* metric-matched fallbacks so the web-font swap does not shift layout */
 @font-face{ font-family:'Poppins Fallback'; src:local('Arial'); size-adjust:112%; ascent-override:93%; descent-override:31%; line-gap-override:8%; }
@@ -57,7 +67,7 @@
 }
 @media (max-width:760px){ :root{ --section:64px; --header-h:64px; } }
 
-/* 2. Reset + base (css/style.css is NOT loaded on inner pages: its legacy class names would collide) */
+/* 2. Reset + base */
 *,*::before,*::after{ box-sizing:border-box; }
 html{ -webkit-text-size-adjust:100%; width:100%; overflow-x:clip; }
 body{ margin:0; }
