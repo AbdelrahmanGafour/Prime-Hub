@@ -281,6 +281,8 @@ body.is-scrolled .dl-toolbar{ top:60px; }
 .lightbox[hidden]{ display:none; } .lightbox img{ max-width:min(96vw,1400px); max-height:92dvh; object-fit:contain; background:#fff; border-radius:var(--r-lg); padding:14px; }
 .lightbox__close{ position:absolute; top:16px; right:16px; background:#fff!important; }
 
-.fcheck__label--logo{ display:flex; align-items:center; min-height:26px; }
-.fcheck__label--logo img{ max-height:26px; max-width:130px; width:auto; object-fit:contain; }
+.fcheck__label--logo{ display:flex; align-items:center; min-height:20px; }
+.fcheck__label--logo img{ max-height:20px; max-width:92px; width:auto; object-fit:contain; }
 .fgroup[data-group="sub"] .fgroup__list{ max-height:340px; overflow-y:auto; overscroll-behavior:contain; scrollbar-width:thin; }
+.fcheck--cat{ border-bottom:1px solid var(--line); border-radius:10px 10px 0 0; }
+.fgroup[data-group="brand"] .fcheck{ min-height:34px; padding-block:6px; }

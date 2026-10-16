@@ -238,6 +238,9 @@
     // sub-categories
     html += '<details class="fgroup" open data-group="sub"><summary>Categories</summary><div class="fgroup__list">';
     ['equipment', 'material'].forEach(function (cat) {
+      html += '<label class="fcheck fcheck--cat"><input type="checkbox" data-f="category" value="' + cat + '"><span class="fcheck__label"><strong>' + CAT_LABEL[cat] + '</strong></span><span class="fcheck__n tnum" data-n>0</span></label>';
+    });
+    ['equipment', 'material'].forEach(function (cat) {
       html += '<div class="fgroup__sub" data-subhead="' + cat + '">' + CAT_LABEL[cat] + '</div>';
       DATA.subOrder.filter(function (s) { return DATA.subCat[s] === cat; }).forEach(function (s) {
         html += '<label class="fcheck" data-sub-row="' + cat + '"><input type="checkbox" data-f="sub" value="' + s + '"><span class="fcheck__label">' + esc(DATA.subLabel[s]) + '</span><span class="fcheck__n tnum" data-n>0</span></label>';
@@ -254,6 +257,10 @@
   }
   function renderFilters() {
     var cs = facet('sub', function (p) { return p.subcategory; }), cb = facet('brand', function (p) { return p.brand; });
+    var cc = facet('category', function (p) { return p.category; });
+    $$('[data-f="category"]', el.filtersBody).forEach(function (i) {
+      i.checked = state.category === i.value; $('[data-n]', i.closest('.fcheck')).textContent = cc[i.value] || 0;
+    });
     $$('[data-f="sub"]', el.filtersBody).forEach(function (i) {
       i.checked = state.subs.indexOf(i.value) >= 0;
       var n = cs[i.value] || 0, row = i.closest('.fcheck'); $('[data-n]', row).textContent = n; row.classList.toggle('is-zero', n === 0 && !i.checked);
@@ -318,6 +325,7 @@
     // sidebar
     el.filtersBody.addEventListener('change', function (e) {
       var i = e.target.closest('[data-f]'); if (!i) return;
+      if (i.getAttribute('data-f') === 'category') { change(function (s) { s.category = i.checked ? i.value : ''; }); return; }
       var key = i.getAttribute('data-f') === 'sub' ? 'subs' : 'brands';
       change(function (s) { var a = s[key].slice(); var k = a.indexOf(i.value); if (i.checked && k < 0) a.push(i.value); if (!i.checked && k >= 0) a.splice(k, 1); s[key] = a; });
     });
