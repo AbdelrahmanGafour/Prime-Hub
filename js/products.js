@@ -150,9 +150,7 @@
       '<h3><a href="' + pageUrl(p) + '">' + esc(p.name) + '</a></h3>' +
       '<p class="p-card__sub">' + esc(p.model ? 'Model ' + p.model : sub) + '</p>' +
       '<p class="p-card__sum">' + esc(p.summary) + '</p>' +
-      (p.chips && p.chips.length ? '<ul class="p-card__chips">' + p.chips.map(function (c) { return '<li>' + esc(c) + '</li>'; }).join('') + '</ul>' : '') +
-      '<div class="p-card__actions"><a class="btn btn--ghost btn--sm" href="' + pageUrl(p) + '" aria-label="Details: ' + esc(p.name) + '">Details</a>' +
-      '<button class="btn btn--primary btn--sm" type="button" data-add aria-pressed="' + (inQ ? 'true' : 'false') + '" aria-label="' + (inQ ? 'Remove from quote: ' : 'Add to quote: ') + esc(p.name) + '">' + (inQ ? '<i class="fa-solid fa-check" aria-hidden="true"></i> Added' : '<i class="fa-solid fa-plus" aria-hidden="true"></i> Add to quote') + '</button></div>' +
+      '<div class="p-card__actions"><a class="btn btn--ghost btn--sm" href="' + pageUrl(p) + '" aria-label="Details: ' + esc(p.name) + '">Details</a>' + '</div>' +
       '</div></article>';
   }
 
@@ -307,25 +305,6 @@
   }
   function resetAll() { change(function (s) { s.category = ''; s.brands = []; s.subs = []; s.tags = []; s.q = ''; }); }
 
-  function toggleQuote(id) {
-    if (!window.PHQuote) return;
-    var p = DATA.products.filter(function (x) { return x.id === id; })[0]; if (!p) return;
-    if (PHQuote.has(id)) { PHQuote.remove(id); if (window.PH) PH.toast('Removed from your quote list'); }
-    else {
-      PHQuote.add({ id: p.id, name: p.name, model: p.model, brandName: p._b.name, thumb: p.thumb });
-      if (window.PH) PH.toast('Added to your quote list', 'View list', function () { PHQuote.open(); });
-    }
-  }
-  function syncAdd() {
-    $$('.p-card[data-id]').forEach(function (c) {
-      var id = c.getAttribute('data-id'), inQ = PHQuote.has(id), b = $('[data-add]', c); if (!b) return;
-      var p = DATA.products.filter(function (x) { return x.id === id; })[0];
-      b.setAttribute('aria-pressed', String(inQ));
-      b.setAttribute('aria-label', (inQ ? 'Remove from quote: ' : 'Add to quote: ') + (p ? p.name : ''));
-      b.innerHTML = inQ ? '<i class="fa-solid fa-check" aria-hidden="true"></i> Added' : '<i class="fa-solid fa-plus" aria-hidden="true"></i> Add to quote';
-    });
-  }
-
   /* ------------------------------------------------------------------ filters sheet (mobile) */
   var sheetOpen = false;
   function setSheet(v) {
@@ -388,18 +367,12 @@
     el.filtersApply.addEventListener('click', function () { setSheet(false); });
     el.filtersOverlay.addEventListener('click', function () { setSheet(false); });
     d.addEventListener('keydown', function (e) { if (e.key === 'Escape' && sheetOpen) setSheet(false); });
-    // cards
-    el.grid.addEventListener('click', function (e) {
-      var card = e.target.closest('.p-card[data-id]'); if (!card) return;
-      if (e.target.closest('[data-add]')) { toggleQuote(card.getAttribute('data-id')); return; }
-    });
     el.grid.addEventListener('error', function (e) {
       var img = e.target; if (img.tagName !== 'IMG') return;
       var holder = img.closest('.p-card__media'); if (holder) holder.innerHTML = '<span class="p-card__placeholder"><span>Image unavailable</span></span>';
     }, true);
     // history
     window.addEventListener('popstate', function () { state = parse(); renderAll({ reset: true }); seo(); });
-    if (window.PHQuote) PHQuote.onChange(syncAdd);
   }
 
   /* ------------------------------------------------------------------ init */
