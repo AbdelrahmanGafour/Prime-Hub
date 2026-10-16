@@ -219,7 +219,7 @@
   "slug": "disc",
   "name": "DISC",
   "country": "United Arab Emirates",
-  "logo": null,
+  "logo": "assets/brands/disc.webp",
   "about": "Diamond cutting and separating disks, supplied in 16 profiles and three thicknesses (catalogue by Spectra Ceram Trading L.L.C., Dubai).",
   "categories": [
    "material"
