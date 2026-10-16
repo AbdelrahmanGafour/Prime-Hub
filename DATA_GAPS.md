@@ -46,3 +46,11 @@ Total published PDFs: 142 MB. If a Vercel deployment is refused or slow, host th
 
 ## 6. Site copy that is not backed by the Materials
 Existing statements on the inner pages — "since 2010", "15+ years", "1000+ customers", the About timeline (2014, 2018, 2021, 2024), "24/7 technical support", "Visa payments" — were kept as they are, since no source was supplied. The "8 brands" claim is replaced by the real number (15) computed from `data/brands.json`. Please confirm that all 15 brands are authorised partners.
+
+## 7. Site-level open items
+- **Social links** (Facebook, Instagram, YouTube, LinkedIn) in the top bar and footer are `href="#"` placeholders (marked `data-placeholder`, inert until real URLs are supplied). **Privacy Policy** and **Terms & Conditions** are placeholders too.
+- **Domain:** canonical URLs, Open Graph tags, `sitemap.xml` and `robots.txt` assume `https://www.primehubeg.com` (the email domain). Change it with `SITE_URL=... python3 scripts/apply-shell.py`.
+- **Forms have no backend.** After validation the visitor gets a ready-to-send WhatsApp message and mailto draft (WhatsApp number = the existing +20 109 000 9508). Connect a form service when one exists.
+- **Training course "level" chips** were not added: the existing copy gives no levels. Duration and format chips come from the existing text.
+- **Payments column** ("We accept Visa payments securely") was dropped from the inner-page footer because the site is request-for-quote only; the home page still shows it.
+- **Home page** still uses the old palette and logo. A ready, unmerged migration is on branch `home-theme-migration` (one file: `index.html`).
