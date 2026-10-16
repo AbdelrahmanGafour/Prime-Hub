@@ -208,7 +208,7 @@ body.is-scrolled .toolbar{ top:60px; }
 .pm ul.bul li{ position:relative; padding:5px 0 5px 22px; font-size:.9rem; }
 .pm ul.bul li::before{ content:""; position:absolute; left:2px; top:.8em; width:8px; height:8px; border-radius:2px; background:var(--blue-500); transform:rotate(45deg); }
 .pm__chips{ display:flex; flex-wrap:wrap; gap:8px; }
-.related{ display:grid; grid-template-columns:repeat(auto-fill,minmax(136px,1fr)); gap:12px; }
+.related{ display:grid; grid-template-columns:repeat(4,1fr); gap:16px; } @media (max-width:760px){ .related{ grid-template-columns:repeat(2,1fr); } }
 
 /* ---- downloads page ---------------------------------------------------------------------------------- */
 .dl-toolbar{ position:sticky; top:var(--header-h); z-index:calc(var(--z-header) - 6); margin-inline:calc(-1 * var(--gutter)); padding:12px var(--gutter); background:rgba(246,248,252,.92); backdrop-filter:blur(14px); border-bottom:1px solid var(--line); }
@@ -286,3 +286,5 @@ body.is-scrolled .dl-toolbar{ top:60px; }
 .fgroup[data-group="sub"] .fgroup__list{ max-height:340px; overflow-y:auto; overscroll-behavior:contain; scrollbar-width:thin; }
 .fcheck--cat{ border-bottom:1px solid var(--line); border-radius:10px 10px 0 0; }
 .fgroup[data-group="brand"] .fcheck{ min-height:34px; padding-block:6px; }
+
+.related-card .r-logo{ display:block; height:18px; width:auto; max-width:90px; object-fit:contain; object-position:left; margin-bottom:8px; } .related-card .r-logo--text{ font-weight:700; font-size:.8125rem; color:var(--muted); height:auto; } .related-card .r-name{ display:block; }

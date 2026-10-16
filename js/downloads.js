@@ -62,7 +62,7 @@
       var g = groups[b.slug];
       return '<section class="doc-group" aria-labelledby="g-' + b.slug + '"><div class="doc-group__head">' +
         '<span class="doc-group__logo">' + (b.logo ? '<img src="' + esc(b.logo) + '" alt="" loading="lazy" height="34">' : '<span class="wordmark">' + esc(b.name) + '</span>') + '</span>' +
-        '<h2 id="g-' + b.slug + '">' + esc(b.name) + '</h2><span class="doc-group__n">' + g.length + (g.length === 1 ? ' document' : ' documents') + '</span></div>' +
+        '<h2 class="sr-only" id="g-' + b.slug + '">' + esc(b.name) + '</h2><span class="doc-group__n">' + g.length + (g.length === 1 ? ' document' : ' documents') + '</span></div>' +
         '<div class="doc-list">' + g.map(docHtml).join('') + '</div></section>';
     }).join('');
     $('#dlEmpty').hidden = list.length > 0;

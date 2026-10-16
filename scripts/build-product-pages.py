@@ -90,9 +90,11 @@ def page(p):
     cards = ""
     for r in rel[:4]:
         im = (f'<img src="{r["thumb"]}" alt="" loading="lazy" width="480" height="360">' if r["thumb"] else "")
-        cards += f'<a class="related-card card" href="products/{r["id"]}.html"><span class="r-img">{im}</span><span class="r-txt">{e(r["name"])}<small>{e(B[r["brand"]]["name"])}</small></span></a>'
+        rb = B[r["brand"]]
+        rlogo = (f'<img class="r-logo" src="{rb["logo"]}" alt="{e(rb["name"])}" height="18" loading="lazy">' if rb.get("logo") else f'<span class="r-logo r-logo--text">{e(rb["name"])}</span>')
+        cards += f'<a class="related-card card" href="products/{r["id"]}.html"><span class="r-img">{im}</span><span class="r-txt">{rlogo}<span class="r-name">{e(r["name"])}</span></span></a>'
     sections += (f'<section class="pd-sec" id="related"><h2 class="pd-h2">Related products</h2>' + (f'<div class="related">{cards}</div>' if cards else "") +
-                 f'<p style="margin-top:22px"><a class="link-arrow" href="products.html?category={p["category"]}&amp;sub={p["subcategory"]}">All {e(SUB[p["subcategory"]])} <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></p></section>')
+                 '</section>')
     wa = f"Hello Prime Hub Trading, I would like information about {b['name']} {p['name']}" + (f" ({p['model']})" if p["model"] else "") + f". {url}"
     ld = {"@context": "https://schema.org", "@type": "Product", "name": p["name"], "description": p["summary"], "brand": {"@type": "Brand", "name": b["name"]},
           "category": CATL[p["category"]], "url": url, **({"sku": p["model"]} if p["model"] else {}), **({"image": [f"{SITE}/{i}" for i in imgs]} if imgs else {})}
@@ -147,7 +149,6 @@ def page(p):
   </section>
   <nav class="subnav" aria-label="On this page"><div class="container subnav__inner">{tabs_html}</div></nav>
   <div class="ph-section ph-section--surface pd-body"><div class="container pd-body__inner">{sections}</div></div>
-  <section class="ph-section ph-section--tight"><div class="container"><div class="cta-band"><div><h2>Interested in {e(p["name"])}?</h2><p>Add it to your quote list or message us. We reply with pricing and availability.</p></div><div class="cta-band__actions"><a class="btn btn--dark btn--lg" href="contact.html?brand={p["brand"]}#quote">Request a quote <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a><a class="btn btn--ghost btn--lg" href="products.html">All products</a></div></div></div></section>
 </main>
 <div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Enlarged product image"><button class="icon-btn lightbox__close" type="button" id="lbClose" aria-label="Close"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button><img id="lbImg" alt=""></div>
 <script type="application/json" id="pdata">{json.dumps(pdata, ensure_ascii=False)}</script>

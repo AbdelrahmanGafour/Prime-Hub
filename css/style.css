@@ -254,7 +254,9 @@ input,select{ font-family:inherit; }
 /* ---------- Hero ---------- */
 .hero{
   position:relative;
-  min-height:640px;
+  aspect-ratio:16/9;
+  max-height:86vh;
+  width:100%;
   display:flex;
   align-items:center;
   overflow:hidden;
@@ -1277,7 +1279,9 @@ input,select{ font-family:inherit; }
 @media (max-width:600px){
   .topbar__info{ display:none; }
   .topbar__inner{justify-content:center; }
-  .hero{ min-height:560px; }
+  .hero__controls{ padding:5px 6px 5px 12px; gap:8px; font-size:.72rem; }
+  .hero__arrow{ width:28px; height:28px; }
+  .hero__progress{ width:56px; }
   .hero__title{ font-size:1.7rem; }
   .hero__subtitle{ font-size:.95rem; }
   .hero__actions{ gap:12px; }
