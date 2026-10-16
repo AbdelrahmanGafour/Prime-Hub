@@ -482,7 +482,7 @@ P("denpark", "IOS-C5 Intraoral Scanner", "equipment", "scanners-imaging",
          ("Power input", "12 V DC")],
   features=["Fast scanning", "Single-line support, plug and play", "Touchless motion control", "Ultra-realistic texture mapping"],
   tags=["intraoral scanner", "IOS"], doc="denpark-c5", page=1,
-  img=CROP("DENPARK/C5 EN 2.pdf", 1, (0.56, 0.10, 0.96, 0.64)), featured=True)
+  img=IDX("DENPARK/C5 EN 2.pdf", 2, 2), featured=True)
 
 # ======================================================================================
 # DISC (cutting and separating disks)

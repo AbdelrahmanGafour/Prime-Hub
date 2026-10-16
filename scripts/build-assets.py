@@ -171,6 +171,11 @@ def build_pdfs():
         os.makedirs(os.path.dirname(out), exist_ok=True)
         tmp = out + ".tmp"
         pdf = pymupdf.open(src)
+        if os.path.exists(out) and not FORCE:          # idempotent: keep the existing file, just record its numbers
+            d["pages"] = len(pdf); d["sizeMB"] = round(os.path.getsize(out) / 1_048_576, 2); d["large"] = d["sizeMB"] > 8
+            d["optimised"] = "kept"
+            brands[d["brand"]]["catalogs"].append({"title": d["title"], "file": d["file"], "pages": d["pages"], "sizeMB": d["sizeMB"]})
+            continue
         best, kind = os.path.getsize(src), "copy"
         shutil.copyfile(src, out)
         # lossless clean-up: drop unreferenced objects and compress streams

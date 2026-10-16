@@ -13,7 +13,7 @@
   ],
   "source": "Audent/Audent i motion e press colour chart 2023 09 29.pdf",
   "large": false,
-  "optimised": "copy"
+  "optimised": "kept"
  },
  {
   "id": "audent-lfu",
@@ -29,7 +29,7 @@
   ],
   "source": "Audent/i-motion LFU catalog-compressed.pdf",
   "large": false,
-  "optimised": "copy"
+  "optimised": "kept"
  },
  {
   "id": "bsm-aconia-family",
@@ -45,7 +45,7 @@
   ],
   "source": "BSM/DENTAL MATERIALS/BSM_Zirconia_Aconia Family_Flyer_EN 20260423 v2.1.1.pdf",
   "large": false,
-  "optimised": "gc"
+  "optimised": "kept"
  },
  {
   "id": "bsm-aconia-master",
@@ -61,7 +61,7 @@
   ],
   "source": "BSM/DENTAL MATERIALS/BSM_Zirconia_Aconia 3D Aconia Master_Flyer_EN 20260416 v4.4.2.pdf",
   "large": false,
-  "optimised": "copy"
+  "optimised": "kept"
  },
  {
   "id": "bsm-aconia-ultra",
@@ -77,7 +77,7 @@
   ],
   "source": "BSM/DENTAL MATERIALS/BSM_Zirconia_Aconia 3D Aconia Ultra_Flyer_EN 20260403  v1.1.1.pdf",
   "large": false,
-  "optimised": "gc"
+  "optimised": "kept"
  },
  {
   "id": "bsm-artamic",
@@ -93,7 +93,7 @@
   ],
   "source": "BSM/DENTAL MATERIALS/BSM_SG_Artamic_Flyer_EN 20251011 v2.1.1.pdf",
   "large": false,
-  "optimised": "gc"
+  "optimised": "kept"
  },
  {
   "id": "bsm-artist-kit",
@@ -109,7 +109,7 @@
   ],
   "source": "BSM/DENTAL MATERIALS/BSM_CL _Artist Kit_Flyer_2025.06.25.pdf",
   "large": false,
-  "optimised": "copy"
+  "optimised": "kept"
  },
  {
   "id": "bsm-artist-v1",
@@ -125,7 +125,7 @@
   ],
   "source": "BSM/DENTAL MATERIALS/BSM_CL _Artist V1_Flyer(vertical)_2024.pdf",
   "large": false,
-  "optimised": "gc"
+  "optimised": "kept"
  },
  {
   "id": "bsm-520d",
@@ -141,7 +141,7 @@
   ],
   "source": "BSM/DENTAL EQUIPMENTS/BSM_Milling_520D_Flyer_EN 20260127-old version.pdf",
   "large": false,
-  "optimised": "gc"
+  "optimised": "kept"
  },
  {
   "id": "bsm-fm30",
@@ -157,7 +157,7 @@
   ],
   "source": "BSM/DENTAL EQUIPMENTS/BSM_Sintering_FM30_Flyer_EN 20251011 v1.1.1.pdf",
   "large": false,
-  "optimised": "copy"
+  "optimised": "kept"
  },
  {
   "id": "bsm-pf10",
@@ -173,7 +173,7 @@
   ],
   "source": "BSM/DENTAL EQUIPMENTS/BSM_Porcelain_PF10_Flyer_EN 20251019 v1.1.1.pdf",
   "large": false,
-  "optimised": "copy"
+  "optimised": "kept"
  },
  {
   "id": "denpark-ls",
@@ -189,7 +189,7 @@
   ],
   "source": "DENPARK/Spectra_Denpark_LS_Catalogue.pdf",
   "large": false,
-  "optimised": "copy"
+  "optimised": "kept"
  },
  {
   "id": "denpark-ls2",
@@ -205,7 +205,7 @@
   ],
   "source": "DENPARK/Spectra_Denpark_LS2_Brochure.pdf",
   "large": false,
-  "optimised": "copy"
+  "optimised": "kept"
  },
  {
   "id": "denpark-c5",
@@ -221,7 +221,7 @@
   ],
   "source": "DENPARK/C5 EN 2.pdf",
   "large": false,
-  "optimised": "copy"
+  "optimised": "kept"
  },
  {
   "id": "disc-catalog",
@@ -237,7 +237,7 @@
   ],
   "source": "DISC/SpectraCeram_Cutting_Disks_2026_SpectraIdentity_v5.pdf",
   "large": false,
-  "optimised": "copy"
+  "optimised": "kept"
  },
  {
   "id": "eraylar-deluxe",
@@ -253,7 +253,7 @@
   ],
   "source": "ERAYLAR/eraydeluxetureng_2022-01-25_21-14-12.pdf",
   "large": false,
-  "optimised": "gc"
+  "optimised": "kept"
  },
  {
   "id": "eraylar-eray",
@@ -269,7 +269,7 @@
   ],
   "source": "ERAYLAR/erayturkce_2022-01-25_20-59-30.pdf",
   "large": false,
-  "optimised": "gc"
+  "optimised": "kept"
  },
  {
   "id": "imt-nicr",
@@ -285,7 +285,7 @@
   ],
   "source": "IMT METAL POWDER/472892700_122164775240272744_4389916170306438226_n.pdf",
   "large": false,
-  "optimised": "copy"
+  "optimised": "kept"
  },
  {
   "id": "jj-catalog",
@@ -301,7 +301,7 @@
   ],
   "source": "JJ TOOLS/1785379371038992.pdf",
   "large": true,
-  "optimised": "gc"
+  "optimised": "kept"
  },
  {
   "id": "profeta-c120",
@@ -317,7 +317,7 @@
   ],
   "source": "PROFETA/C120-EN-V2.pdf",
   "large": false,
-  "optimised": "gc"
+  "optimised": "kept"
  },
  {
   "id": "profeta-c150",
@@ -333,7 +333,7 @@
   ],
   "source": "PROFETA/C150EN.pdf",
   "large": false,
-  "optimised": "rebuilt"
+  "optimised": "kept"
  },
  {
   "id": "renfert-catalog",
@@ -350,7 +350,7 @@
   ],
   "source": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
   "large": true,
-  "optimised": "gc"
+  "optimised": "kept"
  },
  {
   "id": "renfert-basic-eco",
@@ -366,7 +366,7 @@
   ],
   "source": "RENFERT/RENFERT_Basic eco.PDF",
   "large": false,
-  "optimised": "rebuilt"
+  "optimised": "kept"
  },
  {
   "id": "renfert-millo",
@@ -382,7 +382,7 @@
   ],
   "source": "RENFERT/RENFERT_MILLO.PDF",
   "large": false,
-  "optimised": "rebuilt"
+  "optimised": "kept"
  },
  {
   "id": "renfert-mt3",
@@ -398,7 +398,7 @@
   ],
   "source": "RENFERT/RENFERT_MT3.PDF",
   "large": false,
-  "optimised": "rebuilt"
+  "optimised": "kept"
  },
  {
   "id": "renfert-power-steamer",
@@ -414,7 +414,7 @@
   ],
   "source": "RENFERT/RENFERT_POWER STEAMER.PDF",
   "large": false,
-  "optimised": "rebuilt"
+  "optimised": "kept"
  },
  {
   "id": "renfert-silent-compact",
@@ -430,7 +430,7 @@
   ],
   "source": "RENFERT/RENFERT_SILENT COMPACT.PDF",
   "large": false,
-  "optimised": "rebuilt"
+  "optimised": "kept"
  },
  {
   "id": "renfert-silent-compactcam",
@@ -446,7 +446,7 @@
   ],
   "source": "RENFERT/RENFERT_Silent compact CAM.PDF",
   "large": false,
-  "optimised": "rebuilt"
+  "optimised": "kept"
  },
  {
   "id": "renfert-top-spin",
@@ -462,7 +462,7 @@
   ],
   "source": "RENFERT/RENFERT_TOP SPIN.PDF",
   "large": false,
-  "optimised": "rebuilt"
+  "optimised": "kept"
  },
  {
   "id": "renfert-twister",
@@ -478,7 +478,7 @@
   ],
   "source": "RENFERT/RENFERT_TWISTER&TWISTER VENTURI.PDF",
   "large": false,
-  "optimised": "rebuilt"
+  "optimised": "kept"
  },
  {
   "id": "renfert-vario-e",
@@ -494,7 +494,7 @@
   ],
   "source": "RENFERT/RENFERT_VARIO E.PDF",
   "large": false,
-  "optimised": "rebuilt"
+  "optimised": "kept"
  },
  {
   "id": "renfert-waxlectric",
@@ -510,7 +510,7 @@
   ],
   "source": "RENFERT/RENFERT_WAX ELECTRIC.PDF",
   "large": false,
-  "optimised": "rebuilt"
+  "optimised": "kept"
  },
  {
   "id": "renfert-silent-xs",
@@ -526,7 +526,7 @@
   ],
   "source": "RENFERT/20250821_B_SILENT-XS_2pages_en (1).pdf",
   "large": false,
-  "optimised": "gc"
+  "optimised": "kept"
  },
  {
   "id": "renfert-light-1",
@@ -542,7 +542,7 @@
   ],
   "source": "RENFERT/LIGHT-1_2pages_en.pdf",
   "large": false,
-  "optimised": "gc"
+  "optimised": "kept"
  },
  {
   "id": "teknik-mp100",
@@ -558,7 +558,7 @@
   ],
   "source": "TEKNIK DENTAL/MP100_Brochure_EN.pdf",
   "large": true,
-  "optimised": "copy"
+  "optimised": "kept"
  },
  {
   "id": "teknik-mp1500",
@@ -574,7 +574,7 @@
   ],
   "source": "TEKNIK DENTAL/MP1500_Speed_Multistep_Brochure_EN_20230404.pdf",
   "large": false,
-  "optimised": "gc"
+  "optimised": "kept"
  },
  {
   "id": "yamahachi-catalog",
@@ -591,7 +591,7 @@
   ],
   "source": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
   "large": false,
-  "optimised": "copy"
+  "optimised": "kept"
  },
  {
   "id": "yamahachi-pmma-wax",
@@ -608,6 +608,6 @@
   ],
   "source": "Yamahachi/PMMA & WAX.pdf",
   "large": false,
-  "optimised": "gc"
+  "optimised": "kept"
  }
 ]

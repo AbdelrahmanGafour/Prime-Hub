@@ -186,13 +186,8 @@
  "denpark-ios-c5-intraoral-scanner": [
   {
    "src": "DENPARK/C5 EN 2.pdf",
-   "page": 1,
-   "crop": [
-    0.56,
-    0.1,
-    0.96,
-    0.64
-   ]
+   "page": 2,
+   "index": 2
   }
  ],
  "disc-cutting-disk-profile-01": [
