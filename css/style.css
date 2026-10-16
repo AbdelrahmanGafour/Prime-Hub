@@ -299,6 +299,10 @@ input,select{ font-family:inherit; }
   color:#fff;
   font-weight:600;
   font-size:.85rem;
+  padding:8px 10px 8px 16px;
+  background:rgba(4,19,46,.55);
+  border-radius:999px;
+  backdrop-filter:blur(6px);
 }
 .hero__progress{
   width:130px; height:3px;
