@@ -1,64 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-  /* ---------- Mobile nav toggle ---------- */
-  const navToggle = document.getElementById('navToggle');
-  const nav = document.getElementById('nav');
-
-  // .nav is `display:none` by default on mobile so it never inflates the
-  // page's scrollable width while off-canvas. `is-visible` (display:block)
-  // has to land a frame before `is-open` (the slide-in transform) or the
-  // browser has nothing to transition from.
-  function openNav() {
-    nav.classList.add('is-visible');
-    void nav.offsetWidth; // force layout so the transform below animates
-    nav.classList.add('is-open');
-    navToggle.querySelector('i').classList.remove('fa-bars');
-    navToggle.querySelector('i').classList.add('fa-xmark');
-  }
-
-  function closeNav() {
-    nav.classList.remove('is-open');
-    navToggle.querySelector('i').classList.add('fa-bars');
-    navToggle.querySelector('i').classList.remove('fa-xmark');
-    nav.addEventListener('transitionend', function onEnd(e) {
-      if (e.target === nav && e.propertyName === 'transform') {
-        nav.classList.remove('is-visible');
-        nav.removeEventListener('transitionend', onEnd);
-      }
-    });
-  }
-
-  navToggle.addEventListener('click', () => {
-    if (nav.classList.contains('is-open')) closeNav(); else openNav();
-  });
-
-  // Toggle dropdowns on tap for mobile
-  document.querySelectorAll('.has-dropdown > a').forEach(link => {
-    link.addEventListener('click', (e) => {
-      if (window.innerWidth <= 960) {
-        e.preventDefault();
-        link.parentElement.classList.toggle('is-open');
-      }
-    });
-  });
-
-  // Close mobile nav when a link is clicked
-  nav.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', () => {
-      if (window.innerWidth <= 960 && !link.parentElement.classList.contains('has-dropdown')) {
-        closeNav();
-      }
-    });
-  });
-
-  /* ---------- Active nav link (per page) ---------- */
-  const currentPage = document.body.dataset.page;
-  if (currentPage) {
-    document.querySelectorAll('.nav [data-nav]').forEach(link => {
-      link.classList.toggle('active', link.dataset.nav === currentPage);
-    });
-  }
-
   /* ---------- Hero slider (home page only) ---------- */
   const slides = document.querySelectorAll('.hero__slide');
   if (slides.length) {
@@ -168,12 +109,5 @@ document.addEventListener('DOMContentLoaded', () => {
       alert('Company introduction video coming soon.');
     });
   }
-
-  /* ---------- Back to top ---------- */
-  const backToTop = document.getElementById('backToTop');
-  window.addEventListener('scroll', () => {
-    backToTop.classList.toggle('is-visible', window.scrollY > 500);
-  });
-  backToTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 
 });

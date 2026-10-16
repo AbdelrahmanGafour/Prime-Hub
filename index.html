@@ -13,59 +13,65 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/shell.css">
 </head>
 <body data-page="home">
 
-<!-- ============ TOP BAR ============ -->
-<div class="topbar">
+<a class="skip-link" href="#main">Skip to main content</a>
+<div class="scroll-progress" aria-hidden="true"><span></span></div>
+<div class="topbar" id="topbar" role="region" aria-label="Contact details and social links">
   <div class="container topbar__inner">
-    <div class="topbar__info">
-      <span><i class="fa-solid fa-location-dot"></i> 9 El Saudi Building, Nasr City, Cairo, Egypt</span>
-      <span><i class="fa-solid fa-phone"></i> +20 109 000 9508</span>
-      <span><i class="fa-brands fa-whatsapp"></i> WhatsApp</span>
-      <span><i class="fa-regular fa-envelope"></i> <a href="mailto:info@primehubeg.com">info@primehubeg.com</a></span>
-    </div>
-    <div class="topbar__social">
-      <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-      <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-      <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
-      <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-    </div>
+    <ul class="topbar__info">
+      <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>9 El Saudi Building, Nasr City, Cairo, Egypt</span></li>
+      <li><i class="fa-solid fa-phone" aria-hidden="true"></i><a href="tel:+201090009508">+20 109 000 9508</a></li>
+      <li><i class="fa-brands fa-whatsapp" aria-hidden="true"></i><a href="https://wa.me/201090009508" target="_blank" rel="noopener">WhatsApp</a></li>
+      <li><i class="fa-regular fa-envelope" aria-hidden="true"></i><a href="mailto:info@primehubeg.com">info@primehubeg.com</a></li>
+    </ul>
+    <ul class="topbar__social">
+      <li><a href="#" data-placeholder aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a></li>
+      <li><a href="#" data-placeholder aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+      <li><a href="#" data-placeholder aria-label="YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a></li>
+      <li><a href="#" data-placeholder aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a></li>
+    </ul>
   </div>
 </div>
 
-<!-- ============ HEADER / NAV ============ -->
-<header class="header" id="header">
-  <div class="container header__inner">
-    <a href="index.html" class="brand">
-      <img src="assets/img/brand/primehub-logo.webp" srcset="assets/img/brand/primehub-logo.webp 1x, assets/img/brand/primehub-logo@2x.webp 2x" alt="Prime Hub Trading" class="brand__logo" width="101" height="48">
+<header class="site-header" id="siteHeader">
+  <div class="container site-header__inner">
+    <a class="brand" href="index.html" aria-label="Prime Hub Trading, home">
+      <img src="assets/img/brand/primehub-logo.webp" srcset="assets/img/brand/primehub-logo.webp 1x, assets/img/brand/primehub-logo@2x.webp 2x, assets/img/brand/primehub-logo@3x.webp 3x" width="101" height="48" alt="Prime Hub Trading">
     </a>
-
-    <nav class="nav" id="nav">
-      <ul>
-        <li><a href="index.html" data-nav="home">Home</a></li>
-        <li><a href="about.html" data-nav="about">About Us</a></li>
+    <nav class="nav" id="nav" aria-label="Main navigation">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="index.html" data-nav="home" aria-current="page">Home</a></li>
+        <li><a class="nav__link" href="about.html" data-nav="about">About Us</a></li>
         <li class="has-dropdown">
-          <a href="products.html" data-nav="products">Products <i class="fa-solid fa-chevron-down"></i></a>
+          <a class="nav__link" href="products.html" data-nav="products">Products</a>
+          <button class="dd-toggle" type="button" aria-expanded="false" aria-label="Show products menu"><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></button>
           <ul class="dropdown">
-            <li><a href="products.html#materials">Dental Materials</a></li>
-            <li><a href="products.html#cadcam">CAD/CAM Equipment</a></li>
-            <li><a href="products.html#consumables">Consumables &amp; Tools</a></li>
+            <li><a href="products.html?category=equipment"><i class="fa-solid fa-microchip" aria-hidden="true"></i>Dental Equipment</a></li>
+            <li><a href="products.html?category=material"><i class="fa-solid fa-flask" aria-hidden="true"></i>Dental Material</a></li>
+            <li class="dd-sep" role="separator"></li>
+            <li><a href="products.html#brands"><i class="fa-solid fa-tags" aria-hidden="true"></i>Shop by Brand</a></li>
           </ul>
         </li>
-        <li><a href="training.html" data-nav="training">Training Center</a></li>
-        <li><a href="service.html" data-nav="service">Service Center</a></li>
-        <li><a href="downloads.html" data-nav="downloads">Download Center</a></li>
-        <li><a href="contact.html" data-nav="contact">Contact Us</a></li>
+        <li><a class="nav__link" href="training.html" data-nav="training">Training Center</a></li>
+        <li><a class="nav__link" href="service.html" data-nav="service">Service Center</a></li>
+        <li><a class="nav__link" href="downloads.html" data-nav="downloads">Download Center</a></li>
+        <li><a class="nav__link" href="contact.html" data-nav="contact">Contact Us</a></li>
       </ul>
+      <a class="btn btn--accent nav__cta" href="contact.html#quote">Request a Quote <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
     </nav>
-
-    <a href="contact.html" class="btn btn--orange header__cta">Request A Quote</a>
-    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><i class="fa-solid fa-bars"></i></button>
+    <div class="site-header__actions">
+      <a class="btn btn--accent btn--sm header-cta" href="contact.html#quote" data-magnetic>Request a Quote</a>
+      <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
   </div>
 </header>
+<div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
 
 <!-- ============ HERO ============ -->
+<main id="main">
 <section class="hero" id="home">
   <div class="hero__slides">
     <div class="hero__slide is-active" style="background-image:url('assets/img/Slide1.webp')"></div>
@@ -472,79 +478,74 @@
 </section>
 
 <!-- ============ FOOTER ============ -->
-<footer class="footer">
-  <div class="container footer__grid">
-    <div class="footer__col footer__brand">
-      <a href="index.html" class="brand brand--footer">
-        <img src="assets/img/brand/primehub-logo-white.webp" srcset="assets/img/brand/primehub-logo-white.webp 1x, assets/img/brand/primehub-logo-white@2x.webp 2x" alt="Prime Hub Trading" class="brand__logo" width="109" height="52">
-      </a>
-      <p>Your trusted partner for dental laboratory materials, equipment, CAD/CAM solutions, technical support and professional training. Serving 1000+ customers across Egypt since 2010.</p>
-      <div class="footer__social">
-        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
-        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+</main>
+<footer class="site-footer on-dark">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="index.html" aria-label="Prime Hub Trading, home"><img src="assets/img/brand/primehub-logo-white.webp" srcset="assets/img/brand/primehub-logo-white.webp 1x, assets/img/brand/primehub-logo-white@2x.webp 2x, assets/img/brand/primehub-logo-white@3x.webp 3x" width="109" height="52" alt="Prime Hub Trading" loading="lazy"></a>
+        <p>Your trusted partner for dental laboratory materials, equipment, CAD/CAM solutions, technical support and professional training, serving customers across Egypt since 2010.</p>
+        <ul class="footer__stats">
+          <li><strong data-brand-count>15</strong> authorized brands</li>
+          <li><strong data-product-count>316</strong> products listed</li>
+          <li><strong>1000+</strong> customers</li>
+        </ul>
+        <ul class="footer__social">
+          <li><a href="#" data-placeholder aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a></li>
+          <li><a href="#" data-placeholder aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="#" data-placeholder aria-label="YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a></li>
+          <li><a href="#" data-placeholder aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a></li>
+        </ul>
       </div>
-    </div>
-
-    <div class="footer__col">
-      <h4>Quick Links</h4>
-      <ul>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="training.html">Training Center</a></li>
-        <li><a href="service.html">Service Center</a></li>
-        <li><a href="downloads.html">Download Center</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-      </ul>
-    </div>
-
-    <div class="footer__col">
-      <h4>Contact Info</h4>
-      <ul class="footer__contact">
-        <li><i class="fa-solid fa-location-dot"></i> 9 El Saudi Building, Nasr City, Cairo, Egypt</li>
-        <li><i class="fa-solid fa-phone"></i> +20 109 000 9508</li>
-        <li><i class="fa-brands fa-whatsapp"></i> +20 109 000 9508</li>
-        <li><i class="fa-regular fa-envelope"></i> <a href="mailto:info@primehubeg.com">info@primehubeg.com</a></li>
-      </ul>
-    </div>
-
-    <div class="footer__col">
-      <h4>Why Choose Us</h4>
-      <ul class="check-list check-list--footer">
-        <li><i class="fa-solid fa-check"></i> 15+ Years Experience</li>
-        <li><i class="fa-solid fa-check"></i> 1000+ Happy Customers</li>
-        <li><i class="fa-solid fa-check"></i> Authorized Distributor</li>
-        <li><i class="fa-solid fa-check"></i> Technical Support 24/7</li>
-        <li><i class="fa-solid fa-check"></i> Training Center</li>
-        <li><i class="fa-solid fa-check"></i> Fast Delivery Across Egypt</li>
-      </ul>
-    </div>
-
-    <div class="footer__col">
-      <h4>Secure Payments</h4>
-      <p class="footer__payments-text">We accept Visa payments securely</p>
-      <div class="footer__payment-icons">
-        <span class="pay-icon"><i class="fa-brands fa-cc-visa"></i></span>
-        <span class="pay-icon"><i class="fa-brands fa-cc-mastercard"></i></span>
+      <nav class="footer__col" aria-label="Explore">
+        <h2 class="footer__title">Explore</h2>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="products.html">All Products</a></li>
+          <li><a href="training.html">Training Center</a></li>
+          <li><a href="service.html">Service Center</a></li>
+          <li><a href="downloads.html">Download Center</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <nav class="footer__col" aria-label="Products">
+        <h2 class="footer__title">Products</h2>
+        <ul>
+          <li><a href="products.html?category=equipment">Dental Equipment</a></li>
+          <li><a href="products.html?category=material">Dental Material</a></li>
+          <li><a href="products.html#brands">Shop by Brand</a></li>
+          <li><a href="downloads.html">Catalogs &amp; Datasheets</a></li>
+          <li><a href="contact.html#quote">Request a Quote</a></li>
+        </ul>
+      </nav>
+      <div class="footer__col">
+        <h2 class="footer__title">Contact</h2>
+        <ul class="footer__contact">
+          <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>9 El Saudi Building, Nasr City, Cairo, Egypt</span></li>
+          <li><i class="fa-solid fa-phone" aria-hidden="true"></i><a href="tel:+201090009508">+20 109 000 9508</a></li>
+          <li><i class="fa-brands fa-whatsapp" aria-hidden="true"></i><a href="https://wa.me/201090009508" target="_blank" rel="noopener">+20 109 000 9508</a></li>
+          <li><i class="fa-regular fa-envelope" aria-hidden="true"></i><a href="mailto:info@primehubeg.com">info@primehubeg.com</a></li>
+        </ul>
+        <a class="btn btn--wa btn--sm" style="margin-top:8px" href="https://wa.me/201090009508?text=Hello%20Prime%20Hub%20Trading%2C%20I%20would%20like%20some%20information." target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Chat on WhatsApp</a>
       </div>
-      <a href="#" class="btn btn--whatsapp"><i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp</a>
     </div>
   </div>
-
   <div class="footer__bottom">
     <div class="container footer__bottom-inner">
-      <p>&copy; 2010 - 2026 Prime Hub Trading. All Rights Reserved.</p>
-      <div class="footer__legal">
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms &amp; Conditions</a>
-      </div>
+      <p>&copy; 2010 - 2026 Prime Hub Trading. All rights reserved.</p>
+      <div class="footer__legal"><a href="#" data-placeholder>Privacy Policy</a><a href="#" data-placeholder>Terms &amp; Conditions</a></div>
     </div>
   </div>
 </footer>
 
-<button id="backToTop" class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+<div class="fabs" role="region" aria-label="Chat and back to top"><button class="fab fab--top" id="toTop" type="button" aria-label="Back to top"><i class="fa-solid fa-arrow-up" aria-hidden="true"></i></button></div>
+<div class="action-bar" role="navigation" aria-label="Quick actions">
+  <a class="ab-call" href="tel:+201090009508"><i class="fa-solid fa-phone" aria-hidden="true"></i>Call</a>
+  <a class="ab-wa" href="https://wa.me/201090009508?text=Hello%20Prime%20Hub%20Trading%2C%20I%20would%20like%20some%20information%20about%20your%20products." target="_blank" rel="noopener" data-wa><i class="fa-brands fa-whatsapp" aria-hidden="true"></i>WhatsApp</a>
+  <a class="ab-quote" href="contact.html#quote"><i class="fa-solid fa-clipboard-list" aria-hidden="true"></i>Request Quote</a>
+</div>
 
+<script src="js/shell.js" defer></script>
 <script src="js/script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
