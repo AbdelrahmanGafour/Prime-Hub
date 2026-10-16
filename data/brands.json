@@ -275,7 +275,7 @@
   "slug": "imt-metal-powder",
   "name": "IMT Metal Powder",
   "country": null,
-  "logo": null,
+  "logo": "assets/brands/imt-metal-powder.webp",
   "about": "IMT develops metal powder materials for dental 3D printing and states ISO 13485, ISO 9001, CE and FDA certification on its brochure.",
   "categories": [
    "material"
