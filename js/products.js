@@ -216,11 +216,9 @@
     sync();
   }
   function renderBrandRail() {
-    var c = facet('brand', function (p) { return p.brand; });
     $$('.brand-card', el.rail).forEach(function (b) {
       var slug = b.getAttribute('data-brand');
       b.setAttribute('aria-pressed', String(state.brands.indexOf(slug) >= 0));
-      b.classList.toggle('is-empty', (c[slug] || 0) === 0 && state.brands.indexOf(slug) < 0);
     });
     var h = el.brandHead;
     if (state.brands.length === 1) {
