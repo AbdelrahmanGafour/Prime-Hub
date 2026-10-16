@@ -313,7 +313,7 @@
   "slug": "lustra",
   "name": "LUSTRA",
   "country": null,
-  "logo": null,
+  "logo": "assets/brands/lustra.webp",
   "about": "LUSTRA CAD/CAM restorative blocks.",
   "categories": [
    "material"
@@ -325,7 +325,7 @@
   "slug": "pht",
   "name": "PHT",
   "country": null,
-  "logo": null,
+  "logo": "assets/brands/pht.webp",
   "about": "PHT (New Technology) diamond polishing systems: Diamond Stone and Diamond Rubber polishers.",
   "categories": [
    "material"
