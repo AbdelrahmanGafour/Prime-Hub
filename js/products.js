@@ -245,24 +245,12 @@
     });
     html += '</div></details>';
     // brands
-    html += '<details class="fgroup" open data-group="brand"><summary>Brand</summary>' +
-      '<div class="fsearch"><label class="sr-only" for="brandFilter">Filter brands</label><input class="input" id="brandFilter" type="search" placeholder="Find a brand" autocomplete="off"></div><div class="fgroup__list">';
+    html += '<details class="fgroup" open data-group="brand"><summary>Brand</summary><div class="fgroup__list">';
     DATA.brands.slice().sort(function (a, b) { return b.productCount - a.productCount || a.name.localeCompare(b.name); }).forEach(function (b) {
-      html += '<label class="fcheck" data-brand-row="' + esc(norm(b.name)) + '"><input type="checkbox" data-f="brand" value="' + esc(b.slug) + '"><span class="fcheck__label">' + esc(b.name) + '</span><span class="fcheck__n tnum" data-n>0</span></label>';
+      html += '<label class="fcheck" data-brand-row="' + esc(norm(b.name)) + '"><input type="checkbox" data-f="brand" value="' + esc(b.slug) + '"><span class="fcheck__label fcheck__label--logo">' + (b.logo ? '<img src="' + esc(b.logo) + '" alt="' + esc(b.name) + '" loading="lazy" height="26">' : esc(b.name)) + '</span><span class="fcheck__n tnum" data-n>0</span></label>';
     });
     html += '</div></details>';
-    // tags
-    var freq = {}, label = {};
-    DATA.products.forEach(function (p) { (p.tags || []).forEach(function (t) { var k = norm(t); if (k.length < 3) return; freq[k] = (freq[k] || 0) + 1; label[k] = label[k] || t; }); });
-    var top = Object.keys(freq).sort(function (a, b) { return freq[b] - freq[a]; }).slice(0, 20);
-    html += '<details class="fgroup" data-group="tag"><summary>Popular tags</summary><div class="tagcloud">' +
-      top.map(function (k) { return '<button type="button" data-tag="' + esc(k) + '" aria-pressed="false">' + esc(label[k]) + '</button>'; }).join('') + '</div></details>';
     body.innerHTML = html;
-    var bf = $('#brandFilter', body);
-    bf.addEventListener('input', function () {
-      var t = norm(bf.value);
-      $$('[data-brand-row]', body).forEach(function (r) { r.style.display = !t || r.getAttribute('data-brand-row').indexOf(t) >= 0 ? '' : 'none'; });
-    });
   }
   function renderFilters() {
     var cs = facet('sub', function (p) { return p.subcategory; }), cb = facet('brand', function (p) { return p.brand; });
