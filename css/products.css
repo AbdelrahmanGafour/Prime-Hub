@@ -283,3 +283,4 @@ body.is-scrolled .dl-toolbar{ top:60px; }
 
 .fcheck__label--logo{ display:flex; align-items:center; min-height:26px; }
 .fcheck__label--logo img{ max-height:26px; max-width:130px; width:auto; object-fit:contain; }
+.fgroup[data-group="sub"] .fgroup__list{ max-height:340px; overflow-y:auto; overscroll-behavior:contain; scrollbar-width:thin; }

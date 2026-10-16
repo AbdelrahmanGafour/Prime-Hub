@@ -236,7 +236,7 @@
   function buildFilters() {
     var body = el.filtersBody, html = '';
     // sub-categories
-    html += '<details class="fgroup" open data-group="sub"><summary>Sub-category</summary><div class="fgroup__list">';
+    html += '<details class="fgroup" open data-group="sub"><summary>Categories</summary><div class="fgroup__list">';
     ['equipment', 'material'].forEach(function (cat) {
       html += '<div class="fgroup__sub" data-subhead="' + cat + '">' + CAT_LABEL[cat] + '</div>';
       DATA.subOrder.filter(function (s) { return DATA.subCat[s] === cat; }).forEach(function (s) {
