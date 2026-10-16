@@ -67,6 +67,16 @@ MATERIALS_DIR=/path/to/Materials python3 scripts/build-assets.py
 
 `scripts/provenance/` contains the code that produced the first dataset from the Materials folder (`extract_renfert.py`, `curated.py`, `build_dataset.py`, `audit_materials.py`); run it only if you want to regenerate everything from scratch, because it overwrites hand edits.
 
+## Product pages
+
+Every product has its own static page, `products/<id>.html` (gallery with zoom, advantages, technical data, variants / item numbers, downloads with an inline PDF viewer, related products, quote and WhatsApp buttons). Regenerate after editing `data/products.json`:
+
+```bash
+python3 scripts/build-product-downloads.py   # cuts a one-page product sheet PDF per Renfert product from the catalogue
+python3 scripts/build-product-pages.py       # writes products/*.html
+python3 scripts/apply-shell.py               # header/footer, canonical tags, sitemap
+```
+
 ## Shared header / footer
 
 `partials/head.html`, `header.html` and `footer.html` are injected into the inner pages between the `<!--SHELL:...-->` markers by

@@ -46,7 +46,18 @@
    "fluorescent"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "i-motion LFU Stains, Shades & Glaze",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/audent/i-motion-lfu-stains-shades-glaze.pdf",
+    "pages": 2,
+    "sizeMB": 0.3,
+    "page": 2
+   }
+  ]
  },
  {
   "id": "audent-i-motion-lfu-shades",
@@ -83,7 +94,18 @@
    "fluorescent"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "i-motion LFU Stains, Shades & Glaze",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/audent/i-motion-lfu-stains-shades-glaze.pdf",
+    "pages": 2,
+    "sizeMB": 0.3,
+    "page": 1
+   }
+  ]
  },
  {
   "id": "audent-i-motion-lfu-stains",
@@ -120,7 +142,18 @@
    "fluorescent"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "i-motion LFU Stains, Shades & Glaze",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/audent/i-motion-lfu-stains-shades-glaze.pdf",
+    "pages": 2,
+    "sizeMB": 0.3,
+    "page": 1
+   }
+  ]
  },
  {
   "id": "audent-i-motion-e-press",
@@ -164,7 +197,18 @@
    "press ceramic"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "i-motion e-press Colour Chart (2023)",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/audent/i-motion-e-press-colour-chart.pdf",
+    "pages": 1,
+    "sizeMB": 0.2,
+    "page": 1
+   }
+  ]
  },
  {
   "id": "bsm-bsm-fm30",
@@ -257,7 +301,18 @@
    "400 × 590 × 870 mm"
   ],
   "featured": true,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "BSM-FM30 Zirconia Sintering Furnace Flyer",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/bsm/bsm-fm30-sintering-furnace.pdf",
+    "pages": 2,
+    "sizeMB": 2.25,
+    "page": 1
+   }
+  ]
  },
  {
   "id": "bsm-bsm-pf10",
@@ -357,7 +412,18 @@
    "28 kg"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "BSM-PF10 Porcelain Furnace Flyer",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/bsm/bsm-pf10-porcelain-furnace.pdf",
+    "pages": 2,
+    "sizeMB": 1.5,
+    "page": 1
+   }
+  ]
  },
  {
   "id": "bsm-bsm-520d",
@@ -470,7 +536,18 @@
    "570 × 680 × 780 mm"
   ],
   "featured": true,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "BSM-520D 5-Axis Milling Machine Flyer",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/bsm/bsm-520d-milling-machine.pdf",
+    "pages": 2,
+    "sizeMB": 2.56,
+    "page": 1
+   }
+  ]
  },
  {
   "id": "bsm-aconia-artist-kit",
@@ -532,7 +609,18 @@
    "coloring liquid"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Aconia Artist Kit Flyer",
+    "type": "Brochure",
+    "lang": "EN",
+    "file": "assets/downloads/bsm/aconia-artist-kit.pdf",
+    "pages": 2,
+    "sizeMB": 1.68,
+    "page": 2
+   }
+  ]
  },
  {
   "id": "bsm-aconia-artist-v1-opaque-liquid",
@@ -581,7 +669,18 @@
    "Aconia"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Aconia Artist V1 Opaque Liquid Flyer",
+    "type": "Brochure",
+    "lang": "EN",
+    "file": "assets/downloads/bsm/aconia-artist-v1-opaque-liquid.pdf",
+    "pages": 1,
+    "sizeMB": 2.47,
+    "page": 1
+   }
+  ]
  },
  {
   "id": "bsm-artamic-3d-glaze",
@@ -614,7 +713,18 @@
    "gingiva"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Artamic Stain/Glaze Flyer",
+    "type": "Brochure",
+    "lang": "EN",
+    "file": "assets/downloads/bsm/artamic-stain-glaze.pdf",
+    "pages": 8,
+    "sizeMB": 5.94,
+    "page": 7
+   }
+  ]
  },
  {
   "id": "bsm-artamic-gingiva-kit",
@@ -646,7 +756,18 @@
    "gingiva"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Artamic Stain/Glaze Flyer",
+    "type": "Brochure",
+    "lang": "EN",
+    "file": "assets/downloads/bsm/artamic-stain-glaze.pdf",
+    "pages": 8,
+    "sizeMB": 5.94,
+    "page": 7
+   }
+  ]
  },
  {
   "id": "bsm-artamic-master-kit",
@@ -683,7 +804,18 @@
    "stain"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Artamic Stain/Glaze Flyer",
+    "type": "Brochure",
+    "lang": "EN",
+    "file": "assets/downloads/bsm/artamic-stain-glaze.pdf",
+    "pages": 8,
+    "sizeMB": 5.94,
+    "page": 6
+   }
+  ]
  },
  {
   "id": "bsm-artamic-stain-glaze",
@@ -734,7 +866,18 @@
    "glaze"
   ],
   "featured": true,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Artamic Stain/Glaze Flyer",
+    "type": "Brochure",
+    "lang": "EN",
+    "file": "assets/downloads/bsm/artamic-stain-glaze.pdf",
+    "pages": 8,
+    "sizeMB": 5.94,
+    "page": 3
+   }
+  ]
  },
  {
   "id": "bsm-3d-aconia-master",
@@ -811,7 +954,18 @@
    "zirconia"
   ],
   "featured": true,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "3D Aconia Master Flyer",
+    "type": "Brochure",
+    "lang": "EN",
+    "file": "assets/downloads/bsm/3d-aconia-master.pdf",
+    "pages": 4,
+    "sizeMB": 5.51,
+    "page": 3
+   }
+  ]
  },
  {
   "id": "bsm-3d-aconia-ultra",
@@ -883,7 +1037,18 @@
    "zirconia"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "3D Aconia Ultra Flyer",
+    "type": "Brochure",
+    "lang": "EN",
+    "file": "assets/downloads/bsm/3d-aconia-ultra.pdf",
+    "pages": 4,
+    "sizeMB": 3.41,
+    "page": 1
+   }
+  ]
  },
  {
   "id": "bsm-aconia-ht",
@@ -951,7 +1116,18 @@
    "zirconia"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Aconia Zirconia Family Flyer",
+    "type": "Brochure",
+    "lang": "EN",
+    "file": "assets/downloads/bsm/aconia-zirconia-family.pdf",
+    "pages": 2,
+    "sizeMB": 5.94,
+    "page": 2
+   }
+  ]
  },
  {
   "id": "bsm-aconia-sht",
@@ -1019,7 +1195,18 @@
    "zirconia"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Aconia Zirconia Family Flyer",
+    "type": "Brochure",
+    "lang": "EN",
+    "file": "assets/downloads/bsm/aconia-zirconia-family.pdf",
+    "pages": 2,
+    "sizeMB": 5.94,
+    "page": 2
+   }
+  ]
  },
  {
   "id": "bsm-aconia-st",
@@ -1087,7 +1274,18 @@
    "zirconia"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Aconia Zirconia Family Flyer",
+    "type": "Brochure",
+    "lang": "EN",
+    "file": "assets/downloads/bsm/aconia-zirconia-family.pdf",
+    "pages": 2,
+    "sizeMB": 5.94,
+    "page": 2
+   }
+  ]
  },
  {
   "id": "bsm-aconia-st-preshade",
@@ -1154,7 +1352,18 @@
    "zirconia"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Aconia Zirconia Family Flyer",
+    "type": "Brochure",
+    "lang": "EN",
+    "file": "assets/downloads/bsm/aconia-zirconia-family.pdf",
+    "pages": 2,
+    "sizeMB": 5.94,
+    "page": 2
+   }
+  ]
  },
  {
   "id": "denpark-ios-c5-intraoral-scanner",
@@ -1232,7 +1441,18 @@
    "200 g"
   ],
   "featured": true,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Denpark IOS-C5 Intraoral Scanner Datasheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/denpark/denpark-ios-c5-datasheet.pdf",
+    "pages": 2,
+    "sizeMB": 2.87,
+    "page": 1
+   }
+  ]
  },
  {
   "id": "denpark-ls2-dental-laboratory-scanner",
@@ -1324,7 +1544,18 @@
    "scanner"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Denpark LS2 Scanner Brochure",
+    "type": "Brochure",
+    "lang": "EN",
+    "file": "assets/downloads/denpark/denpark-ls2-brochure.pdf",
+    "pages": 2,
+    "sizeMB": 2.18,
+    "page": 1
+   }
+  ]
  },
  {
   "id": "denpark-ls3-dental-laboratory-scanner",
@@ -1416,7 +1647,18 @@
    "9 kg"
   ],
   "featured": true,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Spectra Scanner by Denpark: LS Series Catalogue",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/denpark/denpark-ls-series-catalogue.pdf",
+    "pages": 8,
+    "sizeMB": 6.82,
+    "page": 4
+   }
+  ]
  },
  {
   "id": "denpark-ls4-dental-laboratory-scanner",
@@ -1508,7 +1750,18 @@
    "6 kg"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Spectra Scanner by Denpark: LS Series Catalogue",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/denpark/denpark-ls-series-catalogue.pdf",
+    "pages": 8,
+    "sizeMB": 6.82,
+    "page": 5
+   }
+  ]
  },
  {
   "id": "disc-cutting-disk-profile-01",
@@ -1553,7 +1806,18 @@
    "Standard"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Cutting & Separating Disks Catalogue 2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/disc/cutting-separating-disks-2026.pdf",
+    "pages": 11,
+    "sizeMB": 5.34,
+    "page": 5
+   }
+  ]
  },
  {
   "id": "disc-cutting-disk-profile-02",
@@ -1598,7 +1862,18 @@
    "Standard"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Cutting & Separating Disks Catalogue 2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/disc/cutting-separating-disks-2026.pdf",
+    "pages": 11,
+    "sizeMB": 5.34,
+    "page": 5
+   }
+  ]
  },
  {
   "id": "disc-cutting-disk-profile-03",
@@ -1643,7 +1918,18 @@
    "Standard"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Cutting & Separating Disks Catalogue 2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/disc/cutting-separating-disks-2026.pdf",
+    "pages": 11,
+    "sizeMB": 5.34,
+    "page": 5
+   }
+  ]
  },
  {
   "id": "disc-cutting-disk-profile-04",
@@ -1688,7 +1974,18 @@
    "Medium"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Cutting & Separating Disks Catalogue 2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/disc/cutting-separating-disks-2026.pdf",
+    "pages": 11,
+    "sizeMB": 5.34,
+    "page": 5
+   }
+  ]
  },
  {
   "id": "disc-cutting-disk-profile-05",
@@ -1733,7 +2030,18 @@
    "Small"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Cutting & Separating Disks Catalogue 2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/disc/cutting-separating-disks-2026.pdf",
+    "pages": 11,
+    "sizeMB": 5.34,
+    "page": 6
+   }
+  ]
  },
  {
   "id": "disc-cutting-disk-profile-06",
@@ -1778,7 +2086,18 @@
    "Standard"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Cutting & Separating Disks Catalogue 2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/disc/cutting-separating-disks-2026.pdf",
+    "pages": 11,
+    "sizeMB": 5.34,
+    "page": 6
+   }
+  ]
  },
  {
   "id": "disc-cutting-disk-profile-07",
@@ -1823,7 +2142,18 @@
    "Standard"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Cutting & Separating Disks Catalogue 2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/disc/cutting-separating-disks-2026.pdf",
+    "pages": 11,
+    "sizeMB": 5.34,
+    "page": 6
+   }
+  ]
  },
  {
   "id": "disc-cutting-disk-profile-08",
@@ -1868,7 +2198,18 @@
    "Standard"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Cutting & Separating Disks Catalogue 2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/disc/cutting-separating-disks-2026.pdf",
+    "pages": 11,
+    "sizeMB": 5.34,
+    "page": 6
+   }
+  ]
  },
  {
   "id": "disc-cutting-disk-profile-09",
@@ -1913,7 +2254,18 @@
    "Standard"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Cutting & Separating Disks Catalogue 2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/disc/cutting-separating-disks-2026.pdf",
+    "pages": 11,
+    "sizeMB": 5.34,
+    "page": 7
+   }
+  ]
  },
  {
   "id": "disc-cutting-disk-profile-10",
@@ -1958,7 +2310,18 @@
    "Standard"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Cutting & Separating Disks Catalogue 2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/disc/cutting-separating-disks-2026.pdf",
+    "pages": 11,
+    "sizeMB": 5.34,
+    "page": 7
+   }
+  ]
  },
  {
   "id": "disc-cutting-disk-profile-11",
@@ -2003,7 +2366,18 @@
    "Standard"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Cutting & Separating Disks Catalogue 2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/disc/cutting-separating-disks-2026.pdf",
+    "pages": 11,
+    "sizeMB": 5.34,
+    "page": 7
+   }
+  ]
  },
  {
   "id": "disc-cutting-disk-profile-12",
@@ -2048,7 +2422,18 @@
    "Standard"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Cutting & Separating Disks Catalogue 2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/disc/cutting-separating-disks-2026.pdf",
+    "pages": 11,
+    "sizeMB": 5.34,
+    "page": 7
+   }
+  ]
  },
  {
   "id": "disc-cutting-disk-profile-13",
@@ -2093,7 +2478,18 @@
    "Standard"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Cutting & Separating Disks Catalogue 2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/disc/cutting-separating-disks-2026.pdf",
+    "pages": 11,
+    "sizeMB": 5.34,
+    "page": 8
+   }
+  ]
  },
  {
   "id": "disc-cutting-disk-profile-14",
@@ -2138,7 +2534,18 @@
    "Standard"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Cutting & Separating Disks Catalogue 2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/disc/cutting-separating-disks-2026.pdf",
+    "pages": 11,
+    "sizeMB": 5.34,
+    "page": 8
+   }
+  ]
  },
  {
   "id": "disc-cutting-disk-profile-15",
@@ -2183,7 +2590,18 @@
    "Standard"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Cutting & Separating Disks Catalogue 2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/disc/cutting-separating-disks-2026.pdf",
+    "pages": 11,
+    "sizeMB": 5.34,
+    "page": 8
+   }
+  ]
  },
  {
   "id": "disc-cutting-disk-profile-16",
@@ -2228,7 +2646,18 @@
    "Standard"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Cutting & Separating Disks Catalogue 2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/disc/cutting-separating-disks-2026.pdf",
+    "pages": 11,
+    "sizeMB": 5.34,
+    "page": 8
+   }
+  ]
  },
  {
   "id": "eraylar-eray-acrylic-teeth",
@@ -2284,7 +2713,18 @@
    "acrylic teeth"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "ERAY Mould Chart",
+    "type": "Catalog",
+    "lang": "TR",
+    "file": "assets/downloads/eraylar/eray-mould-chart-tr.pdf",
+    "pages": 8,
+    "sizeMB": 0.49,
+    "page": 2
+   }
+  ]
  },
  {
   "id": "eraylar-eray-deluxe-acrylic-teeth",
@@ -2341,7 +2781,18 @@
    "denture teeth"
   ],
   "featured": true,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "ERAY DELUXE Mould Chart",
+    "type": "Catalog",
+    "lang": "TR / EN",
+    "file": "assets/downloads/eraylar/eray-deluxe-mould-chart.pdf",
+    "pages": 8,
+    "sizeMB": 0.96,
+    "page": 2
+   }
+  ]
  },
  {
   "id": "fdt-resin-pro-model-resin",
@@ -2368,7 +2819,8 @@
    "model resin"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": []
  },
  {
   "id": "fdt-resin-wax-resin",
@@ -2395,7 +2847,8 @@
    "wax resin"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": []
  },
  {
   "id": "imt-metal-powder-nicr-metal-powder",
@@ -2450,7 +2903,18 @@
    "3D printing"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "IMT NiCr Metal Powder Datasheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/imt-metal-powder/imt-nicr-metal-powder.pdf",
+    "pages": 2,
+    "sizeMB": 0.13,
+    "page": 1
+   }
+  ]
  },
  {
   "id": "jj-tools-carbide-drills",
@@ -2478,7 +2942,18 @@
    "carbide"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "JJ Tools Carbide End Mills Catalogue",
+    "type": "Catalog",
+    "lang": "EN / KO",
+    "file": "assets/downloads/jj-tools/jj-tools-carbide-end-mills.pdf",
+    "pages": 533,
+    "sizeMB": 47.31,
+    "page": 301
+   }
+  ]
  },
  {
   "id": "jj-tools-cbn-series-end-mills",
@@ -2506,7 +2981,18 @@
    "carbide"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "JJ Tools Carbide End Mills Catalogue",
+    "type": "Catalog",
+    "lang": "EN / KO",
+    "file": "assets/downloads/jj-tools/jj-tools-carbide-end-mills.pdf",
+    "pages": 533,
+    "sizeMB": 47.31,
+    "page": 8
+   }
+  ]
  },
  {
   "id": "jj-tools-e-series-heavy-cut-end-mills",
@@ -2534,7 +3020,18 @@
    "carbide"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "JJ Tools Carbide End Mills Catalogue",
+    "type": "Catalog",
+    "lang": "EN / KO",
+    "file": "assets/downloads/jj-tools/jj-tools-carbide-end-mills.pdf",
+    "pages": 533,
+    "sizeMB": 47.31,
+    "page": 7
+   }
+  ]
  },
  {
   "id": "jj-tools-end-mills-for-a-b-s",
@@ -2562,7 +3059,18 @@
    "carbide"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "JJ Tools Carbide End Mills Catalogue",
+    "type": "Catalog",
+    "lang": "EN / KO",
+    "file": "assets/downloads/jj-tools/jj-tools-carbide-end-mills.pdf",
+    "pages": 533,
+    "sizeMB": 47.31,
+    "page": 279
+   }
+  ]
  },
  {
   "id": "jj-tools-end-mills-for-aluminum",
@@ -2590,7 +3098,18 @@
    "carbide"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "JJ Tools Carbide End Mills Catalogue",
+    "type": "Catalog",
+    "lang": "EN / KO",
+    "file": "assets/downloads/jj-tools/jj-tools-carbide-end-mills.pdf",
+    "pages": 533,
+    "sizeMB": 47.31,
+    "page": 235
+   }
+  ]
  },
  {
   "id": "jj-tools-end-mills-for-copper",
@@ -2618,7 +3137,18 @@
    "carbide"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "JJ Tools Carbide End Mills Catalogue",
+    "type": "Catalog",
+    "lang": "EN / KO",
+    "file": "assets/downloads/jj-tools/jj-tools-carbide-end-mills.pdf",
+    "pages": 533,
+    "sizeMB": 47.31,
+    "page": 213
+   }
+  ]
  },
  {
   "id": "jj-tools-end-mills-for-graphite",
@@ -2646,7 +3176,18 @@
    "carbide"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "JJ Tools Carbide End Mills Catalogue",
+    "type": "Catalog",
+    "lang": "EN / KO",
+    "file": "assets/downloads/jj-tools/jj-tools-carbide-end-mills.pdf",
+    "pages": 533,
+    "sizeMB": 47.31,
+    "page": 191
+   }
+  ]
  },
  {
   "id": "jj-tools-g-series-general-purpose-end-mills",
@@ -2674,7 +3215,18 @@
    "carbide"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "JJ Tools Carbide End Mills Catalogue",
+    "type": "Catalog",
+    "lang": "EN / KO",
+    "file": "assets/downloads/jj-tools/jj-tools-carbide-end-mills.pdf",
+    "pages": 533,
+    "sizeMB": 47.31,
+    "page": 145
+   }
+  ]
  },
  {
   "id": "jj-tools-hard-series-high-speed-end-mills",
@@ -2702,7 +3254,18 @@
    "carbide"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "JJ Tools Carbide End Mills Catalogue",
+    "type": "Catalog",
+    "lang": "EN / KO",
+    "file": "assets/downloads/jj-tools/jj-tools-carbide-end-mills.pdf",
+    "pages": 533,
+    "sizeMB": 47.31,
+    "page": 6
+   }
+  ]
  },
  {
   "id": "jj-tools-jj-series-end-mills",
@@ -2730,7 +3293,18 @@
    "carbide"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "JJ Tools Carbide End Mills Catalogue",
+    "type": "Catalog",
+    "lang": "EN / KO",
+    "file": "assets/downloads/jj-tools/jj-tools-carbide-end-mills.pdf",
+    "pages": 533,
+    "sizeMB": 47.31,
+    "page": 6
+   }
+  ]
  },
  {
   "id": "jj-tools-thread-mills",
@@ -2758,7 +3332,18 @@
    "carbide"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "JJ Tools Carbide End Mills Catalogue",
+    "type": "Catalog",
+    "lang": "EN / KO",
+    "file": "assets/downloads/jj-tools/jj-tools-carbide-end-mills.pdf",
+    "pages": 533,
+    "sizeMB": 47.31,
+    "page": 345
+   }
+  ]
  },
  {
   "id": "jj-tools-v-series-ball-end-mills",
@@ -2786,7 +3371,18 @@
    "carbide"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "JJ Tools Carbide End Mills Catalogue",
+    "type": "Catalog",
+    "lang": "EN / KO",
+    "file": "assets/downloads/jj-tools/jj-tools-carbide-end-mills.pdf",
+    "pages": 533,
+    "sizeMB": 47.31,
+    "page": 169
+   }
+  ]
  },
  {
   "id": "lustra-lustra-cad-cam-block",
@@ -2811,7 +3407,8 @@
    "CAD/CAM block"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": []
  },
  {
   "id": "pht-diamond-rubber",
@@ -2838,7 +3435,8 @@
    "diamond rubber"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": []
  },
  {
   "id": "pht-diamond-stone",
@@ -2865,7 +3463,8 @@
    "diamond"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": []
  },
  {
   "id": "profeta-c120-classical-dental-printer",
@@ -2948,7 +3547,18 @@
    "metal 3D printer"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Profeta C120 Dental Metal 3D Printer",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/profeta/profeta-c120.pdf",
+    "pages": 2,
+    "sizeMB": 1.01,
+    "page": 2
+   }
+  ]
  },
  {
   "id": "profeta-c150-classical-dental-printer",
@@ -3031,7 +3641,18 @@
    "metal 3D printer"
   ],
   "featured": true,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Profeta C150 Dental Metal 3D Printer",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/profeta/profeta-c150.pdf",
+    "pages": 2,
+    "sizeMB": 3.58,
+    "page": 2
+   }
+  ]
  },
  {
   "id": "renfert-easyclean-md",
@@ -3110,7 +3731,26 @@
     "no": "18510000"
    }
   ],
-  "sourcePage": 84
+  "sourcePage": 84,
+  "downloads": [
+   {
+    "title": "Easyclean MD product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-easyclean-md.pdf",
+    "pages": 1,
+    "sizeMB": 0.29,
+    "note": "Page 84 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-power-steamer-1",
@@ -3198,7 +3838,34 @@
     "no": "18450200"
    }
   ],
-  "sourcePage": 48
+  "sourcePage": 48,
+  "downloads": [
+   {
+    "title": "POWER steamer 1 product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-power-steamer-1.pdf",
+    "pages": 1,
+    "sizeMB": 0.37,
+    "note": "Page 48 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "POWER steamer 1",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-power-steamer.pdf",
+    "pages": 1,
+    "sizeMB": 0.37
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-power-steamer-2",
@@ -3290,7 +3957,26 @@
     "no": "18450200"
    }
   ],
-  "sourcePage": 47
+  "sourcePage": 47,
+  "downloads": [
+   {
+    "title": "POWER steamer 2 product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-power-steamer-2.pdf",
+    "pages": 1,
+    "sizeMB": 0.36,
+    "note": "Page 47 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-power-steamer-water-softener",
@@ -3348,7 +4034,26 @@
     "no": "18460104"
    }
   ],
-  "sourcePage": 49
+  "sourcePage": 49,
+  "downloads": [
+   {
+    "title": "POWER steamer water softener product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-power-steamer-water-softener.pdf",
+    "pages": 1,
+    "sizeMB": 0.32,
+    "note": "Page 49 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-sympro",
@@ -3411,7 +4116,26 @@
     "no": "67001000"
    }
   ],
-  "sourcePage": 82
+  "sourcePage": 82,
+  "downloads": [
+   {
+    "title": "SYMPRO product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-sympro.pdf",
+    "pages": 1,
+    "sizeMB": 0.35,
+    "note": "Page 82 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-dustex-master-plus",
@@ -3489,7 +4213,26 @@
     "no": "26260300"
    }
   ],
-  "sourcePage": 31
+  "sourcePage": 31,
+  "downloads": [
+   {
+    "title": "Dustex master plus product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-dustex-master-plus.pdf",
+    "pages": 1,
+    "sizeMB": 0.26,
+    "note": "Page 31 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-grinding-box",
@@ -3521,7 +4264,26 @@
     "no": "26250000"
    }
   ],
-  "sourcePage": 32
+  "sourcePage": 32,
+  "downloads": [
+   {
+    "title": "Grinding box product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-grinding-box.pdf",
+    "pages": 1,
+    "sizeMB": 0.3,
+    "note": "Page 32 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-silent-compact",
@@ -3620,7 +4382,34 @@
     "no": "29341500"
    }
   ],
-  "sourcePage": 29
+  "sourcePage": 29,
+  "downloads": [
+   {
+    "title": "SILENT compact product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-silent-compact.pdf",
+    "pages": 1,
+    "sizeMB": 0.27,
+    "note": "Page 29 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "SILENT compact Extraction Unit",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-silent-compact.pdf",
+    "pages": 1,
+    "sizeMB": 0.27
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-silent-compactcam",
@@ -3755,7 +4544,34 @@
     "no": "29340013"
    }
   ],
-  "sourcePage": 21
+  "sourcePage": 21,
+  "downloads": [
+   {
+    "title": "SILENT compactCAM product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-silent-compactcam.pdf",
+    "pages": 1,
+    "sizeMB": 0.27,
+    "note": "Page 21 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "SILENT compactCAM Extraction Unit",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-silent-compactcam.pdf",
+    "pages": 1,
+    "sizeMB": 0.27
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-silent-ec2",
@@ -3858,7 +4674,26 @@
     "no": "29370002"
    }
   ],
-  "sourcePage": 24
+  "sourcePage": 24,
+  "downloads": [
+   {
+    "title": "SILENT EC2 product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-silent-ec2.pdf",
+    "pages": 1,
+    "sizeMB": 0.24,
+    "note": "Page 24 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-silent-flow-sensor",
@@ -3933,7 +4768,26 @@
     "no": "24100000"
    }
   ],
-  "sourcePage": 32
+  "sourcePage": 32,
+  "downloads": [
+   {
+    "title": "SILENT flow sensor product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-silent-flow-sensor.pdf",
+    "pages": 1,
+    "sizeMB": 0.3,
+    "note": "Page 32 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-silent-powercam-ec",
@@ -4060,7 +4914,26 @@
     "no": "29340016"
    }
   ],
-  "sourcePage": 19
+  "sourcePage": 19,
+  "downloads": [
+   {
+    "title": "SILENT powerCAM EC product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-silent-powercam-ec.pdf",
+    "pages": 1,
+    "sizeMB": 0.25,
+    "note": "Page 19 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-silent-powercam-tc",
@@ -4195,7 +5068,26 @@
     "no": "29340017"
    }
   ],
-  "sourcePage": 20
+  "sourcePage": 20,
+  "downloads": [
+   {
+    "title": "SILENT powerCAM TC product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-silent-powercam-tc.pdf",
+    "pages": 1,
+    "sizeMB": 0.29,
+    "note": "Page 20 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-silent-tc",
@@ -4306,7 +5198,26 @@
     "no": "29370002"
    }
   ],
-  "sourcePage": 26
+  "sourcePage": 26,
+  "downloads": [
+   {
+    "title": "SILENT TC product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-silent-tc.pdf",
+    "pages": 1,
+    "sizeMB": 0.23,
+    "note": "Page 26 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-silent-tc2",
@@ -4417,7 +5328,26 @@
     "no": "29370002"
    }
   ],
-  "sourcePage": 25
+  "sourcePage": 25,
+  "downloads": [
+   {
+    "title": "SILENT TC2 product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-silent-tc2.pdf",
+    "pages": 1,
+    "sizeMB": 0.24,
+    "note": "Page 25 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-silent-ts",
@@ -4519,7 +5449,26 @@
     "no": "29210004"
    }
   ],
-  "sourcePage": 28
+  "sourcePage": 28,
+  "downloads": [
+   {
+    "title": "SILENT TS product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-silent-ts.pdf",
+    "pages": 1,
+    "sizeMB": 0.24,
+    "note": "Page 28 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-silent-ts2",
@@ -4625,7 +5574,26 @@
     "no": "29210004"
    }
   ],
-  "sourcePage": 27
+  "sourcePage": 27,
+  "downloads": [
+   {
+    "title": "SILENT TS2 product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-silent-ts2.pdf",
+    "pages": 1,
+    "sizeMB": 0.24,
+    "note": "Page 27 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-silent-xs",
@@ -4694,6 +5662,24 @@
    {
     "label": "SILENT XS",
     "no": "29220000"
+   }
+  ],
+  "downloads": [
+   {
+    "title": "SILENT XS Mobile Suction Unit",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-silent-xs.pdf",
+    "pages": 2,
+    "sizeMB": 0.63
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
    }
   ]
  },
@@ -4801,7 +5787,26 @@
     "no": "29245005"
    }
   ],
-  "sourcePage": 30
+  "sourcePage": 30,
+  "downloads": [
+   {
+    "title": "Vortex compact 3L product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-vortex-compact-3l.pdf",
+    "pages": 1,
+    "sizeMB": 0.24,
+    "note": "Page 30 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-magma",
@@ -4901,7 +5906,26 @@
     "no": "23000001"
    }
   ],
-  "sourcePage": 80
+  "sourcePage": 80,
+  "downloads": [
+   {
+    "title": "Magma product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-magma.pdf",
+    "pages": 1,
+    "sizeMB": 0.26,
+    "note": "Page 80 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-simplex",
@@ -5011,7 +6035,26 @@
     "no": "12345678"
    }
   ],
-  "sourcePage": 11
+  "sourcePage": 11,
+  "downloads": [
+   {
+    "title": "SIMPLEX product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-simplex.pdf",
+    "pages": 1,
+    "sizeMB": 0.27,
+    "note": "Page 11 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-auto-spin",
@@ -5102,7 +6145,26 @@
     "no": "18601000"
    }
   ],
-  "sourcePage": 65
+  "sourcePage": 65,
+  "downloads": [
+   {
+    "title": "AUTO spin product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-auto-spin.pdf",
+    "pages": 1,
+    "sizeMB": 0.28,
+    "note": "Page 65 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-millo",
@@ -5176,7 +6238,34 @@
     "no": "18060003"
    }
   ],
-  "sourcePage": 64
+  "sourcePage": 64,
+  "downloads": [
+   {
+    "title": "Millo product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-millo.pdf",
+    "pages": 1,
+    "sizeMB": 0.35,
+    "note": "Page 64 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Millo / Millo pro Dental Arch Trimmer",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-millo.pdf",
+    "pages": 1,
+    "sizeMB": 0.35
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-millo-pro",
@@ -5258,7 +6347,34 @@
     "no": "18060003"
    }
   ],
-  "sourcePage": 64
+  "sourcePage": 64,
+  "downloads": [
+   {
+    "title": "Millo pro product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-millo-pro.pdf",
+    "pages": 1,
+    "sizeMB": 0.35,
+    "note": "Page 64 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Millo / Millo pro Dental Arch Trimmer",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-millo.pdf",
+    "pages": 1,
+    "sizeMB": 0.35
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-mt-plus",
@@ -5344,7 +6460,26 @@
     "no": "18030500"
    }
   ],
-  "sourcePage": 61
+  "sourcePage": 61,
+  "downloads": [
+   {
+    "title": "MT plus product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-mt-plus.pdf",
+    "pages": 1,
+    "sizeMB": 0.29,
+    "note": "Page 61 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-mt-premium",
@@ -5443,7 +6578,26 @@
     "no": "18071500"
    }
   ],
-  "sourcePage": 59
+  "sourcePage": 59,
+  "downloads": [
+   {
+    "title": "MT premium product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-mt-premium.pdf",
+    "pages": 1,
+    "sizeMB": 0.32,
+    "note": "Page 59 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-mt3",
@@ -5545,7 +6699,34 @@
     "no": "18082000"
    }
   ],
-  "sourcePage": 60
+  "sourcePage": 60,
+  "downloads": [
+   {
+    "title": "MT3 product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-mt3.pdf",
+    "pages": 1,
+    "sizeMB": 0.29,
+    "note": "Page 60 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "MT3 Wet Trimmer",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-mt3.pdf",
+    "pages": 1,
+    "sizeMB": 0.29
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-ortho-guide",
@@ -5605,7 +6786,26 @@
     "no": "18080100"
    }
   ],
-  "sourcePage": 62
+  "sourcePage": 62,
+  "downloads": [
+   {
+    "title": "ORTHO guide product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-ortho-guide.pdf",
+    "pages": 1,
+    "sizeMB": 0.27,
+    "note": "Page 62 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-top-spin",
@@ -5688,7 +6888,34 @@
     "no": "18401000"
    }
   ],
-  "sourcePage": 67
+  "sourcePage": 67,
+  "downloads": [
+   {
+    "title": "Top spin product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-top-spin.pdf",
+    "pages": 1,
+    "sizeMB": 0.27,
+    "note": "Page 67 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Top spin Pin Drilling Unit",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-top-spin.pdf",
+    "pages": 1,
+    "sizeMB": 0.27
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-twister",
@@ -5775,7 +7002,34 @@
     "no": "18261000"
    }
   ],
-  "sourcePage": 53
+  "sourcePage": 53,
+  "downloads": [
+   {
+    "title": "Twister product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-twister.pdf",
+    "pages": 1,
+    "sizeMB": 0.31,
+    "note": "Page 53 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Twister & Twister venturi Vacuum Mixing Units",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-twister.pdf",
+    "pages": 2,
+    "sizeMB": 0.37
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-twister-evolution",
@@ -5862,7 +7116,26 @@
     "no": "18281000"
    }
   ],
-  "sourcePage": 52
+  "sourcePage": 52,
+  "downloads": [
+   {
+    "title": "Twister evolution product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-twister-evolution.pdf",
+    "pages": 1,
+    "sizeMB": 0.31,
+    "note": "Page 52 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-twister-venturi",
@@ -5953,7 +7226,34 @@
     "no": "18271000"
    }
   ],
-  "sourcePage": 54
+  "sourcePage": 54,
+  "downloads": [
+   {
+    "title": "Twister venturi product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-twister-venturi.pdf",
+    "pages": 1,
+    "sizeMB": 0.31,
+    "note": "Page 54 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Twister & Twister venturi Vacuum Mixing Units",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-twister.pdf",
+    "pages": 2,
+    "sizeMB": 0.37
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-vibrax",
@@ -6039,7 +7339,26 @@
     "no": "18300001"
    }
   ],
-  "sourcePage": 57
+  "sourcePage": 57,
+  "downloads": [
+   {
+    "title": "Vibrax product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-vibrax.pdf",
+    "pages": 1,
+    "sizeMB": 0.32,
+    "note": "Page 57 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-basic-classic",
@@ -6162,7 +7481,26 @@
     "no": "29470250"
    }
   ],
-  "sourcePage": 40
+  "sourcePage": 40,
+  "downloads": [
+   {
+    "title": "Basic classic product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-basic-classic.pdf",
+    "pages": 1,
+    "sizeMB": 0.31,
+    "note": "Page 40 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-basic-eco",
@@ -6285,7 +7623,34 @@
     "no": "29495250"
    }
   ],
-  "sourcePage": 41
+  "sourcePage": 41,
+  "downloads": [
+   {
+    "title": "Basic eco product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-basic-eco.pdf",
+    "pages": 1,
+    "sizeMB": 0.35,
+    "note": "Page 41 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Basic eco Sandblasting Unit",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-basic-eco.pdf",
+    "pages": 1,
+    "sizeMB": 0.35
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-basic-master",
@@ -6396,7 +7761,26 @@
     "no": "29470250"
    }
   ],
-  "sourcePage": 39
+  "sourcePage": 39,
+  "downloads": [
+   {
+    "title": "Basic master product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-basic-master.pdf",
+    "pages": 1,
+    "sizeMB": 0.3,
+    "note": "Page 39 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-basic-mobil",
@@ -6467,7 +7851,26 @@
     "no": "29143250"
    }
   ],
-  "sourcePage": 44
+  "sourcePage": 44,
+  "downloads": [
+   {
+    "title": "Basic mobil product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-basic-mobil.pdf",
+    "pages": 1,
+    "sizeMB": 0.22,
+    "note": "Page 44 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-basic-quattro",
@@ -6570,7 +7973,26 @@
     "no": "29580250"
    }
   ],
-  "sourcePage": 38
+  "sourcePage": 38,
+  "downloads": [
+   {
+    "title": "Basic quattro product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-basic-quattro.pdf",
+    "pages": 1,
+    "sizeMB": 0.31,
+    "note": "Page 38 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-basic-quattro-is",
@@ -6673,7 +8095,26 @@
     "no": "29590250"
    }
   ],
-  "sourcePage": 37
+  "sourcePage": 37,
+  "downloads": [
+   {
+    "title": "Basic quattro IS product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-basic-quattro-is.pdf",
+    "pages": 1,
+    "sizeMB": 0.36,
+    "note": "Page 37 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-high-performance-compressed-air-filter",
@@ -6725,7 +8166,26 @@
     "no": "29400000"
    }
   ],
-  "sourcePage": 44
+  "sourcePage": 44,
+  "downloads": [
+   {
+    "title": "High performance compressed air filter product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-high-performance-compressed-air-filter.pdf",
+    "pages": 1,
+    "sizeMB": 0.22,
+    "note": "Page 44 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-vario-basic",
@@ -6840,7 +8300,26 @@
     "no": "29600003"
    }
   ],
-  "sourcePage": 43
+  "sourcePage": 43,
+  "downloads": [
+   {
+    "title": "Vario basic product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-vario-basic.pdf",
+    "pages": 1,
+    "sizeMB": 0.26,
+    "note": "Page 43 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-vario-jet",
@@ -6923,7 +8402,26 @@
     "no": "29611000"
    }
   ],
-  "sourcePage": 42
+  "sourcePage": 42,
+  "downloads": [
+   {
+    "title": "Vario jet product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-vario-jet.pdf",
+    "pages": 1,
+    "sizeMB": 0.23,
+    "note": "Page 42 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-easy-view",
@@ -7029,7 +8527,26 @@
     "no": "24100000"
    }
   ],
-  "sourcePage": 15
+  "sourcePage": 15,
+  "downloads": [
+   {
+    "title": "EASY view+ product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-easy-view.pdf",
+    "pages": 1,
+    "sizeMB": 0.24,
+    "note": "Page 15 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-light-1",
@@ -7099,6 +8616,24 @@
     "label": "LIGHT 1, wall mounting",
     "no": "25000700"
    }
+  ],
+  "downloads": [
+   {
+    "title": "LIGHT 1 Dental Worklight",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-light-1.pdf",
+    "pages": 2,
+    "sizeMB": 0.56
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
   ]
  },
  {
@@ -7145,7 +8680,26 @@
     "no": "22000400"
    }
   ],
-  "sourcePage": 16
+  "sourcePage": 16,
+  "downloads": [
+   {
+    "title": "Mobiloskop S product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-mobiloskop-s.pdf",
+    "pages": 1,
+    "sizeMB": 0.27,
+    "note": "Page 16 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-bijou-90",
@@ -7223,7 +8777,26 @@
     "no": "9610000"
    }
   ],
-  "sourcePage": 77
+  "sourcePage": 77,
+  "downloads": [
+   {
+    "title": "Bijou 90 product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-bijou-90.pdf",
+    "pages": 1,
+    "sizeMB": 0.26,
+    "note": "Page 77 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-hotty",
@@ -7290,7 +8863,26 @@
     "no": "14601000"
    }
   ],
-  "sourcePage": 73
+  "sourcePage": 73,
+  "downloads": [
+   {
+    "title": "hotty product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-hotty.pdf",
+    "pages": 1,
+    "sizeMB": 0.24,
+    "note": "Page 73 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-hotty-led",
@@ -7357,7 +8949,26 @@
     "no": "14611000"
    }
   ],
-  "sourcePage": 73
+  "sourcePage": 73,
+  "downloads": [
+   {
+    "title": "hotty LED product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-hotty-led.pdf",
+    "pages": 1,
+    "sizeMB": 0.24,
+    "note": "Page 73 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-pillo",
@@ -7423,7 +9034,26 @@
     "no": "50220200"
    }
   ],
-  "sourcePage": 81
+  "sourcePage": 81,
+  "downloads": [
+   {
+    "title": "Pillo product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-pillo.pdf",
+    "pages": 1,
+    "sizeMB": 0.22,
+    "note": "Page 81 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-power-pillo",
@@ -7489,7 +9119,26 @@
     "no": "50220200"
    }
   ],
-  "sourcePage": 81
+  "sourcePage": 81,
+  "downloads": [
+   {
+    "title": "Power pillo product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-power-pillo.pdf",
+    "pages": 1,
+    "sizeMB": 0.22,
+    "note": "Page 81 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-safety-burner-eco",
@@ -7563,7 +9212,26 @@
     "no": "9350100"
    }
   ],
-  "sourcePage": 77
+  "sourcePage": 77,
+  "downloads": [
+   {
+    "title": "Safety burner eco product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-safety-burner-eco.pdf",
+    "pages": 1,
+    "sizeMB": 0.26,
+    "note": "Page 77 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-vario-e",
@@ -7630,7 +9298,34 @@
     "no": "14521000"
    }
   ],
-  "sourcePage": 72
+  "sourcePage": 72,
+  "downloads": [
+   {
+    "title": "Vario E product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-vario-e.pdf",
+    "pages": 1,
+    "sizeMB": 0.23,
+    "note": "Page 72 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Vario E Wax Warmer",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-vario-e.pdf",
+    "pages": 1,
+    "sizeMB": 0.23
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-waxlectric-i",
@@ -7717,7 +9412,34 @@
     "no": "21561000"
    }
   ],
-  "sourcePage": 75
+  "sourcePage": 75,
+  "downloads": [
+   {
+    "title": "Waxlectric I product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-waxlectric-i.pdf",
+    "pages": 1,
+    "sizeMB": 0.28,
+    "note": "Page 75 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Waxlectric I & II Electric Wax Knives",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-waxlectric.pdf",
+    "pages": 1,
+    "sizeMB": 0.28
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-waxlectric-ii",
@@ -7804,7 +9526,34 @@
     "no": "21571000"
    }
   ],
-  "sourcePage": 75
+  "sourcePage": 75,
+  "downloads": [
+   {
+    "title": "Waxlectric II product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-waxlectric-ii.pdf",
+    "pages": 1,
+    "sizeMB": 0.28,
+    "note": "Page 75 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Waxlectric I & II Electric Wax Knives",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-waxlectric.pdf",
+    "pages": 1,
+    "sizeMB": 0.28
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-waxlectric-light-i",
@@ -7891,7 +9640,26 @@
     "no": "21501000"
    }
   ],
-  "sourcePage": 76
+  "sourcePage": 76,
+  "downloads": [
+   {
+    "title": "Waxlectric light I product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-waxlectric-light-i.pdf",
+    "pages": 1,
+    "sizeMB": 0.24,
+    "note": "Page 76 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-waxlectric-light-ii",
@@ -7978,7 +9746,26 @@
     "no": "21511000"
    }
   ],
-  "sourcePage": 76
+  "sourcePage": 76,
+  "downloads": [
+   {
+    "title": "Waxlectric light II product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-waxlectric-light-ii.pdf",
+    "pages": 1,
+    "sizeMB": 0.24,
+    "note": "Page 76 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-waxprofi",
@@ -8057,7 +9844,26 @@
     "no": "14401000"
    }
   ],
-  "sourcePage": 74
+  "sourcePage": 74,
+  "downloads": [
+   {
+    "title": "Waxprofi product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-waxprofi.pdf",
+    "pages": 1,
+    "sizeMB": 0.24,
+    "note": "Page 74 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-agate-spatula",
@@ -8091,7 +9897,26 @@
     "no": "11570000"
    }
   ],
-  "sourcePage": 102
+  "sourcePage": 102,
+  "downloads": [
+   {
+    "title": "Agate spatula product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-agate-spatula.pdf",
+    "pages": 1,
+    "sizeMB": 0.21,
+    "note": "Page 102 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-auto-spin-cone-pin",
@@ -8131,7 +9956,26 @@
     "no": "3692000"
    }
   ],
-  "sourcePage": 124
+  "sourcePage": 124,
+  "downloads": [
+   {
+    "title": "AUTO spin cone pin product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-auto-spin-cone-pin.pdf",
+    "pages": 1,
+    "sizeMB": 0.33,
+    "note": "Page 124 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-auto-spin-system-components",
@@ -8192,7 +10036,26 @@
     "no": "3692000"
    }
   ],
-  "sourcePage": 66
+  "sourcePage": 66,
+  "downloads": [
+   {
+    "title": "AUTO spin system components product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-auto-spin-system-components.pdf",
+    "pages": 1,
+    "sizeMB": 0.24,
+    "note": "Page 66 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-bi-fix-pin",
@@ -8253,7 +10116,26 @@
     "no": "3453000"
    }
   ],
-  "sourcePage": 126
+  "sourcePage": 126,
+  "downloads": [
+   {
+    "title": "Bi-Fix-Pin product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-bi-fix-pin.pdf",
+    "pages": 1,
+    "sizeMB": 0.28,
+    "note": "Page 126 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-bi-pin",
@@ -8350,7 +10232,26 @@
     "no": "3523000"
    }
   ],
-  "sourcePage": 125
+  "sourcePage": 125,
+  "downloads": [
+   {
+    "title": "Bi-Pin product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-bi-pin.pdf",
+    "pages": 1,
+    "sizeMB": 0.31,
+    "note": "Page 125 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-bi-v-pin",
@@ -8418,7 +10319,26 @@
     "no": "3292000"
    }
   ],
-  "sourcePage": 124
+  "sourcePage": 124,
+  "downloads": [
+   {
+    "title": "Bi-V-Pin product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-bi-v-pin.pdf",
+    "pages": 1,
+    "sizeMB": 0.33,
+    "note": "Page 124 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-caliper",
@@ -8452,7 +10372,26 @@
     "no": "11190000"
    }
   ],
-  "sourcePage": 105
+  "sourcePage": 105,
+  "downloads": [
+   {
+    "title": "Caliper product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-caliper.pdf",
+    "pages": 1,
+    "sizeMB": 0.35,
+    "note": "Page 105 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-calipretto-s",
@@ -8502,7 +10441,26 @@
     "no": "11221004"
    }
   ],
-  "sourcePage": 105
+  "sourcePage": 105,
+  "downloads": [
+   {
+    "title": "Calipretto S product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-calipretto-s.pdf",
+    "pages": 1,
+    "sizeMB": 0.35,
+    "note": "Page 105 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-ceramicus",
@@ -8576,7 +10534,26 @@
     "no": "17160200"
    }
   ],
-  "sourcePage": 98
+  "sourcePage": 98,
+  "downloads": [
+   {
+    "title": "Ceramicus product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-ceramicus.pdf",
+    "pages": 1,
+    "sizeMB": 0.44,
+    "note": "Page 98 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-die-master",
@@ -8644,7 +10621,26 @@
     "no": "19561000"
    }
   ],
-  "sourcePage": 130
+  "sourcePage": 130,
+  "downloads": [
+   {
+    "title": "die:master product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-die-master.pdf",
+    "pages": 1,
+    "sizeMB": 0.22,
+    "note": "Page 130 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-electrolyte",
@@ -8683,7 +10679,26 @@
     "no": "15242000"
    }
   ],
-  "sourcePage": 133
+  "sourcePage": 133,
+  "downloads": [
+   {
+    "title": "Electrolyte product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-electrolyte.pdf",
+    "pages": 1,
+    "sizeMB": 0.18,
+    "note": "Page 133 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-ergo-acryl",
@@ -8737,7 +10752,26 @@
     "no": "10521310"
    }
   ],
-  "sourcePage": 101
+  "sourcePage": 101,
+  "downloads": [
+   {
+    "title": "ERGO Acryl product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-ergo-acryl.pdf",
+    "pages": 1,
+    "sizeMB": 0.36,
+    "note": "Page 101 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-ergo-ceramic",
@@ -8790,7 +10824,26 @@
     "no": "11611220"
    }
   ],
-  "sourcePage": 101
+  "sourcePage": 101,
+  "downloads": [
+   {
+    "title": "ERGO Ceramic product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-ergo-ceramic.pdf",
+    "pages": 1,
+    "sizeMB": 0.36,
+    "note": "Page 101 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-ergo-wax",
@@ -8840,7 +10893,26 @@
     "no": "10342005"
    }
   ],
-  "sourcePage": 101
+  "sourcePage": 101,
+  "downloads": [
+   {
+    "title": "ERGO Wax product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-ergo-wax.pdf",
+    "pages": 1,
+    "sizeMB": 0.36,
+    "note": "Page 101 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-firing-tray",
@@ -8879,7 +10951,26 @@
     "no": "20650000"
    }
   ],
-  "sourcePage": 133
+  "sourcePage": 133,
+  "downloads": [
+   {
+    "title": "Firing tray product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-firing-tray.pdf",
+    "pages": 1,
+    "sizeMB": 0.18,
+    "note": "Page 133 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-genius",
@@ -8947,7 +11038,26 @@
     "no": "17151008"
    }
   ],
-  "sourcePage": 97
+  "sourcePage": 97,
+  "downloads": [
+   {
+    "title": "Genius product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-genius.pdf",
+    "pages": 1,
+    "sizeMB": 0.37,
+    "note": "Page 97 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-go-2011-speed",
@@ -8980,7 +11090,26 @@
     "no": "20120000"
    }
   ],
-  "sourcePage": 151
+  "sourcePage": 151,
+  "downloads": [
+   {
+    "title": "GO 2011 speed product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-go-2011-speed.pdf",
+    "pages": 1,
+    "sizeMB": 0.28,
+    "note": "Page 151 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-help-ex",
@@ -9024,7 +11153,26 @@
     "no": "67000200"
    }
   ],
-  "sourcePage": 83
+  "sourcePage": 83,
+  "downloads": [
+   {
+    "title": "help:ex product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-help-ex.pdf",
+    "pages": 1,
+    "sizeMB": 0.26,
+    "note": "Page 83 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-instrument-set-deluxe",
@@ -9052,7 +11200,26 @@
     "no": "11540000"
    }
   ],
-  "sourcePage": 103
+  "sourcePage": 103,
+  "downloads": [
+   {
+    "title": "Instrument set Deluxe product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-instrument-set-deluxe.pdf",
+    "pages": 1,
+    "sizeMB": 0.3,
+    "note": "Page 103 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-instrument-set-standard",
@@ -9074,7 +11241,26 @@
   "chips": [],
   "featured": false,
   "new": false,
-  "sourcePage": 103
+  "sourcePage": 103,
+  "downloads": [
+   {
+    "title": "Instrument set Standard product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-instrument-set-standard.pdf",
+    "pages": 1,
+    "sizeMB": 0.3,
+    "note": "Page 103 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-iso-stift",
@@ -9110,7 +11296,26 @@
     "no": "17093000"
    }
   ],
-  "sourcePage": 131
+  "sourcePage": 131,
+  "downloads": [
+   {
+    "title": "Iso-Stift product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-iso-stift.pdf",
+    "pages": 1,
+    "sizeMB": 0.16,
+    "note": "Page 131 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-isofix-2000",
@@ -9149,7 +11354,26 @@
     "no": "17201000"
    }
   ],
-  "sourcePage": 131
+  "sourcePage": 131,
+  "downloads": [
+   {
+    "title": "Isofix 2000 product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-isofix-2000.pdf",
+    "pages": 1,
+    "sizeMB": 0.16,
+    "note": "Page 131 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-jacketgrip",
@@ -9187,7 +11411,26 @@
     "no": "11090100"
    }
   ],
-  "sourcePage": 104
+  "sourcePage": 104,
+  "downloads": [
+   {
+    "title": "Jacketgrip product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-jacketgrip.pdf",
+    "pages": 1,
+    "sizeMB": 0.31,
+    "note": "Page 104 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-keramogrip",
@@ -9225,7 +11468,26 @@
     "no": "11090100"
    }
   ],
-  "sourcePage": 104
+  "sourcePage": 104,
+  "downloads": [
+   {
+    "title": "Keramogrip product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-keramogrip.pdf",
+    "pages": 1,
+    "sizeMB": 0.31,
+    "note": "Page 104 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-kolinsky",
@@ -9285,7 +11547,26 @@
     "no": "17131110"
    }
   ],
-  "sourcePage": 97
+  "sourcePage": 97,
+  "downloads": [
+   {
+    "title": "Kolinsky product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-kolinsky.pdf",
+    "pages": 1,
+    "sizeMB": 0.37,
+    "note": "Page 97 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-lay-art-color",
@@ -9320,7 +11601,26 @@
     "no": "10470000"
    }
   ],
-  "sourcePage": 92
+  "sourcePage": 92,
+  "downloads": [
+   {
+    "title": "lay:art color product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-lay-art-color.pdf",
+    "pages": 1,
+    "sizeMB": 0.09,
+    "note": "Page 92 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-lay-art-crystal",
@@ -9356,7 +11656,26 @@
     "no": "10430000"
    }
   ],
-  "sourcePage": 91
+  "sourcePage": 91,
+  "downloads": [
+   {
+    "title": "lay:art crystal product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-lay-art-crystal.pdf",
+    "pages": 1,
+    "sizeMB": 0.09,
+    "note": "Page 91 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-lay-art-crystal-aqua",
@@ -9400,7 +11719,26 @@
     "no": "10431010"
    }
   ],
-  "sourcePage": 90
+  "sourcePage": 90,
+  "downloads": [
+   {
+    "title": "lay:art crystal aqua product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-lay-art-crystal-aqua.pdf",
+    "pages": 1,
+    "sizeMB": 0.11,
+    "note": "Page 90 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-lay-art-evo",
@@ -9480,7 +11818,26 @@
     "no": "17240300"
    }
   ],
-  "sourcePage": 95
+  "sourcePage": 95,
+  "downloads": [
+   {
+    "title": "lay:art evo product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-lay-art-evo.pdf",
+    "pages": 1,
+    "sizeMB": 0.34,
+    "note": "Page 95 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-lay-art-natural",
@@ -9515,7 +11872,26 @@
     "no": "10460000"
    }
   ],
-  "sourcePage": 91
+  "sourcePage": 91,
+  "downloads": [
+   {
+    "title": "lay:art natural product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-lay-art-natural.pdf",
+    "pages": 1,
+    "sizeMB": 0.09,
+    "note": "Page 91 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-lay-art-oasis",
@@ -9551,7 +11927,26 @@
     "no": "10455000"
    }
   ],
-  "sourcePage": 91
+  "sourcePage": 91,
+  "downloads": [
+   {
+    "title": "lay:art oasis product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-lay-art-oasis.pdf",
+    "pages": 1,
+    "sizeMB": 0.09,
+    "note": "Page 91 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-lay-art-style",
@@ -9627,7 +12022,26 @@
     "no": "17250040"
    }
   ],
-  "sourcePage": 96
+  "sourcePage": 96,
+  "downloads": [
+   {
+    "title": "lay:art style product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-lay-art-style.pdf",
+    "pages": 1,
+    "sizeMB": 0.31,
+    "note": "Page 96 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-lay-art-tropic",
@@ -9666,7 +12080,26 @@
     "no": "10441000"
    }
   ],
-  "sourcePage": 90
+  "sourcePage": 90,
+  "downloads": [
+   {
+    "title": "lay:art tropic product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-lay-art-tropic.pdf",
+    "pages": 1,
+    "sizeMB": 0.11,
+    "note": "Page 90 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-lay-art-tropic-pro",
@@ -9706,7 +12139,26 @@
     "no": "10451000"
    }
   ],
-  "sourcePage": 90
+  "sourcePage": 90,
+  "downloads": [
+   {
+    "title": "lay:art tropic pro product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-lay-art-tropic-pro.pdf",
+    "pages": 1,
+    "sizeMB": 0.11,
+    "note": "Page 90 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-liquicol",
@@ -9742,7 +12194,26 @@
     "no": "17320020"
    }
   ],
-  "sourcePage": 128
+  "sourcePage": 128,
+  "downloads": [
+   {
+    "title": "Liquicol product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-liquicol.pdf",
+    "pages": 1,
+    "sizeMB": 0.19,
+    "note": "Page 128 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-mesh-strengtheners-grids",
@@ -9800,7 +12271,26 @@
     "no": "2350104"
    }
   ],
-  "sourcePage": 146
+  "sourcePage": 146,
+  "downloads": [
+   {
+    "title": "Mesh strengtheners / grids product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-mesh-strengtheners-grids.pdf",
+    "pages": 1,
+    "sizeMB": 0.28,
+    "note": "Page 146 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-metrical-scoops",
@@ -9834,7 +12324,26 @@
     "no": "10530000"
    }
   ],
-  "sourcePage": 102
+  "sourcePage": 102,
+  "downloads": [
+   {
+    "title": "Metrical scoops product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-metrical-scoops.pdf",
+    "pages": 1,
+    "sizeMB": 0.21,
+    "note": "Page 102 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-multipurpose-instrument",
@@ -9888,7 +12397,26 @@
     "no": "10500600"
    }
   ],
-  "sourcePage": 102
+  "sourcePage": 102,
+  "downloads": [
+   {
+    "title": "Multipurpose instrument product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-multipurpose-instrument.pdf",
+    "pages": 1,
+    "sizeMB": 0.21,
+    "note": "Page 102 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-occlutec",
@@ -9928,7 +12456,26 @@
     "no": "19353000"
    }
   ],
-  "sourcePage": 132
+  "sourcePage": 132,
+  "downloads": [
+   {
+    "title": "Occlutec product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-occlutec.pdf",
+    "pages": 1,
+    "sizeMB": 0.27,
+    "note": "Page 132 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-picosep",
@@ -9963,7 +12510,26 @@
     "no": "15520030"
    }
   ],
-  "sourcePage": 131
+  "sourcePage": 131,
+  "downloads": [
+   {
+    "title": "picosep product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-picosep.pdf",
+    "pages": 1,
+    "sizeMB": 0.16,
+    "note": "Page 131 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-picosilk",
@@ -10003,7 +12569,26 @@
     "no": "15500100"
    }
   ],
-  "sourcePage": 133
+  "sourcePage": 133,
+  "downloads": [
+   {
+    "title": "Picosilk product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-picosilk.pdf",
+    "pages": 1,
+    "sizeMB": 0.18,
+    "note": "Page 133 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-pin-cast",
@@ -10063,7 +12648,26 @@
     "no": "4140000"
    }
   ],
-  "sourcePage": 122
+  "sourcePage": 122,
+  "downloads": [
+   {
+    "title": "Pin-Cast product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-pin-cast.pdf",
+    "pages": 1,
+    "sizeMB": 0.23,
+    "note": "Page 122 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-power-steamer-descaler",
@@ -10096,7 +12700,26 @@
     "no": "18450100"
    }
   ],
-  "sourcePage": 49
+  "sourcePage": 49,
+  "downloads": [
+   {
+    "title": "POWER steamer descaler product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-power-steamer-descaler.pdf",
+    "pages": 1,
+    "sizeMB": 0.32,
+    "note": "Page 49 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-pro-fix",
@@ -10161,7 +12784,26 @@
     "no": "3672000"
    }
   ],
-  "sourcePage": 125
+  "sourcePage": 125,
+  "downloads": [
+   {
+    "title": "Pro-Fix product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-pro-fix.pdf",
+    "pages": 1,
+    "sizeMB": 0.31,
+    "note": "Page 125 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-rainbow",
@@ -10197,7 +12839,26 @@
     "no": "10580000"
    }
   ],
-  "sourcePage": 92
+  "sourcePage": 92,
+  "downloads": [
+   {
+    "title": "Rainbow product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-rainbow.pdf",
+    "pages": 1,
+    "sizeMB": 0.09,
+    "note": "Page 92 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-remberti",
@@ -10233,7 +12894,26 @@
     "no": "12620001"
    }
   ],
-  "sourcePage": 118
+  "sourcePage": 118,
+  "downloads": [
+   {
+    "title": "Remberti product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-remberti.pdf",
+    "pages": 1,
+    "sizeMB": 0.12,
+    "note": "Page 118 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-renfert-scanspray-classic",
@@ -10268,7 +12948,26 @@
     "no": "17311000"
    }
   ],
-  "sourcePage": 120
+  "sourcePage": 120,
+  "downloads": [
+   {
+    "title": "Renfert-Scanspray classic product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-renfert-scanspray-classic.pdf",
+    "pages": 1,
+    "sizeMB": 0.28,
+    "note": "Page 120 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-renfert-scanspray-extra-fine",
@@ -10305,7 +13004,26 @@
     "no": "17312000"
    }
   ],
-  "sourcePage": 120
+  "sourcePage": 120,
+  "downloads": [
+   {
+    "title": "Renfert-Scanspray extra fine product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-renfert-scanspray-extra-fine.pdf",
+    "pages": 1,
+    "sizeMB": 0.28,
+    "note": "Page 120 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-simplex-model-isolation",
@@ -10340,7 +13058,26 @@
     "no": "17350010"
    }
   ],
-  "sourcePage": 14
+  "sourcePage": 14,
+  "downloads": [
+   {
+    "title": "SIMPLEX model isolation product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-simplex-model-isolation.pdf",
+    "pages": 1,
+    "sizeMB": 0.26,
+    "note": "Page 14 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-smart-pin",
@@ -10401,7 +13138,26 @@
     "no": "3662100"
    }
   ],
-  "sourcePage": 126
+  "sourcePage": 126,
+  "downloads": [
+   {
+    "title": "Smart-Pin product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-smart-pin.pdf",
+    "pages": 1,
+    "sizeMB": 0.28,
+    "note": "Page 126 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-stabiloplast",
@@ -10445,7 +13201,26 @@
     "no": "4480004"
    }
   ],
-  "sourcePage": 129
+  "sourcePage": 129,
+  "downloads": [
+   {
+    "title": "Stabiloplast product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-stabiloplast.pdf",
+    "pages": 1,
+    "sizeMB": 0.13,
+    "note": "Page 129 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-stain-mix",
@@ -10481,7 +13256,26 @@
     "no": "10650100"
    }
   ],
-  "sourcePage": 92
+  "sourcePage": 92,
+  "downloads": [
+   {
+    "title": "Stain-Mix product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-stain-mix.pdf",
+    "pages": 1,
+    "sizeMB": 0.09,
+    "note": "Page 92 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-surface-hardener",
@@ -10513,7 +13307,26 @@
     "no": "17192000"
    }
   ],
-  "sourcePage": 129
+  "sourcePage": 129,
+  "downloads": [
+   {
+    "title": "Surface hardener product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-surface-hardener.pdf",
+    "pages": 1,
+    "sizeMB": 0.13,
+    "note": "Page 129 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-takanishi",
@@ -10591,7 +13404,26 @@
     "no": "17140200"
    }
   ],
-  "sourcePage": 98
+  "sourcePage": 98,
+  "downloads": [
+   {
+    "title": "Takanishi product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-takanishi.pdf",
+    "pages": 1,
+    "sizeMB": 0.44,
+    "note": "Page 98 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-temp-ex",
@@ -10625,7 +13457,26 @@
     "no": "66000000"
    }
   ],
-  "sourcePage": 151
+  "sourcePage": 151,
+  "downloads": [
+   {
+    "title": "temp:ex product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-temp-ex.pdf",
+    "pages": 1,
+    "sizeMB": 0.28,
+    "note": "Page 151 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-the-multi-purpose-one",
@@ -10665,7 +13516,26 @@
     "no": "17330100"
    }
   ],
-  "sourcePage": 128
+  "sourcePage": 128,
+  "downloads": [
+   {
+    "title": "The multi-purpose one product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-the-multi-purpose-one.pdf",
+    "pages": 1,
+    "sizeMB": 0.19,
+    "note": "Page 128 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-the-powerful-one",
@@ -10705,7 +13575,26 @@
     "no": "17332050"
    }
   ],
-  "sourcePage": 128
+  "sourcePage": 128,
+  "downloads": [
+   {
+    "title": "The powerful one product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-the-powerful-one.pdf",
+    "pages": 1,
+    "sizeMB": 0.19,
+    "note": "Page 128 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-easy-blank-wax",
@@ -10745,7 +13634,26 @@
     "no": "7700020"
    }
   ],
-  "sourcePage": 121
+  "sourcePage": 121,
+  "downloads": [
+   {
+    "title": "EASY blank wax product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-easy-blank-wax.pdf",
+    "pages": 1,
+    "sizeMB": 0.24,
+    "note": "Page 121 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-geo-block-out-wax",
@@ -10777,7 +13685,26 @@
     "no": "6500000"
    }
   ],
-  "sourcePage": 144
+  "sourcePage": 144,
+  "downloads": [
+   {
+    "title": "GEO Block-out wax product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-geo-block-out-wax.pdf",
+    "pages": 1,
+    "sizeMB": 0.09,
+    "note": "Page 144 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-geo-cast-model-modeling-wax",
@@ -10811,7 +13738,26 @@
     "no": "6491000"
    }
   ],
-  "sourcePage": 144
+  "sourcePage": 144,
+  "downloads": [
+   {
+    "title": "GEO Cast Model Modeling wax product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-geo-cast-model-modeling-wax.pdf",
+    "pages": 1,
+    "sizeMB": 0.09,
+    "note": "Page 144 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-geo-casting-wax",
@@ -10878,7 +13824,26 @@
     "no": "6443050"
    }
   ],
-  "sourcePage": 143
+  "sourcePage": 143,
+  "downloads": [
+   {
+    "title": "GEO Casting wax product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-geo-casting-wax.pdf",
+    "pages": 1,
+    "sizeMB": 0.23,
+    "note": "Page 143 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-geo-casting-wax-2",
@@ -10914,7 +13879,26 @@
     "no": "4453006"
    }
   ],
-  "sourcePage": 144
+  "sourcePage": 144,
+  "downloads": [
+   {
+    "title": "GEO Casting Wax product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-geo-casting-wax-2.pdf",
+    "pages": 1,
+    "sizeMB": 0.09,
+    "note": "Page 144 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-geo-classic",
@@ -10990,7 +13974,26 @@
     "no": "4950300"
    }
   ],
-  "sourcePage": 139
+  "sourcePage": 139,
+  "downloads": [
+   {
+    "title": "GEO Classic product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-geo-classic.pdf",
+    "pages": 1,
+    "sizeMB": 0.25,
+    "note": "Page 139 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-geo-crowax",
@@ -11047,7 +14050,26 @@
     "no": "4750600"
    }
   ],
-  "sourcePage": 140
+  "sourcePage": 140,
+  "downloads": [
+   {
+    "title": "GEO Crowax product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-geo-crowax.pdf",
+    "pages": 1,
+    "sizeMB": 0.27,
+    "note": "Page 140 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-geo-dip",
@@ -11093,7 +14115,26 @@
     "no": "4823300"
    }
   ],
-  "sourcePage": 141
+  "sourcePage": 141,
+  "downloads": [
+   {
+    "title": "GEO Dip product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-geo-dip.pdf",
+    "pages": 1,
+    "sizeMB": 0.22,
+    "note": "Page 141 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-geo-expert-a-bruguera",
@@ -11165,7 +14206,26 @@
     "no": "6340500"
    }
   ],
-  "sourcePage": 137
+  "sourcePage": 137,
+  "downloads": [
+   {
+    "title": "GEO Expert A. Bruguera product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-geo-expert-a-bruguera.pdf",
+    "pages": 1,
+    "sizeMB": 0.26,
+    "note": "Page 137 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-geo-expert-functional",
@@ -11219,7 +14279,26 @@
     "no": "6340960"
    }
   ],
-  "sourcePage": 138
+  "sourcePage": 138,
+  "downloads": [
+   {
+    "title": "GEO Expert Functional product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-geo-expert-functional.pdf",
+    "pages": 1,
+    "sizeMB": 0.2,
+    "note": "Page 138 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-geo-expert-gingiva-a-bruguera",
@@ -11259,7 +14338,26 @@
     "no": "6340700"
    }
   ],
-  "sourcePage": 137
+  "sourcePage": 137,
+  "downloads": [
+   {
+    "title": "GEO Expert Gingiva A. Bruguera product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-geo-expert-gingiva-a-bruguera.pdf",
+    "pages": 1,
+    "sizeMB": 0.26,
+    "note": "Page 137 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-geo-lingual-bars",
@@ -11291,7 +14389,26 @@
     "no": "6673042"
    }
   ],
-  "sourcePage": 145
+  "sourcePage": 145,
+  "downloads": [
+   {
+    "title": "GEO Lingual bars product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-geo-lingual-bars.pdf",
+    "pages": 1,
+    "sizeMB": 0.07,
+    "note": "Page 145 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-geo-model-casting-assortment",
@@ -11322,7 +14439,26 @@
     "no": "6330000"
    }
   ],
-  "sourcePage": 142
+  "sourcePage": 142,
+  "downloads": [
+   {
+    "title": "GEO model casting assortment product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-geo-model-casting-assortment.pdf",
+    "pages": 1,
+    "sizeMB": 0.33,
+    "note": "Page 142 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-geo-pontics",
@@ -11356,7 +14492,26 @@
     "no": "5000000"
    }
   ],
-  "sourcePage": 140
+  "sourcePage": 140,
+  "downloads": [
+   {
+    "title": "GEO Pontics product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-geo-pontics.pdf",
+    "pages": 1,
+    "sizeMB": 0.27,
+    "note": "Page 140 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-geo-preformed-clasps",
@@ -11424,7 +14579,26 @@
     "no": "6883010"
    }
   ],
-  "sourcePage": 142
+  "sourcePage": 142,
+  "downloads": [
+   {
+    "title": "GEO Preformed clasps product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-geo-preformed-clasps.pdf",
+    "pages": 1,
+    "sizeMB": 0.33,
+    "note": "Page 142 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-geo-rewax",
@@ -11462,7 +14636,26 @@
     "no": "6510000"
    }
   ],
-  "sourcePage": 141
+  "sourcePage": 141,
+  "downloads": [
+   {
+    "title": "GEO Rewax product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-geo-rewax.pdf",
+    "pages": 1,
+    "sizeMB": 0.22,
+    "note": "Page 141 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-geo-sticking-wax",
@@ -11493,7 +14686,26 @@
     "no": "4881000"
    }
   ],
-  "sourcePage": 145
+  "sourcePage": 145,
+  "downloads": [
+   {
+    "title": "GEO sticking wax product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-geo-sticking-wax.pdf",
+    "pages": 1,
+    "sizeMB": 0.07,
+    "note": "Page 145 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-geo-wax-retainers",
@@ -11582,7 +14794,26 @@
     "no": "6623000"
    }
   ],
-  "sourcePage": 143
+  "sourcePage": 143,
+  "downloads": [
+   {
+    "title": "GEO Wax retainers product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-geo-wax-retainers.pdf",
+    "pages": 1,
+    "sizeMB": 0.23,
+    "note": "Page 143 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-geo-wax-wire",
@@ -11658,7 +14889,26 @@
     "no": "6783050"
    }
   ],
-  "sourcePage": 146
+  "sourcePage": 146,
+  "downloads": [
+   {
+    "title": "GEO Wax wire product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-geo-wax-wire.pdf",
+    "pages": 1,
+    "sizeMB": 0.28,
+    "note": "Page 146 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-simplex-filaments",
@@ -11686,7 +14936,26 @@
   "chips": [],
   "featured": false,
   "new": true,
-  "sourcePage": 12
+  "sourcePage": 12,
+  "downloads": [
+   {
+    "title": "SIMPLEX Filaments product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-simplex-filaments.pdf",
+    "pages": 1,
+    "sizeMB": 0.24,
+    "note": "Page 12 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-bi-flex",
@@ -11721,7 +14990,26 @@
     "no": "271000"
    }
   ],
-  "sourcePage": 110
+  "sourcePage": 110,
+  "downloads": [
+   {
+    "title": "Bi-Flex product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-bi-flex.pdf",
+    "pages": 1,
+    "sizeMB": 0.11,
+    "note": "Page 110 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-bison",
@@ -11769,7 +15057,26 @@
     "no": "7661100"
    }
   ],
-  "sourcePage": 115
+  "sourcePage": 115,
+  "downloads": [
+   {
+    "title": "Bison product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-bison.pdf",
+    "pages": 1,
+    "sizeMB": 0.1,
+    "note": "Page 115 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-brinell-l",
@@ -11807,7 +15114,26 @@
     "no": "2051000"
    }
   ],
-  "sourcePage": 149
+  "sourcePage": 149,
+  "downloads": [
+   {
+    "title": "Brinell L product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-brinell-l.pdf",
+    "pages": 1,
+    "sizeMB": 0.09,
+    "note": "Page 149 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-chungking-brushes",
@@ -11842,7 +15168,26 @@
     "no": "7672000"
    }
   ],
-  "sourcePage": 117
+  "sourcePage": 117,
+  "downloads": [
+   {
+    "title": "Chungking brushes product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-chungking-brushes.pdf",
+    "pages": 1,
+    "sizeMB": 0.11,
+    "note": "Page 117 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-cotton-buff",
@@ -11877,7 +15222,26 @@
     "no": "2051000"
    }
   ],
-  "sourcePage": 116
+  "sourcePage": 116,
+  "downloads": [
+   {
+    "title": "Cotton buff product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-cotton-buff.pdf",
+    "pages": 1,
+    "sizeMB": 0.12,
+    "note": "Page 116 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-dynex",
@@ -11957,7 +15321,26 @@
     "no": "571040"
    }
   ],
-  "sourcePage": 109
+  "sourcePage": 109,
+  "downloads": [
+   {
+    "title": "Dynex product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-dynex.pdf",
+    "pages": 1,
+    "sizeMB": 0.25,
+    "note": "Page 109 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-dynex-brillant-grinding-discs",
@@ -11993,7 +15376,26 @@
     "no": "560820"
    }
   ],
-  "sourcePage": 108
+  "sourcePage": 108,
+  "downloads": [
+   {
+    "title": "Dynex Brillant Grinding discs product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-dynex-brillant-grinding-discs.pdf",
+    "pages": 1,
+    "sizeMB": 0.29,
+    "note": "Page 108 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-dynex-brillant-separating-discs",
@@ -12037,7 +15439,26 @@
     "no": "560320"
    }
   ],
-  "sourcePage": 108
+  "sourcePage": 108,
+  "downloads": [
+   {
+    "title": "Dynex Brillant Separating discs product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-dynex-brillant-separating-discs.pdf",
+    "pages": 1,
+    "sizeMB": 0.29,
+    "note": "Page 108 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-dynex-titanium",
@@ -12077,7 +15498,26 @@
     "no": "580326"
    }
   ],
-  "sourcePage": 109
+  "sourcePage": 109,
+  "downloads": [
+   {
+    "title": "Dynex Titanium product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-dynex-titanium.pdf",
+    "pages": 1,
+    "sizeMB": 0.25,
+    "note": "Page 109 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-goat-hair-brush",
@@ -12111,7 +15551,26 @@
     "no": "2040000"
    }
   ],
-  "sourcePage": 115
+  "sourcePage": 115,
+  "downloads": [
+   {
+    "title": "Goat hair brush product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-goat-hair-brush.pdf",
+    "pages": 1,
+    "sizeMB": 0.1,
+    "note": "Page 115 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-linen-buff-siliconized",
@@ -12143,7 +15602,26 @@
     "no": "2090000"
    }
   ],
-  "sourcePage": 118
+  "sourcePage": 118,
+  "downloads": [
+   {
+    "title": "Linen buff siliconized product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-linen-buff-siliconized.pdf",
+    "pages": 1,
+    "sizeMB": 0.12,
+    "note": "Page 118 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-opal-l",
@@ -12177,7 +15655,26 @@
     "no": "5200001"
    }
   ],
-  "sourcePage": 149
+  "sourcePage": 149,
+  "downloads": [
+   {
+    "title": "Opal L product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-opal-l.pdf",
+    "pages": 1,
+    "sizeMB": 0.09,
+    "note": "Page 149 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-plastercut",
@@ -12219,7 +15716,26 @@
     "no": "331450"
    }
   ],
-  "sourcePage": 110
+  "sourcePage": 110,
+  "downloads": [
+   {
+    "title": "Plastercut product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-plastercut.pdf",
+    "pages": 1,
+    "sizeMB": 0.11,
+    "note": "Page 110 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-pleated-buff-nettle-cloth",
@@ -12250,7 +15766,26 @@
     "no": "2100002"
    }
   ],
-  "sourcePage": 118
+  "sourcePage": 118,
+  "downloads": [
+   {
+    "title": "Pleated buff nettle cloth product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-pleated-buff-nettle-cloth.pdf",
+    "pages": 1,
+    "sizeMB": 0.12,
+    "note": "Page 118 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-polisoft",
@@ -12286,7 +15821,26 @@
     "no": "910000"
    }
   ],
-  "sourcePage": 114
+  "sourcePage": 114,
+  "downloads": [
+   {
+    "title": "Polisoft product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-polisoft.pdf",
+    "pages": 1,
+    "sizeMB": 0.12,
+    "note": "Page 114 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-polisoft-a",
@@ -12321,7 +15875,26 @@
     "no": "900000"
    }
   ],
-  "sourcePage": 114
+  "sourcePage": 114,
+  "downloads": [
+   {
+    "title": "Polisoft A product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-polisoft-a.pdf",
+    "pages": 1,
+    "sizeMB": 0.12,
+    "note": "Page 114 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-renfert-polish",
@@ -12369,7 +15942,26 @@
     "no": "5102100"
    }
   ],
-  "sourcePage": 148
+  "sourcePage": 148,
+  "downloads": [
+   {
+    "title": "Renfert Polish product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-renfert-polish.pdf",
+    "pages": 1,
+    "sizeMB": 0.24,
+    "note": "Page 148 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-saphir",
@@ -12403,7 +15995,26 @@
     "no": "5150000"
    }
   ],
-  "sourcePage": 149
+  "sourcePage": 149,
+  "downloads": [
+   {
+    "title": "Saphir product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-saphir.pdf",
+    "pages": 1,
+    "sizeMB": 0.09,
+    "note": "Page 149 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-silicone-polishers",
@@ -12438,7 +16049,26 @@
     "no": "860000"
    }
   ],
-  "sourcePage": 114
+  "sourcePage": 114,
+  "downloads": [
+   {
+    "title": "Silicone polishers product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-silicone-polishers.pdf",
+    "pages": 1,
+    "sizeMB": 0.12,
+    "note": "Page 114 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-silver-wire-brush-mounted",
@@ -12474,7 +16104,26 @@
     "no": "1660000"
    }
   ],
-  "sourcePage": 115
+  "sourcePage": 115,
+  "downloads": [
+   {
+    "title": "Silver wire brush mounted product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-silver-wire-brush-mounted.pdf",
+    "pages": 1,
+    "sizeMB": 0.1,
+    "note": "Page 115 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-silver-wire-brushes",
@@ -12510,7 +16159,26 @@
     "no": "1960000"
    }
   ],
-  "sourcePage": 116
+  "sourcePage": 116,
+  "downloads": [
+   {
+    "title": "Silver wire brushes product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-silver-wire-brushes.pdf",
+    "pages": 1,
+    "sizeMB": 0.12,
+    "note": "Page 116 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-slender-brushes",
@@ -12546,7 +16214,26 @@
     "no": "7871000"
    }
   ],
-  "sourcePage": 116
+  "sourcePage": 116,
+  "downloads": [
+   {
+    "title": "Slender brushes product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-slender-brushes.pdf",
+    "pages": 1,
+    "sizeMB": 0.12,
+    "note": "Page 116 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-slim",
@@ -12586,7 +16273,26 @@
     "no": "7882000"
    }
   ],
-  "sourcePage": 117
+  "sourcePage": 117,
+  "downloads": [
+   {
+    "title": "Slim product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-slim.pdf",
+    "pages": 1,
+    "sizeMB": 0.11,
+    "note": "Page 117 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-special-brush",
@@ -12626,7 +16332,26 @@
     "no": "1992000"
    }
   ],
-  "sourcePage": 117
+  "sourcePage": 117,
+  "downloads": [
+   {
+    "title": "Special brush product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-special-brush.pdf",
+    "pages": 1,
+    "sizeMB": 0.11,
+    "note": "Page 117 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-turbo-flex-s",
@@ -12661,7 +16386,26 @@
     "no": "290100"
    }
   ],
-  "sourcePage": 110
+  "sourcePage": 110,
+  "downloads": [
+   {
+    "title": "Turbo-Flex S product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-turbo-flex-s.pdf",
+    "pages": 1,
+    "sizeMB": 0.11,
+    "note": "Page 110 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-ultracut",
@@ -12697,7 +16441,26 @@
     "no": "730000"
    }
   ],
-  "sourcePage": 111
+  "sourcePage": 111,
+  "downloads": [
+   {
+    "title": "Ultracut product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-ultracut.pdf",
+    "pages": 1,
+    "sizeMB": 0.11,
+    "note": "Page 111 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-universal-polishing-paste",
@@ -12731,7 +16494,26 @@
     "no": "5131000"
    }
   ],
-  "sourcePage": 150
+  "sourcePage": 150,
+  "downloads": [
+   {
+    "title": "Universal polishing paste product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-universal-polishing-paste.pdf",
+    "pages": 1,
+    "sizeMB": 0.08,
+    "note": "Page 150 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-various-grinding-discs",
@@ -12769,7 +16551,26 @@
     "no": "6152000"
    }
   ],
-  "sourcePage": 111
+  "sourcePage": 111,
+  "downloads": [
+   {
+    "title": "Various grinding discs product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-various-grinding-discs.pdf",
+    "pages": 1,
+    "sizeMB": 0.11,
+    "note": "Page 111 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "renfert-various-separating-discs",
@@ -12825,7 +16626,26 @@
     "no": "740000"
    }
   ],
-  "sourcePage": 111
+  "sourcePage": 111,
+  "downloads": [
+   {
+    "title": "Various separating discs product sheet",
+    "type": "Datasheet",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/datasheets/renfert-various-separating-discs.pdf",
+    "pages": 1,
+    "sizeMB": 0.11,
+    "note": "Page 111 of the Renfert Catalog 2023"
+   },
+   {
+    "title": "Renfert Catalog 2023 (complete)",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   }
+  ]
  },
  {
   "id": "tcs-iflex",
@@ -12874,7 +16694,8 @@
    "flexible partial"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": []
  },
  {
   "id": "tcs-karadent",
@@ -12928,7 +16749,8 @@
    "thermoplastic"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": []
  },
  {
   "id": "tcs-totally-natural",
@@ -12979,7 +16801,8 @@
    "methacrylate"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": []
  },
  {
   "id": "tcs-unbreakable",
@@ -13027,7 +16850,8 @@
    "nylon"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": []
  },
  {
   "id": "teknik-dental-tegra-mp100s-porcelain-furnace",
@@ -13080,7 +16904,18 @@
    "tegra"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "tegra MP100S Porcelain Furnace Brochure",
+    "type": "Brochure",
+    "lang": "EN",
+    "file": "assets/downloads/teknik-dental/tegra-mp100s-brochure.pdf",
+    "pages": 1,
+    "sizeMB": 10.27,
+    "page": 1
+   }
+  ]
  },
  {
   "id": "teknik-dental-tegra-mp1500-speed-multistep",
@@ -13163,7 +16998,18 @@
    "38 × 41 × 73 cm"
   ],
   "featured": true,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "tegra MP1500 Speed Multistep Brochure",
+    "type": "Brochure",
+    "lang": "EN",
+    "file": "assets/downloads/teknik-dental/tegra-mp1500-speed-multistep-brochure.pdf",
+    "pages": 1,
+    "sizeMB": 0.93,
+    "page": 1
+   }
+  ]
  },
  {
   "id": "yamahachi-lab-scope-s",
@@ -13229,7 +17075,18 @@
    "microscope"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 26
+   }
+  ]
  },
  {
   "id": "yamahachi-crown-ns",
@@ -13282,7 +17139,18 @@
    "NS"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 6
+   }
+  ]
  },
  {
   "id": "yamahachi-crown-px",
@@ -13334,7 +17202,18 @@
    "composite teeth"
   ],
   "featured": true,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 7
+   }
+  ]
  },
  {
   "id": "yamahachi-efucera-ac",
@@ -13382,7 +17261,18 @@
    "Layers 2 (acrylic)"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 3
+   }
+  ]
  },
  {
   "id": "yamahachi-efucera-ns",
@@ -13435,7 +17325,18 @@
    "acrylic teeth"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 6
+   }
+  ]
  },
  {
   "id": "yamahachi-efucera-px",
@@ -13487,7 +17388,18 @@
    "Layers 3 (composite)"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 8
+   }
+  ]
  },
  {
   "id": "yamahachi-flat-ac",
@@ -13535,7 +17447,18 @@
    "Layers 2 (acrylic)"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 4
+   }
+  ]
  },
  {
   "id": "yamahachi-fx-anterior",
@@ -13583,7 +17506,18 @@
    "FX"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 5
+   }
+  ]
  },
  {
   "id": "yamahachi-fx-posterior",
@@ -13631,7 +17565,18 @@
    "acrylic teeth"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 5
+   }
+  ]
  },
  {
   "id": "yamahachi-million",
@@ -13679,7 +17624,18 @@
    "Layers 1 (acrylic)"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 4
+   }
+  ]
  },
  {
   "id": "yamahachi-naperce",
@@ -13727,7 +17683,18 @@
    "Layers 2 (acrylic)"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 3
+   }
+  ]
  },
  {
   "id": "yamahachi-new-ace",
@@ -13775,7 +17742,18 @@
    "acrylic teeth"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 3
+   }
+  ]
  },
  {
   "id": "yamahachi-soluut-px",
@@ -13827,7 +17805,18 @@
    "composite teeth"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 7
+   }
+  ]
  },
  {
   "id": "yamahachi-glossy-coat",
@@ -13867,7 +17856,18 @@
    "light-curing"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 28
+   }
+  ]
  },
  {
   "id": "yamahachi-glossy-coat-color",
@@ -13907,7 +17907,18 @@
    "light-curing"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 28
+   }
+  ]
  },
  {
   "id": "yamahachi-apollon-sep-low-viscosity",
@@ -13934,7 +17945,18 @@
    "separating agent"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 21
+   }
+  ]
  },
  {
   "id": "yamahachi-apollon-sep-normal",
@@ -13961,7 +17983,18 @@
    "separating agent"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 21
+   }
+  ]
  },
  {
   "id": "yamahachi-apollon-varnish",
@@ -13988,7 +18021,18 @@
    "separating agent"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 21
+   }
+  ]
  },
  {
   "id": "yamahachi-break",
@@ -14015,7 +18059,18 @@
    "separating agent"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 21
+   }
+  ]
  },
  {
   "id": "yamahachi-brush-cleaner",
@@ -14042,7 +18097,18 @@
    "separating agent"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 21
+   }
+  ]
  },
  {
   "id": "yamahachi-clean-up",
@@ -14069,7 +18135,18 @@
    "separating agent"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 21
+   }
+  ]
  },
  {
   "id": "yamahachi-dowel-pins-cleaner",
@@ -14096,7 +18173,18 @@
    "separating agent"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 21
+   }
+  ]
  },
  {
   "id": "yamahachi-hand-cleaner",
@@ -14123,7 +18211,18 @@
    "separating agent"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 21
+   }
+  ]
  },
  {
   "id": "yamahachi-kugel-hook",
@@ -14157,7 +18256,18 @@
    "attachment"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 27
+   }
+  ]
  },
  {
   "id": "yamahachi-metal-lock",
@@ -14194,7 +18304,18 @@
    "adhesive"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 28
+   }
+  ]
  },
  {
   "id": "yamahachi-mirror-cleaner",
@@ -14221,7 +18342,18 @@
    "separating agent"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 21
+   }
+  ]
  },
  {
   "id": "yamahachi-pipe-clean",
@@ -14248,7 +18380,18 @@
    "separating agent"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 21
+   }
+  ]
  },
  {
   "id": "yamahachi-shade-guide-ac",
@@ -14273,7 +18416,18 @@
    "shade guide"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 8
+   }
+  ]
  },
  {
   "id": "yamahachi-shade-guide-ns",
@@ -14298,7 +18452,18 @@
    "shade guide"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 8
+   }
+  ]
  },
  {
   "id": "yamahachi-shade-guide-px",
@@ -14323,7 +18488,18 @@
    "shade guide"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 8
+   }
+  ]
  },
  {
   "id": "yamahachi-teeth-cabinet",
@@ -14362,7 +18538,18 @@
    "storage"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 8
+   }
+  ]
  },
  {
   "id": "yamahachi-tray-cleaner",
@@ -14389,7 +18576,18 @@
    "separating agent"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 21
+   }
+  ]
  },
  {
   "id": "yamahachi-tray-wash",
@@ -14416,7 +18614,18 @@
    "separating agent"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 21
+   }
+  ]
  },
  {
   "id": "yamahachi-wax-pattern-cleaner",
@@ -14443,7 +18652,18 @@
    "separating agent"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 21
+   }
+  ]
  },
  {
   "id": "yamahachi-wax-pattern-cleaner-aqua",
@@ -14470,7 +18690,18 @@
    "separating agent"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 21
+   }
+  ]
  },
  {
   "id": "yamahachi-artesano-hybrid-composite-block",
@@ -14533,7 +18764,18 @@
    "Shades A1 A2 A3 A3.5 A4"
   ],
   "featured": true,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 10
+   }
+  ]
  },
  {
   "id": "yamahachi-bite-rim-stick",
@@ -14577,7 +18819,18 @@
    "S (short), L (long)"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 19
+   }
+  ]
  },
  {
   "id": "yamahachi-bite-wax-pre-cut-type",
@@ -14617,7 +18870,18 @@
    "wax"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 19
+   }
+  ]
  },
  {
   "id": "yamahachi-carving-wax",
@@ -14657,7 +18921,18 @@
    "carving"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 19
+   }
+  ]
  },
  {
   "id": "yamahachi-dipping-wax",
@@ -14706,7 +18981,18 @@
    "dipping"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 19
+   }
+  ]
  },
  {
   "id": "yamahachi-kolben-wax",
@@ -14748,7 +19034,18 @@
    "Size ø2.2 × 200 mm"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 19
+   }
+  ]
  },
  {
   "id": "yamahachi-paraffin-wax",
@@ -14791,7 +19088,18 @@
    "wax"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 19
+   }
+  ]
  },
  {
   "id": "yamahachi-pmma-block-with-pin",
@@ -14834,7 +19142,18 @@
    "PMMA"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 10
+   }
+  ]
  },
  {
   "id": "yamahachi-pmma-block-for-roland-dwx-4",
@@ -14878,7 +19197,18 @@
    "Shades A1 A2 A3"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 10
+   }
+  ]
  },
  {
   "id": "yamahachi-pmma-disk-dual-color",
@@ -14926,7 +19256,18 @@
    "Thickness 35 mm (17.5 + 17.5 mm)"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 10
+   }
+  ]
  },
  {
   "id": "yamahachi-pmma-disk-mono-layer",
@@ -14974,7 +19315,18 @@
    "PMMA"
   ],
   "featured": true,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 10
+   }
+  ]
  },
  {
   "id": "yamahachi-pmma-disk-multi-layer",
@@ -15026,7 +19378,18 @@
    "Thickness 20 mm"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 10
+   }
+  ]
  },
  {
   "id": "yamahachi-pmma-disk-v-pink",
@@ -15072,7 +19435,18 @@
    "Thickness 18 20 22 25 30 mm"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 10
+   }
+  ]
  },
  {
   "id": "yamahachi-pro-line-wax",
@@ -15116,7 +19490,18 @@
    "casting"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 20
+   }
+  ]
  },
  {
   "id": "yamahachi-pro-utility-wax",
@@ -15160,7 +19545,18 @@
    "wax"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 19
+   }
+  ]
  },
  {
   "id": "yamahachi-rolling-wax",
@@ -15203,7 +19599,18 @@
    "wax"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 19
+   }
+  ]
  },
  {
   "id": "yamahachi-wax-block-for-roland-dwx-4",
@@ -15245,7 +19652,18 @@
    "Size 76 × 40 × 20 mm"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 11
+   }
+  ]
  },
  {
   "id": "yamahachi-wax-disk",
@@ -15291,7 +19709,18 @@
    "wax"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 11
+   }
+  ]
  },
  {
   "id": "yamahachi-wax-disk-2",
@@ -15338,7 +19767,18 @@
    "wax"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 11
+   }
+  ]
  },
  {
   "id": "yamahachi-acry-pellet",
@@ -15394,7 +19834,18 @@
    "Packing 1 kg"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 16
+   }
+  ]
  },
  {
   "id": "yamahachi-basing-resin",
@@ -15438,7 +19889,18 @@
    "base plate"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 17
+   }
+  ]
  },
  {
   "id": "yamahachi-basis",
@@ -15490,7 +19952,18 @@
    "denture base"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 15
+   }
+  ]
  },
  {
   "id": "yamahachi-basis-elast",
@@ -15546,7 +20019,18 @@
    "Packing 300 g"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 16
+   }
+  ]
  },
  {
   "id": "yamahachi-basis-flow-ii",
@@ -15590,7 +20074,18 @@
    "denture base"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 15
+   }
+  ]
  },
  {
   "id": "yamahachi-basis-hi",
@@ -15646,7 +20141,18 @@
    "denture base"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 15
+   }
+  ]
  },
  {
   "id": "yamahachi-basis-pc",
@@ -15709,7 +20215,18 @@
    "Packing 1 kg"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 16
+   }
+  ]
  },
  {
   "id": "yamahachi-basis-twin-cure",
@@ -15753,7 +20270,18 @@
    "microwave"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 15
+   }
+  ]
  },
  {
   "id": "yamahachi-light-resin-plate",
@@ -15796,7 +20324,18 @@
    "custom tray"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 17
+   }
+  ]
  },
  {
   "id": "yamahachi-ortho-bright",
@@ -15842,7 +20381,18 @@
    "orthodontic"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 18
+   }
+  ]
  },
  {
   "id": "yamahachi-ortho-bright-color",
@@ -15882,7 +20432,18 @@
    "self-curing"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 18
+   }
+  ]
  },
  {
   "id": "yamahachi-pattern-bright",
@@ -15934,7 +20495,18 @@
    "self-curing"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 17
+   }
+  ]
  },
  {
   "id": "yamahachi-provifine",
@@ -15985,7 +20557,18 @@
    "self-curing"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 16
+   }
+  ]
  },
  {
   "id": "yamahachi-re-fine-bright",
@@ -16037,7 +20620,18 @@
    "self-curing"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 17
+   }
+  ]
  },
  {
   "id": "yamahachi-trindy-cast",
@@ -16093,7 +20687,18 @@
    "Packing 1,000 g / 500 g bottle"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 13
+   }
+  ]
  },
  {
   "id": "yamahachi-trindy-mask",
@@ -16148,7 +20753,18 @@
    "3D printing"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 14
+   }
+  ]
  },
  {
   "id": "yamahachi-trindy-model",
@@ -16206,7 +20822,18 @@
    "Packing 1,000 g bottle"
   ],
   "featured": true,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 13
+   }
+  ]
  },
  {
   "id": "yamahachi-art-polisher",
@@ -16246,7 +20873,18 @@
    "polisher"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 23
+   }
+  ]
  },
  {
   "id": "yamahachi-arte-shine",
@@ -16289,7 +20927,18 @@
    "paste"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 25
+   }
+  ]
  },
  {
   "id": "yamahachi-ceramic-fiber-point",
@@ -16325,7 +20974,18 @@
    "alumina"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 23
+   }
+  ]
  },
  {
   "id": "yamahachi-creamy-sand",
@@ -16357,7 +21017,18 @@
    "polishing"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 24
+   }
+  ]
  },
  {
   "id": "yamahachi-glass-beads",
@@ -16396,7 +21067,18 @@
    "blasting"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 24
+   }
+  ]
  },
  {
   "id": "yamahachi-mandrel-cylinders",
@@ -16427,7 +21109,18 @@
    "mandrel"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 23
+   }
+  ]
  },
  {
   "id": "yamahachi-mp-buff",
@@ -16463,7 +21156,18 @@
    "Size ø90 × 7 mm"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 24
+   }
+  ]
  },
  {
   "id": "yamahachi-mp-powder",
@@ -16495,7 +21199,18 @@
    "powder"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 24
+   }
+  ]
  },
  {
   "id": "yamahachi-new-silicone-points-ii",
@@ -16535,7 +21250,18 @@
    "polisher"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 23
+   }
+  ]
  },
  {
   "id": "yamahachi-silicone-big",
@@ -16579,7 +21305,18 @@
    "Size 23 × 9.5 mm"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 23
+   }
+  ]
  },
  {
   "id": "yamahachi-sulfone-sand",
@@ -16611,7 +21348,18 @@
    "polishing"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 24
+   }
+  ]
  },
  {
   "id": "yamahachi-tiger-multi-gold",
@@ -16643,7 +21391,18 @@
    "precious metal"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 25
+   }
+  ]
  },
  {
   "id": "yamahachi-urethane-big",
@@ -16683,7 +21442,18 @@
    "Size 24.5 × 9.5 mm"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 23
+   }
+  ]
  },
  {
   "id": "yamahachi-urethane-disk",
@@ -16723,7 +21493,18 @@
    "Size 22 × 3.2 mm"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 23
+   }
+  ]
  },
  {
   "id": "yamahachi-yamahachi-cutting-disk",
@@ -16765,6 +21546,17 @@
    "cutting disk"
   ],
   "featured": false,
-  "new": false
+  "new": false,
+  "downloads": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "type": "Catalog",
+    "lang": "EN",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31,
+    "page": 23
+   }
+  ]
  }
 ]

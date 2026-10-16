@@ -15,7 +15,8 @@ import datetime, html, json, os, re
 ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 SITE_URL = os.environ.get("SITE_URL", "https://www.primehubeg.com").rstrip("/")
 PAGES = ["about", "products", "training", "service", "downloads", "contact"]
-SHELL_PAGES = PAGES + ["404"]          # index.html keeps its own classic layout (own header/footer); 404 gets the shell
+PRODUCT_PAGES = sorted("products/" + f[:-5] for f in os.listdir(os.path.join(ROOT, "products")) if f.endswith(".html")) if os.path.isdir(os.path.join(ROOT, "products")) else []
+SHELL_PAGES = PAGES + ["404"] + PRODUCT_PAGES          # index.html keeps its own classic layout (own header/footer); 404 gets the shell
 read = lambda p: open(os.path.join(ROOT, p), encoding="utf-8").read()
 
 brands = json.load(open(os.path.join(ROOT, "data", "brands.json"), encoding="utf-8"))
@@ -99,7 +100,7 @@ def gen_product_jsonld():
             "@type": "Product", "name": p["name"], "description": p["summary"],
             "brand": {"@type": "Brand", "name": bmap[p["brand"]]["name"]},
             "category": "Dental Equipment" if p["category"] == "equipment" else "Dental Material",
-            "image": f"{SITE_URL}/{p['image']}", "url": f"{SITE_URL}/products.html?product={p['id']}"}})
+            "image": f"{SITE_URL}/{p['image']}", "url": f"{SITE_URL}/products/{p['id']}.html"}})
     data = {"@context": "https://schema.org", "@type": "ItemList", "name": "Prime Hub Trading product catalog",
             "numberOfItems": len(products), "itemListElement": items}
     return '<script type="application/ld+json">' + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + "</script>"
@@ -136,6 +137,8 @@ def main():
         h = re.sub(rf'(<a class="nav__link" href="[^"]+" data-nav="{cur}")', r'\1 aria-current="page"', header)
         page = replace_region(page, "HEADER", h)
         page = replace_region(page, "FOOTER", footer)
+        if "/" in name:        # pages in a sub-folder use <base href="../">: keep same-page anchors working
+            page = re.sub(r'href="#(?=[\w-])', f'href="{name}.html#', page)
         page = apply_gen(page)
         cats = {"all": len(products), "equipment": sum(1 for x in products if x["category"] == "equipment"), "material": sum(1 for x in products if x["category"] == "material")}
         for k, v in cats.items():
@@ -149,11 +152,11 @@ def main():
         print("shell applied:", name)
 
     today = datetime.date.today().isoformat()
-    urls = ["index"] + PAGES
+    urls = ["index"] + PAGES + PRODUCT_PAGES
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for u in urls:
         loc = f"{SITE_URL}/" if u == "index" else f"{SITE_URL}/{u}.html"
-        pr = "1.0" if u == "index" else ("0.9" if u == "products" else "0.7")
+        pr = "1.0" if u == "index" else ("0.9" if u == "products" else ("0.6" if "/" in u else "0.7"))
         sm.append(f"  <url><loc>{loc}</loc><lastmod>{today}</lastmod><priority>{pr}</priority></url>")
     sm.append("</urlset>")
     open(os.path.join(ROOT, "sitemap.xml"), "w").write("\n".join(sm) + "\n")

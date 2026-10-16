@@ -11,7 +11,7 @@
 
   var DATA = { products: [], brands: [], brandMap: {}, subLabel: {}, subCat: {}, subOrder: [], docByFile: {}, docsByBrand: {} };
   var state = { category: '', brands: [], subs: [], tags: [], q: '', sort: 'featured', product: '', shown: PAGE_SIZE };
-  var built = false, lastOpener = null;
+  var built = false;
 
   var el = {};
   var SITE_TITLE = 'Prime Hub Trading';
@@ -76,9 +76,8 @@
   /* ------------------------------------------------------------------ SEO (title, description, canonical per view) */
   function setMeta(sel, attr, val) { var m = $(sel); if (m) m.setAttribute(attr, val); }
   function seo() {
-    var title = 'Products', desc = BASE_DESC, p = state.product && DATA.products.filter(function (x) { return x.id === state.product; })[0];
-    if (p) { title = p.name + ' - ' + p._b.name; desc = p.summary; }
-    else {
+    var title = 'Products', desc = BASE_DESC, p = null;
+    {
       var parts = [];
       if (state.brands.length === 1) parts.push(DATA.brandMap[state.brands[0]].name);
       if (state.category) parts.push(CAT_LABEL[state.category]);
@@ -95,8 +94,8 @@
     setMeta('meta[property="og:title"]', 'content', full);
     setMeta('meta[property="og:description"]', 'content', desc);
     var can = $('link[rel="canonical"]'), base = can ? can.getAttribute('href').split('?')[0] : '';
-    if (can) can.setAttribute('href', base + (p ? '?product=' + p.id : ''));
-    setMeta('meta[property="og:url"]', 'content', base + (p ? '?product=' + p.id : ''));
+    if (can) can.setAttribute('href', base);
+    setMeta('meta[property="og:url"]', 'content', base);
   }
 
   /* ------------------------------------------------------------------ filtering */
@@ -128,6 +127,7 @@
   }
 
   /* ------------------------------------------------------------------ renderers */
+  function pageUrl(p) { return 'products/' + p.id + '.html'; }
   function brandChip(p) {
     var b = p._b;
     return b.logo ? '<img src="' + esc(b.logo) + '" alt="' + esc(b.name) + '" height="20" loading="lazy" decoding="async">' : '<span>' + esc(b.name) + '</span>';
@@ -141,17 +141,17 @@
     var inQ = window.PHQuote && PHQuote.has(p.id);
     var sub = DATA.subLabel[p.subcategory];
     return '<article class="p-card" data-id="' + esc(p.id) + '" data-tilt>' +
-      '<button class="p-card__media" type="button" data-open tabindex="-1" aria-hidden="true">' + mediaHtml(p) +
-      '</button>' +
+      '<a class="p-card__media" href="' + pageUrl(p) + '" tabindex="-1" aria-hidden="true">' + mediaHtml(p) +
+      '</a>' +
       '<span class="p-card__cat"><span class="cat-badge cat-badge--' + (p.category === 'equipment' ? 'eq' : 'mat') + '">' + (p.category === 'equipment' ? 'Equipment' : 'Material') + '</span></span>' +
       (p.new ? '<span class="p-card__new badge-sq">New</span>' : '') +
       '<div class="p-card__body">' +
       '<div class="p-card__brand">' + brandChip(p) + '</div>' +
-      '<h3><button type="button" data-open>' + esc(p.name) + '</button></h3>' +
+      '<h3><a href="' + pageUrl(p) + '">' + esc(p.name) + '</a></h3>' +
       '<p class="p-card__sub">' + esc(p.model ? 'Model ' + p.model : sub) + '</p>' +
       '<p class="p-card__sum">' + esc(p.summary) + '</p>' +
       (p.chips && p.chips.length ? '<ul class="p-card__chips">' + p.chips.map(function (c) { return '<li>' + esc(c) + '</li>'; }).join('') + '</ul>' : '') +
-      '<div class="p-card__actions"><button class="btn btn--ghost btn--sm" type="button" data-open aria-label="Details: ' + esc(p.name) + '">Details</button>' +
+      '<div class="p-card__actions"><a class="btn btn--ghost btn--sm" href="' + pageUrl(p) + '" aria-label="Details: ' + esc(p.name) + '">Details</a>' +
       '<button class="btn btn--primary btn--sm" type="button" data-add aria-pressed="' + (inQ ? 'true' : 'false') + '" aria-label="' + (inQ ? 'Remove from quote: ' : 'Add to quote: ') + esc(p.name) + '">' + (inQ ? '<i class="fa-solid fa-check" aria-hidden="true"></i> Added' : '<i class="fa-solid fa-plus" aria-hidden="true"></i> Add to quote') + '</button></div>' +
       '</div></article>';
   }
@@ -307,70 +307,6 @@
   }
   function resetAll() { change(function (s) { s.category = ''; s.brands = []; s.subs = []; s.tags = []; s.q = ''; }); }
 
-  /* ------------------------------------------------------------------ product modal */
-  var modal, panel, content;
-  function focusables() { return $$('a[href],button:not([disabled]),input,select,textarea,[tabindex]:not([tabindex="-1"])', panel).filter(function (e) { return e.offsetParent !== null; }); }
-
-  function modalHtml(p) {
-    var imgs = [p.image].concat(p.gallery || []).filter(Boolean);
-    var doc = p.datasheet && DATA.docByFile[p.datasheet.split('#')[0]];
-    var dsLabel = '';
-    if (doc) {
-      var cat = doc.type === 'catalog';
-      dsLabel = (cat && p.sourcePage ? 'Catalog page ' + p.sourcePage : (cat ? 'Catalog' : 'Datasheet')) + ' (PDF' + (doc.sizeMB ? ', ' + doc.sizeMB + ' MB' : '') + ')';
-    }
-    var inQ = window.PHQuote && PHQuote.has(p.id);
-    var related = DATA.products.filter(function (x) { return x.id !== p.id && x.subcategory === p.subcategory; })
-      .sort(function (a, b) { return (b.brand === p.brand) - (a.brand === p.brand) || (b.image ? 1 : 0) - (a.image ? 1 : 0); }).slice(0, 4);
-    var wa = 'Hello Prime Hub Trading, I would like information about ' + p._b.name + ' ' + p.name + (p.model ? ' (' + p.model + ')' : '') + '. ' + location.origin + location.pathname + '?product=' + p.id;
-    var h = '<div class="pm">' +
-      '<div class="pm__gallery"><div class="pm__main" id="pmMain">' + (imgs.length ? '<img src="' + esc(imgs[0]) + '" alt="' + esc(p._b.name + ' ' + p.name) + '" width="900" height="900">' : '<span class="p-card__placeholder" style="aspect-ratio:1">' + (p._b.logo ? '<img src="' + esc(p._b.logo) + '" alt="">' : '<span>' + esc(p._b.name) + '</span>') + '</span>') + '</div>' +
-      (imgs.length > 1 ? '<div class="pm__thumbs" role="group" aria-label="Product images">' + imgs.map(function (s, i) { return '<button type="button" data-img="' + esc(s) + '" aria-label="Image ' + (i + 1) + '" aria-current="' + (i === 0) + '"><img src="' + esc(s) + '" alt="" loading="lazy"></button>'; }).join('') + '</div>' : '') + '</div>' +
-      '<div class="pm__info"><div class="pm__top">' + (p._b.logo ? '<img src="' + esc(p._b.logo) + '" alt="' + esc(p._b.name) + '">' : '<span class="wordmark">' + esc(p._b.name) + '</span>') +
-      '<span class="cat-badge cat-badge--' + (p.category === 'equipment' ? 'eq' : 'mat') + '">' + CAT_LABEL[p.category] + '</span><span class="chip chip--ghost">' + esc(DATA.subLabel[p.subcategory]) + '</span>' + (p.new ? '<span class="badge-sq">New</span>' : '') + '</div>' +
-      '<h2 id="pmTitle">' + esc(p.name) + '</h2>' + (p.model ? '<p class="pm__model">Model ' + esc(p.model) + '</p>' : '') +
-      '<p class="pm__desc">' + esc(p.description || p.summary) + '</p>' +
-      '<div class="pm__cta"><button class="btn btn--accent" type="button" data-add aria-pressed="' + (inQ ? 'true' : 'false') + '">' + (inQ ? '<i class="fa-solid fa-check" aria-hidden="true"></i> In your quote list' : '<i class="fa-solid fa-plus" aria-hidden="true"></i> Add to quote') + '</button>' +
-      '<a class="btn btn--wa" href="' + PH.waLink(wa) + '" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Ask on WhatsApp</a>' +
-      (p.datasheet ? '<a class="btn btn--ghost" href="' + esc(p.datasheet) + '" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i> ' + esc(dsLabel || 'Datasheet') + '</a>' : '') + '</div>' +
-      '<p class="pm__note">No prices online. We reply with pricing and availability.</p></div>';
-    if (p.specs && p.specs.length) h += '<section class="pm__section"><h3>Specifications</h3><table class="spec-table"><tbody>' + p.specs.map(function (s) { return '<tr><th scope="row">' + esc(s.label) + '</th><td>' + esc(s.value) + '</td></tr>'; }).join('') + '</tbody></table></section>';
-    if ((p.features && p.features.length) || (p.applications && p.applications.length)) {
-      h += '<section class="pm__section pm__lists">' +
-        (p.features && p.features.length ? '<div><h3>Features</h3><ul class="bul">' + p.features.map(function (f) { return '<li>' + esc(f) + '</li>'; }).join('') + '</ul></div>' : '') +
-        (p.applications && p.applications.length ? '<div><h3>Applications</h3><div class="pm__chips">' + p.applications.map(function (a) { return '<span class="chip">' + esc(a) + '</span>'; }).join('') + '</div></div>' : '') + '</section>';
-    }
-    if (p.orderNumbers && p.orderNumbers.length) h += '<section class="pm__section"><h3>Order numbers</h3><table class="spec-table"><tbody>' + p.orderNumbers.slice(0, 12).map(function (o) { return '<tr><th scope="row">' + esc(o.label) + '</th><td>No. ' + esc(o.no) + '</td></tr>'; }).join('') + '</tbody></table></section>';
-    if (related.length) h += '<section class="pm__section"><h3>Related products</h3><div class="related">' + related.map(function (r) {
-      return '<button type="button" data-rel="' + esc(r.id) + '"><span class="r-img">' + (r.thumb ? '<img src="' + esc(r.thumb) + '" alt="" loading="lazy">' : '') + '</span><span class="r-txt">' + esc(r.name) + '<small>' + esc(r._b.name) + '</small></span></button>';
-    }).join('') + '</div></section>';
-    return h + '</div>';
-  }
-
-  function openProduct(id, opts) {
-    opts = opts || {};
-    var p = DATA.products.filter(function (x) { return x.id === id; })[0]; if (!p) return;
-    var wasOpen = !modal.hidden;
-    if (!wasOpen) lastOpener = d.activeElement;
-    state.product = id;
-    content.innerHTML = modalHtml(p);
-    modal.hidden = false; modal.setAttribute('aria-hidden', 'false'); d.body.classList.add('no-scroll');
-    panel.scrollTop = 0; panel.focus({ preventScroll: true });
-    if (!opts.fromPop) { try { history[wasOpen ? 'replaceState' : 'pushState']({ ph: 1, modal: 1 }, '', serialize(state)); } catch (e) {} }
-    seo();
-  }
-  function closeProduct(opts) {
-    opts = opts || {};
-    if (modal.hidden) return;
-    modal.hidden = true; modal.setAttribute('aria-hidden', 'true'); d.body.classList.remove('no-scroll');
-    state.product = '';
-    if (!opts.fromPop) {
-      if (history.state && history.state.modal) { history.back(); } else { try { history.replaceState({ ph: 1 }, '', serialize(state)); } catch (e) {} seo(); }
-    } else seo();
-    var o = lastOpener; lastOpener = null;
-    if (o && d.contains(o) && o.focus) o.focus({ preventScroll: true });
-  }
-
   function toggleQuote(id) {
     if (!window.PHQuote) return;
     var p = DATA.products.filter(function (x) { return x.id === id; })[0]; if (!p) return;
@@ -388,17 +324,13 @@
       b.setAttribute('aria-label', (inQ ? 'Remove from quote: ' : 'Add to quote: ') + (p ? p.name : ''));
       b.innerHTML = inQ ? '<i class="fa-solid fa-check" aria-hidden="true"></i> Added' : '<i class="fa-solid fa-plus" aria-hidden="true"></i> Add to quote';
     });
-    if (!modal.hidden && state.product) {
-      var mb = $('[data-add]', content), inM = PHQuote.has(state.product);
-      if (mb) { mb.setAttribute('aria-pressed', String(inM)); mb.innerHTML = inM ? '<i class="fa-solid fa-check" aria-hidden="true"></i> In your quote list' : '<i class="fa-solid fa-plus" aria-hidden="true"></i> Add to quote'; }
-    }
   }
 
   /* ------------------------------------------------------------------ filters sheet (mobile) */
   var sheetOpen = false;
   function setSheet(v) {
     sheetOpen = v; el.filters.classList.toggle('is-open', v); el.filtersOverlay.classList.toggle('is-on', v);
-    el.filtersOpen.setAttribute('aria-expanded', String(v)); d.body.classList.toggle('no-scroll', v || !modal.hidden);
+    el.filtersOpen.setAttribute('aria-expanded', String(v)); d.body.classList.toggle('no-scroll', v);
     if (v) { var f = $('input,button', el.filtersBody); if (f) f.focus({ preventScroll: true }); } else if (window.matchMedia('(max-width:1000px)').matches) el.filtersOpen.focus({ preventScroll: true });
   }
 
@@ -460,36 +392,13 @@
     el.grid.addEventListener('click', function (e) {
       var card = e.target.closest('.p-card[data-id]'); if (!card) return;
       if (e.target.closest('[data-add]')) { toggleQuote(card.getAttribute('data-id')); return; }
-      if (e.target.closest('[data-open]')) openProduct(card.getAttribute('data-id'));
     });
     el.grid.addEventListener('error', function (e) {
       var img = e.target; if (img.tagName !== 'IMG') return;
       var holder = img.closest('.p-card__media'); if (holder) holder.innerHTML = '<span class="p-card__placeholder"><span>Image unavailable</span></span>';
     }, true);
-    // modal
-    modal.addEventListener('click', function (e) {
-      if (e.target.closest('[data-close]')) { closeProduct(); return; }
-      var add = e.target.closest('[data-add]'); if (add) { toggleQuote(state.product); return; }
-      var th = e.target.closest('[data-img]');
-      if (th) { var m = $('#pmMain img'); if (m) m.src = th.getAttribute('data-img'); $$('.pm__thumbs button').forEach(function (b) { b.setAttribute('aria-current', String(b === th)); }); return; }
-      var rel = e.target.closest('[data-rel]'); if (rel) openProduct(rel.getAttribute('data-rel'));
-    });
-    d.addEventListener('keydown', function (e) {
-      if (modal.hidden) return;
-      if (e.key === 'Escape' && !(window.PHQuote && $('#quoteDrawer').classList.contains('is-open'))) { e.preventDefault(); closeProduct(); }
-      if (e.key === 'Tab') {
-        var f = focusables(); if (!f.length) return;
-        var first = f[0], last = f[f.length - 1];
-        if (e.shiftKey && (d.activeElement === first || d.activeElement === panel)) { e.preventDefault(); last.focus(); }
-        else if (!e.shiftKey && d.activeElement === last) { e.preventDefault(); first.focus(); }
-      }
-    });
     // history
-    window.addEventListener('popstate', function () {
-      var s = parse(); var wantProduct = s.product; s.product = '';
-      state = s; renderAll({ reset: true }); seo();
-      if (wantProduct) openProduct(wantProduct, { fromPop: true }); else if (!modal.hidden) closeProduct({ fromPop: true });
-    });
+    window.addEventListener('popstate', function () { state = parse(); renderAll({ reset: true }); seo(); });
     if (window.PHQuote) PHQuote.onChange(syncAdd);
   }
 
@@ -499,18 +408,15 @@
       clearAll: $('#clearAll'), q: $('#q'), qClear: $('#qClear'), sort: $('#sort'), catSwitch: $('#catSwitch'), rail: $('#brandRail'), brandHead: $('#brandHead'),
       filters: $('#filters'), filtersBody: $('#filtersBody'), filtersOpen: $('#filtersOpen'), filtersClose: $('#filtersClose'), filtersApply: $('#filtersApply'),
       filtersReset: $('#filtersReset'), filtersOverlay: $('#filtersOverlay'), filtersN: $('#filtersN') };
-    modal = $('#pModal'); panel = $('.modal__panel', modal); content = $('#pmContent');
 
     state = parse();
     var hash = location.hash;
     if (LEGACY[hash] && !location.search) { var m = LEGACY[hash]; state.category = m.category; state.subs = m.subs || []; }
     buildBrandRail(); buildFilters(); bind();
     renderAll({ reset: true });
-    var wantProduct = state.product; state.product = '';
-    try { history.replaceState({ ph: 1 }, '', serialize(Object.assign({}, state, { product: wantProduct }))); } catch (e) {}
-    if (LEGACY[hash]) { /* hash replaced by query string above */ }
+    if (state.product) { location.replace(pageUrl({ id: state.product })); return; }     // old ?product= links
+    try { history.replaceState({ ph: 1 }, '', serialize(state)); } catch (e) {}
     seo();
-    if (wantProduct) openProduct(wantProduct, { fromPop: true });
     if (hash === '#brands') setTimeout(function () { var b = $('#brands'); if (b) b.scrollIntoView(); }, 60);
     built = true;
   }
