@@ -1,0 +1,2193 @@
+{
+ "bsm-bsm-520d": [
+  {
+   "src": "BSM/DENTAL EQUIPMENTS/BSM_Milling_520D_Flyer_EN 20260127-old version.pdf",
+   "page": 1,
+   "index": 4
+  }
+ ],
+ "bsm-bsm-fm30": [
+  {
+   "src": "BSM/DENTAL EQUIPMENTS/BSM_Sintering_FM30_Flyer_EN 20251011 v1.1.1.pdf",
+   "page": 2,
+   "index": 6
+  }
+ ],
+ "bsm-bsm-pf10": [
+  {
+   "src": "BSM/DENTAL EQUIPMENTS/BSM_Porcelain_PF10_Flyer_EN 20251019 v1.1.1.pdf",
+   "page": 2,
+   "index": 3
+  }
+ ],
+ "bsm-aconia-ht": [
+  {
+   "src": "BSM/DENTAL MATERIALS/BSM_Zirconia_Aconia Family_Flyer_EN 20260423 v2.1.1.pdf",
+   "page": 1,
+   "index": 7
+  }
+ ],
+ "bsm-aconia-st": [
+  {
+   "src": "BSM/DENTAL MATERIALS/BSM_Zirconia_Aconia Family_Flyer_EN 20260423 v2.1.1.pdf",
+   "page": 1,
+   "index": 6
+  }
+ ],
+ "bsm-aconia-sht": [
+  {
+   "src": "BSM/DENTAL MATERIALS/BSM_Zirconia_Aconia Family_Flyer_EN 20260423 v2.1.1.pdf",
+   "page": 1,
+   "index": 5
+  }
+ ],
+ "bsm-aconia-st-preshade": [
+  {
+   "src": "BSM/DENTAL MATERIALS/BSM_Zirconia_Aconia Family_Flyer_EN 20260423 v2.1.1.pdf",
+   "page": 1,
+   "index": 8
+  }
+ ],
+ "bsm-3d-aconia-master": [
+  {
+   "src": "BSM/DENTAL MATERIALS/BSM_Zirconia_Aconia 3D Aconia Master_Flyer_EN 20260416 v4.4.2.pdf",
+   "page": 2,
+   "index": 3
+  }
+ ],
+ "bsm-3d-aconia-ultra": [
+  {
+   "src": "BSM/DENTAL MATERIALS/BSM_Zirconia_Aconia 3D Aconia Ultra_Flyer_EN 20260403  v1.1.1.pdf",
+   "page": 2,
+   "index": 2
+  }
+ ],
+ "bsm-aconia-artist-kit": [
+  {
+   "src": "BSM/DENTAL MATERIALS/BSM_CL _Artist Kit_Flyer_2025.06.25.pdf",
+   "page": 2,
+   "crop": [
+    0.21,
+    0.07,
+    0.43,
+    0.27
+   ]
+  }
+ ],
+ "bsm-aconia-artist-v1-opaque-liquid": [
+  {
+   "src": "BSM/DENTAL MATERIALS/BSM_CL _Artist V1_Flyer(vertical)_2024.pdf",
+   "page": 1,
+   "crop": [
+    0.54,
+    0.24,
+    0.9,
+    0.5
+   ]
+  }
+ ],
+ "bsm-artamic-stain-glaze": [
+  {
+   "src": "BSM/DENTAL MATERIALS/BSM_SG_Artamic_Flyer_EN 20251011 v2.1.1.pdf",
+   "page": 3,
+   "index": 2
+  }
+ ],
+ "bsm-artamic-3d-glaze": [
+  {
+   "src": "BSM/DENTAL MATERIALS/BSM_SG_Artamic_Flyer_EN 20251011 v2.1.1.pdf",
+   "page": 6,
+   "index": 2
+  }
+ ],
+ "bsm-artamic-master-kit": [
+  {
+   "src": "BSM/DENTAL MATERIALS/BSM_SG_Artamic_Flyer_EN 20251011 v2.1.1.pdf",
+   "page": 5,
+   "index": 6
+  }
+ ],
+ "bsm-artamic-gingiva-kit": [
+  {
+   "src": "BSM/DENTAL MATERIALS/BSM_SG_Artamic_Flyer_EN 20251011 v2.1.1.pdf",
+   "page": 5,
+   "index": 2
+  }
+ ],
+ "audent-i-motion-e-press": [
+  {
+   "src": "Audent/Audent i motion e press colour chart 2023 09 29.pdf",
+   "page": 1,
+   "crop": [
+    0.0,
+    0.0,
+    1.0,
+    0.56
+   ]
+  }
+ ],
+ "audent-i-motion-lfu-stains": [
+  {
+   "src": "Audent/i-motion LFU catalog-compressed.pdf",
+   "page": 1,
+   "crop": [
+    0.0,
+    0.18,
+    1.0,
+    0.6
+   ]
+  }
+ ],
+ "audent-i-motion-lfu-shades": [
+  {
+   "src": "Audent/i-motion LFU catalog-compressed.pdf",
+   "page": 1,
+   "crop": [
+    0.0,
+    0.6,
+    1.0,
+    0.98
+   ]
+  }
+ ],
+ "audent-i-motion-lfu-glaze-paste-fluor": [
+  {
+   "src": "Audent/i-motion LFU catalog-compressed.pdf",
+   "page": 2,
+   "crop": [
+    0.0,
+    0.0,
+    1.0,
+    0.4
+   ]
+  }
+ ],
+ "denpark-ls2-dental-laboratory-scanner": [
+  {
+   "src": "DENPARK/Spectra_Denpark_LS_Catalogue.pdf",
+   "page": 3,
+   "index": 3
+  }
+ ],
+ "denpark-ls3-dental-laboratory-scanner": [
+  {
+   "src": "DENPARK/Spectra_Denpark_LS_Catalogue.pdf",
+   "page": 4,
+   "index": 3
+  }
+ ],
+ "denpark-ls4-dental-laboratory-scanner": [
+  {
+   "src": "DENPARK/Spectra_Denpark_LS_Catalogue.pdf",
+   "page": 5,
+   "index": 3
+  }
+ ],
+ "denpark-ios-c5-intraoral-scanner": [
+  {
+   "src": "DENPARK/C5 EN 2.pdf",
+   "page": 1,
+   "crop": [
+    0.56,
+    0.1,
+    0.96,
+    0.64
+   ]
+  }
+ ],
+ "disc-cutting-disk-profile-01": [
+  {
+   "src": "DISC/SpectraCeram_Cutting_Disks_2026_SpectraIdentity_v5.pdf",
+   "page": 5,
+   "nth": 0
+  }
+ ],
+ "disc-cutting-disk-profile-02": [
+  {
+   "src": "DISC/SpectraCeram_Cutting_Disks_2026_SpectraIdentity_v5.pdf",
+   "page": 5,
+   "nth": 1
+  }
+ ],
+ "disc-cutting-disk-profile-03": [
+  {
+   "src": "DISC/SpectraCeram_Cutting_Disks_2026_SpectraIdentity_v5.pdf",
+   "page": 5,
+   "nth": 2
+  }
+ ],
+ "disc-cutting-disk-profile-04": [
+  {
+   "src": "DISC/SpectraCeram_Cutting_Disks_2026_SpectraIdentity_v5.pdf",
+   "page": 5,
+   "nth": 3
+  }
+ ],
+ "disc-cutting-disk-profile-05": [
+  {
+   "src": "DISC/SpectraCeram_Cutting_Disks_2026_SpectraIdentity_v5.pdf",
+   "page": 6,
+   "nth": 0
+  }
+ ],
+ "disc-cutting-disk-profile-06": [
+  {
+   "src": "DISC/SpectraCeram_Cutting_Disks_2026_SpectraIdentity_v5.pdf",
+   "page": 6,
+   "nth": 1
+  }
+ ],
+ "disc-cutting-disk-profile-07": [
+  {
+   "src": "DISC/SpectraCeram_Cutting_Disks_2026_SpectraIdentity_v5.pdf",
+   "page": 6,
+   "nth": 2
+  }
+ ],
+ "disc-cutting-disk-profile-08": [
+  {
+   "src": "DISC/SpectraCeram_Cutting_Disks_2026_SpectraIdentity_v5.pdf",
+   "page": 6,
+   "nth": 3
+  }
+ ],
+ "disc-cutting-disk-profile-09": [
+  {
+   "src": "DISC/SpectraCeram_Cutting_Disks_2026_SpectraIdentity_v5.pdf",
+   "page": 7,
+   "nth": 0
+  }
+ ],
+ "disc-cutting-disk-profile-10": [
+  {
+   "src": "DISC/SpectraCeram_Cutting_Disks_2026_SpectraIdentity_v5.pdf",
+   "page": 7,
+   "nth": 1
+  }
+ ],
+ "disc-cutting-disk-profile-11": [
+  {
+   "src": "DISC/SpectraCeram_Cutting_Disks_2026_SpectraIdentity_v5.pdf",
+   "page": 7,
+   "nth": 2
+  }
+ ],
+ "disc-cutting-disk-profile-12": [
+  {
+   "src": "DISC/SpectraCeram_Cutting_Disks_2026_SpectraIdentity_v5.pdf",
+   "page": 7,
+   "nth": 3
+  }
+ ],
+ "disc-cutting-disk-profile-13": [
+  {
+   "src": "DISC/SpectraCeram_Cutting_Disks_2026_SpectraIdentity_v5.pdf",
+   "page": 8,
+   "nth": 0
+  }
+ ],
+ "disc-cutting-disk-profile-14": [
+  {
+   "src": "DISC/SpectraCeram_Cutting_Disks_2026_SpectraIdentity_v5.pdf",
+   "page": 8,
+   "nth": 1
+  }
+ ],
+ "disc-cutting-disk-profile-15": [
+  {
+   "src": "DISC/SpectraCeram_Cutting_Disks_2026_SpectraIdentity_v5.pdf",
+   "page": 8,
+   "nth": 2
+  }
+ ],
+ "disc-cutting-disk-profile-16": [
+  {
+   "src": "DISC/SpectraCeram_Cutting_Disks_2026_SpectraIdentity_v5.pdf",
+   "page": 8,
+   "nth": 3
+  }
+ ],
+ "eraylar-eray-deluxe-acrylic-teeth": [
+  {
+   "src": "ERAYLAR/eraydeluxetureng_2022-01-25_21-14-12.pdf",
+   "page": 2,
+   "crop": [
+    0.26,
+    0.1,
+    0.88,
+    0.31
+   ]
+  }
+ ],
+ "eraylar-eray-acrylic-teeth": [
+  {
+   "src": "ERAYLAR/erayturkce_2022-01-25_20-59-30.pdf",
+   "page": 2,
+   "crop": [
+    0.26,
+    0.1,
+    0.88,
+    0.31
+   ]
+  }
+ ],
+ "fdt-resin-pro-model-resin": [
+  {
+   "src": "FDT RESIN/640975027_122143528886984518_2842161728675068164_n.jpg",
+   "crop": [
+    0.05,
+    0.27,
+    0.92,
+    0.88
+   ]
+  }
+ ],
+ "fdt-resin-wax-resin": [
+  {
+   "src": "FDT RESIN/640975027_122143528886984518_2842161728675068164_n.jpg",
+   "crop": [
+    0.395,
+    0.28,
+    0.585,
+    0.88
+   ]
+  }
+ ],
+ "imt-metal-powder-nicr-metal-powder": [
+  {
+   "src": "IMT METAL POWDER/472892700_122164775240272744_4389916170306438226_n.jpg",
+   "crop": [
+    0.02,
+    0.52,
+    0.32,
+    0.9
+   ]
+  },
+  {
+   "src": "IMT METAL POWDER/473046366_122164775384272744_4999280838986915406_n.jpg",
+   "crop": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ]
+  }
+ ],
+ "lustra-lustra-cad-cam-block": [
+  {
+   "src": "LUSTRA/641593402_122143527728984518_9065227016658325646_n.jpg",
+   "crop": [
+    0.1,
+    0.02,
+    0.62,
+    0.76
+   ]
+  }
+ ],
+ "pht-diamond-stone": [
+  {
+   "src": "PHT/626686995_122139592922984518_4624650351601240929_n.jpg",
+   "crop": [
+    0.02,
+    0.18,
+    0.98,
+    0.86
+   ]
+  }
+ ],
+ "pht-diamond-rubber": [
+  {
+   "src": "PHT/627865844_122139719414984518_9167817366591430566_n.jpg",
+   "crop": [
+    0.5,
+    0.0,
+    1.0,
+    0.5
+   ]
+  }
+ ],
+ "tcs-iflex": [
+  {
+   "src": "TCS/643877422_122144093774984518_7424982704670682716_n.jpg",
+   "crop": [
+    0.02,
+    0.27,
+    0.5,
+    0.79
+   ]
+  }
+ ],
+ "tcs-totally-natural": [
+  {
+   "src": "TCS/643877422_122144093774984518_7424982704670682716_n.jpg",
+   "crop": [
+    0.5,
+    0.27,
+    0.98,
+    0.79
+   ]
+  }
+ ],
+ "profeta-c120-classical-dental-printer": [
+  {
+   "src": "PROFETA/C120-EN-V2.pdf",
+   "page": 2,
+   "index": 0
+  }
+ ],
+ "profeta-c150-classical-dental-printer": [
+  {
+   "src": "PROFETA/C150EN.pdf",
+   "page": 2,
+   "index": 1
+  }
+ ],
+ "teknik-dental-tegra-mp100s-porcelain-furnace": [
+  {
+   "src": "TEKNIK DENTAL/MP100_Brochure_EN.pdf",
+   "page": 1,
+   "index": 7
+  }
+ ],
+ "teknik-dental-tegra-mp1500-speed-multistep": [
+  {
+   "src": "TEKNIK DENTAL/MP1500_Speed_Multistep_Brochure_EN_20230404.pdf",
+   "page": 1,
+   "index": 3
+  }
+ ],
+ "yamahachi-new-ace": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 3,
+   "index": 3
+  }
+ ],
+ "yamahachi-naperce": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 3,
+   "index": 5
+  }
+ ],
+ "yamahachi-efucera-ac": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 3,
+   "index": 7
+  }
+ ],
+ "yamahachi-million": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 4,
+   "index": 0
+  }
+ ],
+ "yamahachi-flat-ac": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 4,
+   "index": 2
+  }
+ ],
+ "yamahachi-fx-anterior": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 5,
+   "index": 0
+  }
+ ],
+ "yamahachi-fx-posterior": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 5,
+   "index": 2
+  }
+ ],
+ "yamahachi-crown-ns": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 6,
+   "index": 0
+  }
+ ],
+ "yamahachi-efucera-ns": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 6,
+   "index": 1
+  }
+ ],
+ "yamahachi-crown-px": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 7,
+   "index": 4
+  }
+ ],
+ "yamahachi-soluut-px": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 7,
+   "index": 5
+  }
+ ],
+ "yamahachi-efucera-px": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 8,
+   "index": 15
+  }
+ ],
+ "yamahachi-shade-guide-ac": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 8,
+   "index": 11
+  }
+ ],
+ "yamahachi-shade-guide-ns": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 8,
+   "index": 7
+  }
+ ],
+ "yamahachi-shade-guide-px": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 8,
+   "index": 5
+  }
+ ],
+ "yamahachi-teeth-cabinet": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 8,
+   "index": 9
+  }
+ ],
+ "yamahachi-artesano-hybrid-composite-block": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 10,
+   "index": 10
+  }
+ ],
+ "yamahachi-pmma-block-with-pin": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 10,
+   "index": 14
+  }
+ ],
+ "yamahachi-pmma-block-for-roland-dwx-4": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 10,
+   "index": 12
+  }
+ ],
+ "yamahachi-pmma-disk-mono-layer": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 10,
+   "index": 8
+  }
+ ],
+ "yamahachi-pmma-disk-v-pink": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 10,
+   "index": 4
+  }
+ ],
+ "yamahachi-pmma-disk-multi-layer": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 10,
+   "index": 7
+  }
+ ],
+ "yamahachi-pmma-disk-dual-color": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 10,
+   "index": 1
+  }
+ ],
+ "yamahachi-wax-disk": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 11,
+   "index": 5
+  }
+ ],
+ "yamahachi-wax-disk-2": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 11,
+   "index": 7
+  }
+ ],
+ "yamahachi-wax-block-for-roland-dwx-4": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 11,
+   "index": 1
+  }
+ ],
+ "yamahachi-trindy-model": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 13,
+   "index": 2
+  }
+ ],
+ "yamahachi-trindy-cast": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 13,
+   "index": 9
+  }
+ ],
+ "yamahachi-trindy-mask": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 14,
+   "index": 18
+  }
+ ],
+ "yamahachi-basis": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 15,
+   "index": 6
+  }
+ ],
+ "yamahachi-basis-hi": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 15,
+   "index": 5
+  }
+ ],
+ "yamahachi-basis-twin-cure": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 15,
+   "index": 2
+  }
+ ],
+ "yamahachi-basis-flow-ii": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 15,
+   "index": 29
+  }
+ ],
+ "yamahachi-basis-elast": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 16,
+   "index": 39
+  }
+ ],
+ "yamahachi-acry-pellet": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 16,
+   "index": 35
+  }
+ ],
+ "yamahachi-basis-pc": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 16,
+   "index": 37
+  }
+ ],
+ "yamahachi-provifine": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 16,
+   "index": 13
+  }
+ ],
+ "yamahachi-pattern-bright": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 17,
+   "index": 1
+  }
+ ],
+ "yamahachi-re-fine-bright": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 17,
+   "index": 8
+  }
+ ],
+ "yamahachi-basing-resin": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 17,
+   "index": 19
+  }
+ ],
+ "yamahachi-light-resin-plate": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 17,
+   "index": 6
+  }
+ ],
+ "yamahachi-ortho-bright": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 18,
+   "index": 0
+  }
+ ],
+ "yamahachi-ortho-bright-color": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 18,
+   "index": 1
+  }
+ ],
+ "yamahachi-paraffin-wax": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 19,
+   "index": 2
+  }
+ ],
+ "yamahachi-rolling-wax": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 19,
+   "index": 0
+  }
+ ],
+ "yamahachi-carving-wax": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 19,
+   "index": 1
+  }
+ ],
+ "yamahachi-bite-rim-stick": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 19,
+   "index": 3
+  }
+ ],
+ "yamahachi-dipping-wax": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 19,
+   "index": 6
+  }
+ ],
+ "yamahachi-pro-utility-wax": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 19,
+   "index": 9
+  }
+ ],
+ "yamahachi-kolben-wax": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 19,
+   "index": 7
+  }
+ ],
+ "yamahachi-bite-wax-pre-cut-type": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 19,
+   "index": 8
+  }
+ ],
+ "yamahachi-pro-line-wax": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 20,
+   "index": 0
+  }
+ ],
+ "yamahachi-silicone-big": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 23,
+   "index": 0
+  }
+ ],
+ "yamahachi-new-silicone-points-ii": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 23,
+   "index": 8
+  }
+ ],
+ "yamahachi-mandrel-cylinders": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 23,
+   "index": 9
+  }
+ ],
+ "yamahachi-urethane-big": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 23,
+   "index": 13
+  }
+ ],
+ "yamahachi-urethane-disk": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 23,
+   "index": 14
+  }
+ ],
+ "yamahachi-art-polisher": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 23,
+   "index": 18
+  }
+ ],
+ "yamahachi-yamahachi-cutting-disk": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 23,
+   "index": 21
+  }
+ ],
+ "yamahachi-creamy-sand": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 24,
+   "index": 8
+  }
+ ],
+ "yamahachi-sulfone-sand": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 24,
+   "index": 9
+  }
+ ],
+ "yamahachi-glass-beads": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 24,
+   "index": 10
+  }
+ ],
+ "yamahachi-mp-powder": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 24,
+   "index": 5
+  }
+ ],
+ "yamahachi-mp-buff": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 24,
+   "index": 6
+  }
+ ],
+ "yamahachi-clean-up": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 21,
+   "index": 0
+  }
+ ],
+ "yamahachi-tray-wash": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 21,
+   "index": 1
+  }
+ ],
+ "yamahachi-pipe-clean": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 21,
+   "index": 2
+  }
+ ],
+ "yamahachi-dowel-pins-cleaner": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 21,
+   "index": 3
+  }
+ ],
+ "yamahachi-tray-cleaner": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 21,
+   "index": 4
+  }
+ ],
+ "yamahachi-brush-cleaner": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 21,
+   "index": 6
+  }
+ ],
+ "yamahachi-apollon-sep-normal": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 21,
+   "index": 9
+  }
+ ],
+ "yamahachi-apollon-sep-low-viscosity": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 21,
+   "index": 10
+  }
+ ],
+ "yamahachi-mirror-cleaner": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 21,
+   "index": 11
+  }
+ ],
+ "yamahachi-hand-cleaner": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 21,
+   "index": 12
+  }
+ ],
+ "yamahachi-break": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 21,
+   "index": 13
+  }
+ ],
+ "yamahachi-wax-pattern-cleaner": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 21,
+   "index": 14
+  }
+ ],
+ "yamahachi-wax-pattern-cleaner-aqua": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 21,
+   "index": 15
+  }
+ ],
+ "yamahachi-apollon-varnish": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 21,
+   "index": 16
+  }
+ ],
+ "yamahachi-lab-scope-s": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 26,
+   "index": 18
+  }
+ ],
+ "yamahachi-kugel-hook": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 27,
+   "index": 0
+  }
+ ],
+ "yamahachi-glossy-coat-color": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 28,
+   "index": 6
+  }
+ ],
+ "yamahachi-glossy-coat": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 28,
+   "index": 3
+  }
+ ],
+ "yamahachi-metal-lock": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 28,
+   "index": 8
+  }
+ ],
+ "renfert-simplex": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 11,
+   "xref": 414
+  }
+ ],
+ "renfert-simplex-filaments": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 12,
+   "xref": 424
+  }
+ ],
+ "renfert-simplex-model-isolation": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 14,
+   "xref": 4448
+  }
+ ],
+ "renfert-easy-view": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 15,
+   "xref": 480
+  }
+ ],
+ "renfert-mobiloskop-s": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 16,
+   "xref": 494
+  }
+ ],
+ "renfert-silent-powercam-ec": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 19,
+   "xref": 555
+  }
+ ],
+ "renfert-silent-powercam-tc": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 20,
+   "xref": 570
+  }
+ ],
+ "renfert-silent-compactcam": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 21,
+   "xref": 584
+  }
+ ],
+ "renfert-silent-ec2": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 24,
+   "xref": 665
+  }
+ ],
+ "renfert-silent-tc2": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 25,
+   "xref": 685
+  }
+ ],
+ "renfert-silent-tc": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 26,
+   "xref": 701
+  }
+ ],
+ "renfert-silent-ts2": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 27,
+   "xref": 718
+  }
+ ],
+ "renfert-silent-ts": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 28,
+   "xref": 740
+  }
+ ],
+ "renfert-silent-compact": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 29,
+   "xref": 763
+  }
+ ],
+ "renfert-vortex-compact-3l": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 30,
+   "xref": 778
+  }
+ ],
+ "renfert-dustex-master-plus": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 31,
+   "xref": 796
+  }
+ ],
+ "renfert-silent-flow-sensor": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 32,
+   "xref": 809
+  }
+ ],
+ "renfert-grinding-box": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 32,
+   "xref": 815
+  }
+ ],
+ "renfert-basic-quattro-is": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 37,
+   "xref": 971
+  }
+ ],
+ "renfert-basic-quattro": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 38,
+   "xref": 993
+  }
+ ],
+ "renfert-basic-master": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 39,
+   "xref": 1015
+  }
+ ],
+ "renfert-basic-classic": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 40,
+   "xref": 1033
+  }
+ ],
+ "renfert-basic-eco": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 41,
+   "xref": 1057
+  }
+ ],
+ "renfert-vario-jet": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 42,
+   "xref": 1069
+  }
+ ],
+ "renfert-vario-basic": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 43,
+   "xref": 1089
+  }
+ ],
+ "renfert-basic-mobil": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 44,
+   "xref": 1105
+  }
+ ],
+ "renfert-high-performance-compressed-air-filter": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 44,
+   "xref": 1109
+  }
+ ],
+ "renfert-power-steamer-2": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 47,
+   "xref": 1186
+  }
+ ],
+ "renfert-power-steamer-1": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 48,
+   "xref": 1205
+  }
+ ],
+ "renfert-power-steamer-descaler": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 49,
+   "xref": 1221
+  }
+ ],
+ "renfert-power-steamer-water-softener": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 49,
+   "xref": 1225
+  }
+ ],
+ "renfert-twister-evolution": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 52,
+   "xref": 1280
+  }
+ ],
+ "renfert-twister": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 53,
+   "xref": 1304
+  }
+ ],
+ "renfert-twister-venturi": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 54,
+   "xref": 1324
+  }
+ ],
+ "renfert-vibrax": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 57,
+   "xref": 1393
+  }
+ ],
+ "renfert-mt-premium": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 59,
+   "xref": 1429
+  }
+ ],
+ "renfert-mt3": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 60,
+   "xref": 1447
+  }
+ ],
+ "renfert-mt-plus": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 61,
+   "xref": 1462
+  }
+ ],
+ "renfert-ortho-guide": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 62,
+   "xref": 1476
+  }
+ ],
+ "renfert-millo-pro": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 64,
+   "xref": 1520
+  }
+ ],
+ "renfert-millo": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 64,
+   "xref": 1524
+  }
+ ],
+ "renfert-auto-spin": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 65,
+   "xref": 1538
+  }
+ ],
+ "renfert-auto-spin-system-components": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 66,
+   "xref": 1549
+  }
+ ],
+ "renfert-top-spin": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 67,
+   "xref": 1568
+  }
+ ],
+ "renfert-vario-e": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 72,
+   "xref": 1722
+  }
+ ],
+ "renfert-hotty-led": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 73,
+   "xref": 1742
+  }
+ ],
+ "renfert-hotty": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 73,
+   "xref": 1746
+  }
+ ],
+ "renfert-waxprofi": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 74,
+   "xref": 1755
+  }
+ ],
+ "renfert-waxlectric-i": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 75,
+   "xref": 1779
+  }
+ ],
+ "renfert-waxlectric-ii": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 75,
+   "xref": 1783
+  }
+ ],
+ "renfert-waxlectric-light-i": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 76,
+   "xref": 1797
+  }
+ ],
+ "renfert-waxlectric-light-ii": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 76,
+   "xref": 1801
+  }
+ ],
+ "renfert-safety-burner-eco": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 77,
+   "xref": 1816
+  }
+ ],
+ "renfert-bijou-90": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 77,
+   "xref": 1820
+  }
+ ],
+ "renfert-magma": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 80,
+   "xref": 1899
+  }
+ ],
+ "renfert-power-pillo": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 81,
+   "xref": 1908
+  }
+ ],
+ "renfert-pillo": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 81,
+   "xref": 1916
+  }
+ ],
+ "renfert-sympro": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 82,
+   "xref": 1932
+  }
+ ],
+ "renfert-help-ex": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 83,
+   "xref": 4163
+  }
+ ],
+ "renfert-easyclean-md": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 84,
+   "xref": 1960
+  }
+ ],
+ "renfert-lay-art-crystal-aqua": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 90,
+   "xref": 2145
+  }
+ ],
+ "renfert-lay-art-tropic-pro": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 90,
+   "xref": 2149
+  }
+ ],
+ "renfert-lay-art-tropic": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 90,
+   "xref": 2157
+  }
+ ],
+ "renfert-lay-art-oasis": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 91,
+   "xref": 2168
+  }
+ ],
+ "renfert-lay-art-crystal": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 91,
+   "xref": 2176
+  }
+ ],
+ "renfert-lay-art-natural": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 91,
+   "xref": 2184
+  }
+ ],
+ "renfert-lay-art-color": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 92,
+   "xref": 2195
+  }
+ ],
+ "renfert-rainbow": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 92,
+   "xref": 2203
+  }
+ ],
+ "renfert-stain-mix": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 92,
+   "xref": 2211
+  }
+ ],
+ "renfert-lay-art-evo": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 95,
+   "xref": 2302
+  }
+ ],
+ "renfert-lay-art-style": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 96,
+   "xref": 2348
+  }
+ ],
+ "renfert-genius": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 97,
+   "xref": 2423
+  }
+ ],
+ "renfert-kolinsky": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 97,
+   "xref": 2415
+  }
+ ],
+ "renfert-ceramicus": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 98,
+   "xref": 2456
+  }
+ ],
+ "renfert-takanishi": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 98,
+   "xref": 2466
+  }
+ ],
+ "renfert-ergo-acryl": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 101,
+   "xref": 2641
+  }
+ ],
+ "renfert-ergo-wax": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 101,
+   "xref": 2665
+  }
+ ],
+ "renfert-metrical-scoops": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 102,
+   "xref": 2707
+  }
+ ],
+ "renfert-agate-spatula": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 102,
+   "xref": 2711
+  }
+ ],
+ "renfert-multipurpose-instrument": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 102,
+   "xref": 2715
+  }
+ ],
+ "renfert-instrument-set-standard": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 103,
+   "xref": 2742
+  }
+ ],
+ "renfert-instrument-set-deluxe": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 103,
+   "xref": 2746
+  }
+ ],
+ "renfert-keramogrip": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 104,
+   "xref": 2765
+  }
+ ],
+ "renfert-jacketgrip": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 104,
+   "xref": 2761
+  }
+ ],
+ "renfert-calipretto-s": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 105,
+   "xref": 2784
+  }
+ ],
+ "renfert-caliper": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 105,
+   "xref": 2800
+  }
+ ],
+ "renfert-dynex-brillant-separating-discs": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 108,
+   "xref": 2909
+  }
+ ],
+ "renfert-dynex-brillant-grinding-discs": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 108,
+   "xref": 2913
+  }
+ ],
+ "renfert-dynex-titanium": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 109,
+   "xref": 2920
+  }
+ ],
+ "renfert-dynex": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 109,
+   "xref": 2924
+  }
+ ],
+ "renfert-plastercut": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 110,
+   "xref": 2931
+  }
+ ],
+ "renfert-bi-flex": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 110,
+   "xref": 2935
+  }
+ ],
+ "renfert-turbo-flex-s": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 110,
+   "xref": 2939
+  }
+ ],
+ "renfert-ultracut": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 111,
+   "xref": 2946
+  }
+ ],
+ "renfert-various-separating-discs": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 111,
+   "xref": 2950
+  }
+ ],
+ "renfert-various-grinding-discs": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 111,
+   "xref": 2954
+  }
+ ],
+ "renfert-polisoft-a": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 114,
+   "xref": 3053
+  }
+ ],
+ "renfert-polisoft": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 114,
+   "xref": 3057
+  }
+ ],
+ "renfert-silicone-polishers": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 114,
+   "xref": 3061
+  }
+ ],
+ "renfert-silver-wire-brush-mounted": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 115,
+   "xref": 3068
+  }
+ ],
+ "renfert-bison": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 115,
+   "xref": 3072
+  }
+ ],
+ "renfert-goat-hair-brush": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 115,
+   "xref": 3076
+  }
+ ],
+ "renfert-cotton-buff": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 116,
+   "xref": 3083
+  }
+ ],
+ "renfert-silver-wire-brushes": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 116,
+   "xref": 3087
+  }
+ ],
+ "renfert-slender-brushes": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 116,
+   "xref": 3091
+  }
+ ],
+ "renfert-chungking-brushes": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 117,
+   "xref": 3098
+  }
+ ],
+ "renfert-special-brush": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 117,
+   "xref": 3102
+  }
+ ],
+ "renfert-slim": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 117,
+   "xref": 3106
+  }
+ ],
+ "renfert-linen-buff-siliconized": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 118,
+   "xref": 3125
+  }
+ ],
+ "renfert-pleated-buff-nettle-cloth": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 118,
+   "xref": 3129
+  }
+ ],
+ "renfert-remberti": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 118,
+   "xref": 3133
+  }
+ ],
+ "renfert-renfert-scanspray-extra-fine": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 120,
+   "xref": 4373
+  }
+ ],
+ "renfert-renfert-scanspray-classic": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 120,
+   "xref": 4371
+  }
+ ],
+ "renfert-easy-blank-wax": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 121,
+   "xref": 3199
+  }
+ ],
+ "renfert-pin-cast": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 122,
+   "xref": 3208
+  }
+ ],
+ "renfert-auto-spin-cone-pin": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 124,
+   "xref": 3263
+  }
+ ],
+ "renfert-bi-v-pin": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 124,
+   "xref": 3259
+  }
+ ],
+ "renfert-bi-pin": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 125,
+   "xref": 3274
+  }
+ ],
+ "renfert-pro-fix": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 125,
+   "xref": 3280
+  }
+ ],
+ "renfert-smart-pin": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 126,
+   "xref": 3294
+  }
+ ],
+ "renfert-bi-fix-pin": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 126,
+   "xref": 3300
+  }
+ ],
+ "renfert-the-multi-purpose-one": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 128,
+   "xref": 3320
+  }
+ ],
+ "renfert-the-powerful-one": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 128,
+   "xref": 3324
+  }
+ ],
+ "renfert-liquicol": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 128,
+   "xref": 3328
+  }
+ ],
+ "renfert-surface-hardener": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 129,
+   "xref": 3335
+  }
+ ],
+ "renfert-stabiloplast": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 129,
+   "xref": 3339
+  }
+ ],
+ "renfert-die-master": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 130,
+   "xref": 3346
+  }
+ ],
+ "renfert-picosep": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 131,
+   "xref": 3359
+  }
+ ],
+ "renfert-iso-stift": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 131,
+   "xref": 3363
+  }
+ ],
+ "renfert-isofix-2000": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 131,
+   "xref": 3367
+  }
+ ],
+ "renfert-occlutec": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 132,
+   "xref": 3374
+  }
+ ],
+ "renfert-picosilk": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 133,
+   "xref": 3401
+  }
+ ],
+ "renfert-firing-tray": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 133,
+   "xref": 3397
+  }
+ ],
+ "renfert-electrolyte": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 133,
+   "xref": 3405
+  }
+ ],
+ "renfert-geo-expert-a-bruguera": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 137,
+   "xref": 3523
+  }
+ ],
+ "renfert-geo-expert-gingiva-a-bruguera": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 137,
+   "xref": 3527
+  }
+ ],
+ "renfert-geo-expert-functional": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 138,
+   "xref": 3591
+  }
+ ],
+ "renfert-geo-classic": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 139,
+   "xref": 3607
+  }
+ ],
+ "renfert-geo-crowax": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 140,
+   "xref": 3675
+  }
+ ],
+ "renfert-geo-pontics": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 140,
+   "xref": 3705
+  }
+ ],
+ "renfert-geo-dip": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 141,
+   "xref": 3712
+  }
+ ],
+ "renfert-geo-rewax": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 141,
+   "xref": 3716
+  }
+ ],
+ "renfert-geo-model-casting-assortment": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 142,
+   "xref": 3731
+  }
+ ],
+ "renfert-geo-preformed-clasps": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 142,
+   "xref": 3727
+  }
+ ],
+ "renfert-geo-wax-retainers": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 143,
+   "xref": 3738
+  }
+ ],
+ "renfert-geo-casting-wax": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 143,
+   "xref": 3742
+  }
+ ],
+ "renfert-geo-cast-model-modeling-wax": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 144,
+   "xref": 3749
+  }
+ ],
+ "renfert-geo-casting-wax-2": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 144,
+   "xref": 3757
+  }
+ ],
+ "renfert-geo-block-out-wax": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 144,
+   "xref": 3761
+  }
+ ],
+ "renfert-geo-sticking-wax": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 145,
+   "xref": 3768
+  }
+ ],
+ "renfert-geo-lingual-bars": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 145,
+   "xref": 3772
+  }
+ ],
+ "renfert-geo-wax-wire": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 146,
+   "xref": 3781
+  }
+ ],
+ "renfert-mesh-strengtheners-grids": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 146,
+   "xref": 3785
+  }
+ ],
+ "renfert-renfert-polish": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 148,
+   "xref": 3826
+  }
+ ],
+ "renfert-brinell-l": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 149,
+   "xref": 3855
+  }
+ ],
+ "renfert-opal-l": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 149,
+   "xref": 3859
+  }
+ ],
+ "renfert-saphir": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 149,
+   "xref": 3863
+  }
+ ],
+ "renfert-universal-polishing-paste": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 150,
+   "xref": 3886
+  }
+ ],
+ "renfert-go-2011-speed": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 151,
+   "xref": 3900
+  }
+ ],
+ "renfert-temp-ex": [
+  {
+   "src": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+   "page": 151,
+   "xref": 3904
+  }
+ ],
+ "renfert-silent-xs": [
+  {
+   "src": "RENFERT/20250821_B_SILENT-XS_2pages_en (1).pdf",
+   "page": 2,
+   "index": 2
+  }
+ ],
+ "renfert-light-1": [
+  {
+   "src": "RENFERT/LIGHT-1_2pages_en.pdf",
+   "page": 2,
+   "index": 2
+  }
+ ],
+ "_logo:denpark": [
+  {
+   "src": "DENPARK/Spectra_Denpark_LS_Catalogue.pdf",
+   "page": 1,
+   "index": 1
+  }
+ ],
+ "_logo:yamahachi": [
+  {
+   "src": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+   "page": 1,
+   "crop": [
+    0.665,
+    0.048,
+    0.925,
+    0.09
+   ]
+  }
+ ]
+}

@@ -1,0 +1,613 @@
+[
+ {
+  "id": "audent-epress-chart",
+  "brand": "audent",
+  "title": "i-motion e-press Colour Chart (2023)",
+  "type": "datasheet",
+  "lang": "EN",
+  "file": "assets/downloads/audent/i-motion-e-press-colour-chart.pdf",
+  "pages": 1,
+  "sizeMB": 0.2,
+  "categories": [
+   "material"
+  ],
+  "source": "Audent/Audent i motion e press colour chart 2023 09 29.pdf",
+  "large": false,
+  "optimised": "copy"
+ },
+ {
+  "id": "audent-lfu",
+  "brand": "audent",
+  "title": "i-motion LFU Stains, Shades & Glaze",
+  "type": "datasheet",
+  "lang": "EN",
+  "file": "assets/downloads/audent/i-motion-lfu-stains-shades-glaze.pdf",
+  "pages": 2,
+  "sizeMB": 0.3,
+  "categories": [
+   "material"
+  ],
+  "source": "Audent/i-motion LFU catalog-compressed.pdf",
+  "large": false,
+  "optimised": "copy"
+ },
+ {
+  "id": "bsm-aconia-family",
+  "brand": "bsm",
+  "title": "Aconia Zirconia Family Flyer",
+  "type": "brochure",
+  "lang": "EN",
+  "file": "assets/downloads/bsm/aconia-zirconia-family.pdf",
+  "pages": 2,
+  "sizeMB": 5.94,
+  "categories": [
+   "material"
+  ],
+  "source": "BSM/DENTAL MATERIALS/BSM_Zirconia_Aconia Family_Flyer_EN 20260423 v2.1.1.pdf",
+  "large": false,
+  "optimised": "gc"
+ },
+ {
+  "id": "bsm-aconia-master",
+  "brand": "bsm",
+  "title": "3D Aconia Master Flyer",
+  "type": "brochure",
+  "lang": "EN",
+  "file": "assets/downloads/bsm/3d-aconia-master.pdf",
+  "pages": 4,
+  "sizeMB": 5.51,
+  "categories": [
+   "material"
+  ],
+  "source": "BSM/DENTAL MATERIALS/BSM_Zirconia_Aconia 3D Aconia Master_Flyer_EN 20260416 v4.4.2.pdf",
+  "large": false,
+  "optimised": "copy"
+ },
+ {
+  "id": "bsm-aconia-ultra",
+  "brand": "bsm",
+  "title": "3D Aconia Ultra Flyer",
+  "type": "brochure",
+  "lang": "EN",
+  "file": "assets/downloads/bsm/3d-aconia-ultra.pdf",
+  "pages": 4,
+  "sizeMB": 3.41,
+  "categories": [
+   "material"
+  ],
+  "source": "BSM/DENTAL MATERIALS/BSM_Zirconia_Aconia 3D Aconia Ultra_Flyer_EN 20260403  v1.1.1.pdf",
+  "large": false,
+  "optimised": "gc"
+ },
+ {
+  "id": "bsm-artamic",
+  "brand": "bsm",
+  "title": "Artamic Stain/Glaze Flyer",
+  "type": "brochure",
+  "lang": "EN",
+  "file": "assets/downloads/bsm/artamic-stain-glaze.pdf",
+  "pages": 8,
+  "sizeMB": 5.94,
+  "categories": [
+   "material"
+  ],
+  "source": "BSM/DENTAL MATERIALS/BSM_SG_Artamic_Flyer_EN 20251011 v2.1.1.pdf",
+  "large": false,
+  "optimised": "gc"
+ },
+ {
+  "id": "bsm-artist-kit",
+  "brand": "bsm",
+  "title": "Aconia Artist Kit Flyer",
+  "type": "brochure",
+  "lang": "EN",
+  "file": "assets/downloads/bsm/aconia-artist-kit.pdf",
+  "pages": 2,
+  "sizeMB": 1.68,
+  "categories": [
+   "material"
+  ],
+  "source": "BSM/DENTAL MATERIALS/BSM_CL _Artist Kit_Flyer_2025.06.25.pdf",
+  "large": false,
+  "optimised": "copy"
+ },
+ {
+  "id": "bsm-artist-v1",
+  "brand": "bsm",
+  "title": "Aconia Artist V1 Opaque Liquid Flyer",
+  "type": "brochure",
+  "lang": "EN",
+  "file": "assets/downloads/bsm/aconia-artist-v1-opaque-liquid.pdf",
+  "pages": 1,
+  "sizeMB": 2.47,
+  "categories": [
+   "material"
+  ],
+  "source": "BSM/DENTAL MATERIALS/BSM_CL _Artist V1_Flyer(vertical)_2024.pdf",
+  "large": false,
+  "optimised": "gc"
+ },
+ {
+  "id": "bsm-520d",
+  "brand": "bsm",
+  "title": "BSM-520D 5-Axis Milling Machine Flyer",
+  "type": "datasheet",
+  "lang": "EN",
+  "file": "assets/downloads/bsm/bsm-520d-milling-machine.pdf",
+  "pages": 2,
+  "sizeMB": 2.56,
+  "categories": [
+   "equipment"
+  ],
+  "source": "BSM/DENTAL EQUIPMENTS/BSM_Milling_520D_Flyer_EN 20260127-old version.pdf",
+  "large": false,
+  "optimised": "gc"
+ },
+ {
+  "id": "bsm-fm30",
+  "brand": "bsm",
+  "title": "BSM-FM30 Zirconia Sintering Furnace Flyer",
+  "type": "datasheet",
+  "lang": "EN",
+  "file": "assets/downloads/bsm/bsm-fm30-sintering-furnace.pdf",
+  "pages": 2,
+  "sizeMB": 2.25,
+  "categories": [
+   "equipment"
+  ],
+  "source": "BSM/DENTAL EQUIPMENTS/BSM_Sintering_FM30_Flyer_EN 20251011 v1.1.1.pdf",
+  "large": false,
+  "optimised": "copy"
+ },
+ {
+  "id": "bsm-pf10",
+  "brand": "bsm",
+  "title": "BSM-PF10 Porcelain Furnace Flyer",
+  "type": "datasheet",
+  "lang": "EN",
+  "file": "assets/downloads/bsm/bsm-pf10-porcelain-furnace.pdf",
+  "pages": 2,
+  "sizeMB": 1.5,
+  "categories": [
+   "equipment"
+  ],
+  "source": "BSM/DENTAL EQUIPMENTS/BSM_Porcelain_PF10_Flyer_EN 20251019 v1.1.1.pdf",
+  "large": false,
+  "optimised": "copy"
+ },
+ {
+  "id": "denpark-ls",
+  "brand": "denpark",
+  "title": "Spectra Scanner by Denpark: LS Series Catalogue",
+  "type": "catalog",
+  "lang": "EN",
+  "file": "assets/downloads/denpark/denpark-ls-series-catalogue.pdf",
+  "pages": 8,
+  "sizeMB": 6.82,
+  "categories": [
+   "equipment"
+  ],
+  "source": "DENPARK/Spectra_Denpark_LS_Catalogue.pdf",
+  "large": false,
+  "optimised": "copy"
+ },
+ {
+  "id": "denpark-ls2",
+  "brand": "denpark",
+  "title": "Denpark LS2 Scanner Brochure",
+  "type": "brochure",
+  "lang": "EN",
+  "file": "assets/downloads/denpark/denpark-ls2-brochure.pdf",
+  "pages": 2,
+  "sizeMB": 2.18,
+  "categories": [
+   "equipment"
+  ],
+  "source": "DENPARK/Spectra_Denpark_LS2_Brochure.pdf",
+  "large": false,
+  "optimised": "copy"
+ },
+ {
+  "id": "denpark-c5",
+  "brand": "denpark",
+  "title": "Denpark IOS-C5 Intraoral Scanner Datasheet",
+  "type": "datasheet",
+  "lang": "EN",
+  "file": "assets/downloads/denpark/denpark-ios-c5-datasheet.pdf",
+  "pages": 2,
+  "sizeMB": 2.87,
+  "categories": [
+   "equipment"
+  ],
+  "source": "DENPARK/C5 EN 2.pdf",
+  "large": false,
+  "optimised": "copy"
+ },
+ {
+  "id": "disc-catalog",
+  "brand": "disc",
+  "title": "Cutting & Separating Disks Catalogue 2026",
+  "type": "catalog",
+  "lang": "EN",
+  "file": "assets/downloads/disc/cutting-separating-disks-2026.pdf",
+  "pages": 11,
+  "sizeMB": 5.34,
+  "categories": [
+   "material"
+  ],
+  "source": "DISC/SpectraCeram_Cutting_Disks_2026_SpectraIdentity_v5.pdf",
+  "large": false,
+  "optimised": "copy"
+ },
+ {
+  "id": "eraylar-deluxe",
+  "brand": "eraylar",
+  "title": "ERAY DELUXE Mould Chart",
+  "type": "catalog",
+  "lang": "TR / EN",
+  "file": "assets/downloads/eraylar/eray-deluxe-mould-chart.pdf",
+  "pages": 8,
+  "sizeMB": 0.96,
+  "categories": [
+   "material"
+  ],
+  "source": "ERAYLAR/eraydeluxetureng_2022-01-25_21-14-12.pdf",
+  "large": false,
+  "optimised": "gc"
+ },
+ {
+  "id": "eraylar-eray",
+  "brand": "eraylar",
+  "title": "ERAY Mould Chart",
+  "type": "catalog",
+  "lang": "TR",
+  "file": "assets/downloads/eraylar/eray-mould-chart-tr.pdf",
+  "pages": 8,
+  "sizeMB": 0.49,
+  "categories": [
+   "material"
+  ],
+  "source": "ERAYLAR/erayturkce_2022-01-25_20-59-30.pdf",
+  "large": false,
+  "optimised": "gc"
+ },
+ {
+  "id": "imt-nicr",
+  "brand": "imt-metal-powder",
+  "title": "IMT NiCr Metal Powder Datasheet",
+  "type": "datasheet",
+  "lang": "EN",
+  "file": "assets/downloads/imt-metal-powder/imt-nicr-metal-powder.pdf",
+  "pages": 2,
+  "sizeMB": 0.13,
+  "categories": [
+   "material"
+  ],
+  "source": "IMT METAL POWDER/472892700_122164775240272744_4389916170306438226_n.pdf",
+  "large": false,
+  "optimised": "copy"
+ },
+ {
+  "id": "jj-catalog",
+  "brand": "jj-tools",
+  "title": "JJ Tools Carbide End Mills Catalogue",
+  "type": "catalog",
+  "lang": "EN / KO",
+  "file": "assets/downloads/jj-tools/jj-tools-carbide-end-mills.pdf",
+  "pages": 533,
+  "sizeMB": 47.31,
+  "categories": [
+   "material"
+  ],
+  "source": "JJ TOOLS/1785379371038992.pdf",
+  "large": true,
+  "optimised": "gc"
+ },
+ {
+  "id": "profeta-c120",
+  "brand": "profeta",
+  "title": "Profeta C120 Dental Metal 3D Printer",
+  "type": "datasheet",
+  "lang": "EN",
+  "file": "assets/downloads/profeta/profeta-c120.pdf",
+  "pages": 2,
+  "sizeMB": 1.01,
+  "categories": [
+   "equipment"
+  ],
+  "source": "PROFETA/C120-EN-V2.pdf",
+  "large": false,
+  "optimised": "gc"
+ },
+ {
+  "id": "profeta-c150",
+  "brand": "profeta",
+  "title": "Profeta C150 Dental Metal 3D Printer",
+  "type": "datasheet",
+  "lang": "EN",
+  "file": "assets/downloads/profeta/profeta-c150.pdf",
+  "pages": 2,
+  "sizeMB": 3.58,
+  "categories": [
+   "equipment"
+  ],
+  "source": "PROFETA/C150EN.pdf",
+  "large": false,
+  "optimised": "rebuilt"
+ },
+ {
+  "id": "renfert-catalog",
+  "brand": "renfert",
+  "title": "Renfert Catalog 2023",
+  "type": "catalog",
+  "lang": "EN",
+  "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+  "pages": 156,
+  "sizeMB": 21.82,
+  "categories": [
+   "equipment",
+   "material"
+  ],
+  "source": "RENFERT/RENFERT_CATALOG_EN (3).PDF",
+  "large": true,
+  "optimised": "gc"
+ },
+ {
+  "id": "renfert-basic-eco",
+  "brand": "renfert",
+  "title": "Basic eco Sandblasting Unit",
+  "type": "datasheet",
+  "lang": "EN",
+  "file": "assets/downloads/renfert/renfert-basic-eco.pdf",
+  "pages": 1,
+  "sizeMB": 0.35,
+  "categories": [
+   "equipment"
+  ],
+  "source": "RENFERT/RENFERT_Basic eco.PDF",
+  "large": false,
+  "optimised": "rebuilt"
+ },
+ {
+  "id": "renfert-millo",
+  "brand": "renfert",
+  "title": "Millo / Millo pro Dental Arch Trimmer",
+  "type": "datasheet",
+  "lang": "EN",
+  "file": "assets/downloads/renfert/renfert-millo.pdf",
+  "pages": 1,
+  "sizeMB": 0.35,
+  "categories": [
+   "equipment"
+  ],
+  "source": "RENFERT/RENFERT_MILLO.PDF",
+  "large": false,
+  "optimised": "rebuilt"
+ },
+ {
+  "id": "renfert-mt3",
+  "brand": "renfert",
+  "title": "MT3 Wet Trimmer",
+  "type": "datasheet",
+  "lang": "EN",
+  "file": "assets/downloads/renfert/renfert-mt3.pdf",
+  "pages": 1,
+  "sizeMB": 0.29,
+  "categories": [
+   "equipment"
+  ],
+  "source": "RENFERT/RENFERT_MT3.PDF",
+  "large": false,
+  "optimised": "rebuilt"
+ },
+ {
+  "id": "renfert-power-steamer",
+  "brand": "renfert",
+  "title": "POWER steamer 1",
+  "type": "datasheet",
+  "lang": "EN",
+  "file": "assets/downloads/renfert/renfert-power-steamer.pdf",
+  "pages": 1,
+  "sizeMB": 0.37,
+  "categories": [
+   "equipment"
+  ],
+  "source": "RENFERT/RENFERT_POWER STEAMER.PDF",
+  "large": false,
+  "optimised": "rebuilt"
+ },
+ {
+  "id": "renfert-silent-compact",
+  "brand": "renfert",
+  "title": "SILENT compact Extraction Unit",
+  "type": "datasheet",
+  "lang": "EN",
+  "file": "assets/downloads/renfert/renfert-silent-compact.pdf",
+  "pages": 1,
+  "sizeMB": 0.27,
+  "categories": [
+   "equipment"
+  ],
+  "source": "RENFERT/RENFERT_SILENT COMPACT.PDF",
+  "large": false,
+  "optimised": "rebuilt"
+ },
+ {
+  "id": "renfert-silent-compactcam",
+  "brand": "renfert",
+  "title": "SILENT compactCAM Extraction Unit",
+  "type": "datasheet",
+  "lang": "EN",
+  "file": "assets/downloads/renfert/renfert-silent-compactcam.pdf",
+  "pages": 1,
+  "sizeMB": 0.27,
+  "categories": [
+   "equipment"
+  ],
+  "source": "RENFERT/RENFERT_Silent compact CAM.PDF",
+  "large": false,
+  "optimised": "rebuilt"
+ },
+ {
+  "id": "renfert-top-spin",
+  "brand": "renfert",
+  "title": "Top spin Pin Drilling Unit",
+  "type": "datasheet",
+  "lang": "EN",
+  "file": "assets/downloads/renfert/renfert-top-spin.pdf",
+  "pages": 1,
+  "sizeMB": 0.27,
+  "categories": [
+   "equipment"
+  ],
+  "source": "RENFERT/RENFERT_TOP SPIN.PDF",
+  "large": false,
+  "optimised": "rebuilt"
+ },
+ {
+  "id": "renfert-twister",
+  "brand": "renfert",
+  "title": "Twister & Twister venturi Vacuum Mixing Units",
+  "type": "datasheet",
+  "lang": "EN",
+  "file": "assets/downloads/renfert/renfert-twister.pdf",
+  "pages": 2,
+  "sizeMB": 0.37,
+  "categories": [
+   "equipment"
+  ],
+  "source": "RENFERT/RENFERT_TWISTER&TWISTER VENTURI.PDF",
+  "large": false,
+  "optimised": "rebuilt"
+ },
+ {
+  "id": "renfert-vario-e",
+  "brand": "renfert",
+  "title": "Vario E Wax Warmer",
+  "type": "datasheet",
+  "lang": "EN",
+  "file": "assets/downloads/renfert/renfert-vario-e.pdf",
+  "pages": 1,
+  "sizeMB": 0.23,
+  "categories": [
+   "equipment"
+  ],
+  "source": "RENFERT/RENFERT_VARIO E.PDF",
+  "large": false,
+  "optimised": "rebuilt"
+ },
+ {
+  "id": "renfert-waxlectric",
+  "brand": "renfert",
+  "title": "Waxlectric I & II Electric Wax Knives",
+  "type": "datasheet",
+  "lang": "EN",
+  "file": "assets/downloads/renfert/renfert-waxlectric.pdf",
+  "pages": 1,
+  "sizeMB": 0.28,
+  "categories": [
+   "equipment"
+  ],
+  "source": "RENFERT/RENFERT_WAX ELECTRIC.PDF",
+  "large": false,
+  "optimised": "rebuilt"
+ },
+ {
+  "id": "renfert-silent-xs",
+  "brand": "renfert",
+  "title": "SILENT XS Mobile Suction Unit",
+  "type": "datasheet",
+  "lang": "EN",
+  "file": "assets/downloads/renfert/renfert-silent-xs.pdf",
+  "pages": 2,
+  "sizeMB": 0.63,
+  "categories": [
+   "equipment"
+  ],
+  "source": "RENFERT/20250821_B_SILENT-XS_2pages_en (1).pdf",
+  "large": false,
+  "optimised": "gc"
+ },
+ {
+  "id": "renfert-light-1",
+  "brand": "renfert",
+  "title": "LIGHT 1 Dental Worklight",
+  "type": "datasheet",
+  "lang": "EN",
+  "file": "assets/downloads/renfert/renfert-light-1.pdf",
+  "pages": 2,
+  "sizeMB": 0.56,
+  "categories": [
+   "equipment"
+  ],
+  "source": "RENFERT/LIGHT-1_2pages_en.pdf",
+  "large": false,
+  "optimised": "gc"
+ },
+ {
+  "id": "teknik-mp100",
+  "brand": "teknik-dental",
+  "title": "tegra MP100S Porcelain Furnace Brochure",
+  "type": "brochure",
+  "lang": "EN",
+  "file": "assets/downloads/teknik-dental/tegra-mp100s-brochure.pdf",
+  "pages": 1,
+  "sizeMB": 10.27,
+  "categories": [
+   "equipment"
+  ],
+  "source": "TEKNIK DENTAL/MP100_Brochure_EN.pdf",
+  "large": true,
+  "optimised": "copy"
+ },
+ {
+  "id": "teknik-mp1500",
+  "brand": "teknik-dental",
+  "title": "tegra MP1500 Speed Multistep Brochure",
+  "type": "brochure",
+  "lang": "EN",
+  "file": "assets/downloads/teknik-dental/tegra-mp1500-speed-multistep-brochure.pdf",
+  "pages": 1,
+  "sizeMB": 0.93,
+  "categories": [
+   "equipment"
+  ],
+  "source": "TEKNIK DENTAL/MP1500_Speed_Multistep_Brochure_EN_20230404.pdf",
+  "large": false,
+  "optimised": "gc"
+ },
+ {
+  "id": "yamahachi-catalog",
+  "brand": "yamahachi",
+  "title": "Yamahachi Product Catalog 2025-2026",
+  "type": "catalog",
+  "lang": "EN",
+  "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+  "pages": 29,
+  "sizeMB": 2.31,
+  "categories": [
+   "equipment",
+   "material"
+  ],
+  "source": "Yamahachi/prduct_catalog_2025_2026_ver1_LOW.pdf",
+  "large": false,
+  "optimised": "copy"
+ },
+ {
+  "id": "yamahachi-pmma-wax",
+  "brand": "yamahachi",
+  "title": "Yamahachi CAD/CAM PMMA & Wax Materials",
+  "type": "brochure",
+  "lang": "EN",
+  "file": "assets/downloads/yamahachi/yamahachi-pmma-and-wax.pdf",
+  "pages": 2,
+  "sizeMB": 0.21,
+  "categories": [
+   "equipment",
+   "material"
+  ],
+  "source": "Yamahachi/PMMA & WAX.pdf",
+  "large": false,
+  "optimised": "gc"
+ }
+]

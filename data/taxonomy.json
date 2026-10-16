@@ -1,0 +1,76 @@
+{
+ "equipment": {
+  "label": "Dental Equipment",
+  "sub": [
+   {
+    "slug": "scanners-imaging",
+    "label": "Scanners & Visualization"
+   },
+   {
+    "slug": "milling-printing",
+    "label": "Milling & 3D Printing"
+   },
+   {
+    "slug": "furnaces",
+    "label": "Furnaces"
+   },
+   {
+    "slug": "model-prep",
+    "label": "Mixing & Model Preparation"
+   },
+   {
+    "slug": "sandblasting",
+    "label": "Sandblasting"
+   },
+   {
+    "slug": "cleaning",
+    "label": "Cleaning & Steaming"
+   },
+   {
+    "slug": "extraction",
+    "label": "Extraction & Dust Control"
+   },
+   {
+    "slug": "wax-casting",
+    "label": "Wax, Casting & Deflasking"
+   }
+  ]
+ },
+ "material": {
+  "label": "Dental Material",
+  "sub": [
+   {
+    "slug": "zirconia-ceramics",
+    "label": "Zirconia & Ceramics"
+   },
+   {
+    "slug": "coloring-glaze",
+    "label": "Stains, Glaze & Colouring"
+   },
+   {
+    "slug": "pmma-wax",
+    "label": "PMMA, Wax & Blanks"
+   },
+   {
+    "slug": "resins",
+    "label": "Resins & 3D-Print Materials"
+   },
+   {
+    "slug": "artificial-teeth",
+    "label": "Artificial Teeth"
+   },
+   {
+    "slug": "metal-powders",
+    "label": "Metal Powders"
+   },
+   {
+    "slug": "tools-finishing",
+    "label": "Tools, Polishing & Finishing"
+   },
+   {
+    "slug": "lab-supplies",
+    "label": "Lab Supplies & Instruments"
+   }
+  ]
+ }
+}

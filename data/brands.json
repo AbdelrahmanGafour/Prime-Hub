@@ -1,0 +1,424 @@
+[
+ {
+  "slug": "renfert",
+  "name": "Renfert",
+  "country": "Germany",
+  "logo": "assets/brands/renfert.webp",
+  "about": "Renfert GmbH develops and produces equipment, instruments and materials for dental laboratories and offices, and has done so since 1925. Its products are made in Germany under the motto “making work easy”.",
+  "categories": [
+   "equipment",
+   "material"
+  ],
+  "productCount": 163,
+  "catalogs": [
+   {
+    "title": "Renfert Catalog 2023",
+    "file": "assets/downloads/renfert/renfert-catalog-2023.pdf",
+    "pages": 156,
+    "sizeMB": 21.82
+   },
+   {
+    "title": "Basic eco Sandblasting Unit",
+    "file": "assets/downloads/renfert/renfert-basic-eco.pdf",
+    "pages": 1,
+    "sizeMB": 0.35
+   },
+   {
+    "title": "Millo / Millo pro Dental Arch Trimmer",
+    "file": "assets/downloads/renfert/renfert-millo.pdf",
+    "pages": 1,
+    "sizeMB": 0.35
+   },
+   {
+    "title": "MT3 Wet Trimmer",
+    "file": "assets/downloads/renfert/renfert-mt3.pdf",
+    "pages": 1,
+    "sizeMB": 0.29
+   },
+   {
+    "title": "POWER steamer 1",
+    "file": "assets/downloads/renfert/renfert-power-steamer.pdf",
+    "pages": 1,
+    "sizeMB": 0.37
+   },
+   {
+    "title": "SILENT compact Extraction Unit",
+    "file": "assets/downloads/renfert/renfert-silent-compact.pdf",
+    "pages": 1,
+    "sizeMB": 0.27
+   },
+   {
+    "title": "SILENT compactCAM Extraction Unit",
+    "file": "assets/downloads/renfert/renfert-silent-compactcam.pdf",
+    "pages": 1,
+    "sizeMB": 0.27
+   },
+   {
+    "title": "Top spin Pin Drilling Unit",
+    "file": "assets/downloads/renfert/renfert-top-spin.pdf",
+    "pages": 1,
+    "sizeMB": 0.27
+   },
+   {
+    "title": "Twister & Twister venturi Vacuum Mixing Units",
+    "file": "assets/downloads/renfert/renfert-twister.pdf",
+    "pages": 2,
+    "sizeMB": 0.37
+   },
+   {
+    "title": "Vario E Wax Warmer",
+    "file": "assets/downloads/renfert/renfert-vario-e.pdf",
+    "pages": 1,
+    "sizeMB": 0.23
+   },
+   {
+    "title": "Waxlectric I & II Electric Wax Knives",
+    "file": "assets/downloads/renfert/renfert-waxlectric.pdf",
+    "pages": 1,
+    "sizeMB": 0.28
+   },
+   {
+    "title": "SILENT XS Mobile Suction Unit",
+    "file": "assets/downloads/renfert/renfert-silent-xs.pdf",
+    "pages": 2,
+    "sizeMB": 0.63
+   },
+   {
+    "title": "LIGHT 1 Dental Worklight",
+    "file": "assets/downloads/renfert/renfert-light-1.pdf",
+    "pages": 2,
+    "sizeMB": 0.56
+   }
+  ]
+ },
+ {
+  "slug": "bsm",
+  "name": "BSM",
+  "country": "China",
+  "logo": "assets/brands/bsm.webp",
+  "about": "BSM (Besmile) is a digital solutions provider for restorative and implant dentistry, offering CAD/CAM materials and equipment developed and manufactured in-house.",
+  "categories": [
+   "equipment",
+   "material"
+  ],
+  "productCount": 15,
+  "catalogs": [
+   {
+    "title": "Aconia Zirconia Family Flyer",
+    "file": "assets/downloads/bsm/aconia-zirconia-family.pdf",
+    "pages": 2,
+    "sizeMB": 5.94
+   },
+   {
+    "title": "3D Aconia Master Flyer",
+    "file": "assets/downloads/bsm/3d-aconia-master.pdf",
+    "pages": 4,
+    "sizeMB": 5.51
+   },
+   {
+    "title": "3D Aconia Ultra Flyer",
+    "file": "assets/downloads/bsm/3d-aconia-ultra.pdf",
+    "pages": 4,
+    "sizeMB": 3.41
+   },
+   {
+    "title": "Artamic Stain/Glaze Flyer",
+    "file": "assets/downloads/bsm/artamic-stain-glaze.pdf",
+    "pages": 8,
+    "sizeMB": 5.94
+   },
+   {
+    "title": "Aconia Artist Kit Flyer",
+    "file": "assets/downloads/bsm/aconia-artist-kit.pdf",
+    "pages": 2,
+    "sizeMB": 1.68
+   },
+   {
+    "title": "Aconia Artist V1 Opaque Liquid Flyer",
+    "file": "assets/downloads/bsm/aconia-artist-v1-opaque-liquid.pdf",
+    "pages": 1,
+    "sizeMB": 2.47
+   },
+   {
+    "title": "BSM-520D 5-Axis Milling Machine Flyer",
+    "file": "assets/downloads/bsm/bsm-520d-milling-machine.pdf",
+    "pages": 2,
+    "sizeMB": 2.56
+   },
+   {
+    "title": "BSM-FM30 Zirconia Sintering Furnace Flyer",
+    "file": "assets/downloads/bsm/bsm-fm30-sintering-furnace.pdf",
+    "pages": 2,
+    "sizeMB": 2.25
+   },
+   {
+    "title": "BSM-PF10 Porcelain Furnace Flyer",
+    "file": "assets/downloads/bsm/bsm-pf10-porcelain-furnace.pdf",
+    "pages": 2,
+    "sizeMB": 1.5
+   }
+  ]
+ },
+ {
+  "slug": "audent",
+  "name": "AUDent",
+  "country": "Liechtenstein",
+  "logo": "assets/brands/audent.webp",
+  "about": "AUDent supplies dental ceramic systems, including i-motion e-press lithium disilicate press ceramic and the i-motion LFU universal shade, stain and glaze range.",
+  "categories": [
+   "material"
+  ],
+  "productCount": 4,
+  "catalogs": [
+   {
+    "title": "i-motion e-press Colour Chart (2023)",
+    "file": "assets/downloads/audent/i-motion-e-press-colour-chart.pdf",
+    "pages": 1,
+    "sizeMB": 0.2
+   },
+   {
+    "title": "i-motion LFU Stains, Shades & Glaze",
+    "file": "assets/downloads/audent/i-motion-lfu-stains-shades-glaze.pdf",
+    "pages": 2,
+    "sizeMB": 0.3
+   }
+  ]
+ },
+ {
+  "slug": "denpark",
+  "name": "Denpark",
+  "country": null,
+  "logo": "assets/brands/denpark.webp",
+  "about": "Denpark 3D digital scanners: the LS series of desktop laboratory scanners and the IOS-C5 intraoral scanner.",
+  "categories": [
+   "equipment"
+  ],
+  "productCount": 4,
+  "catalogs": [
+   {
+    "title": "Spectra Scanner by Denpark: LS Series Catalogue",
+    "file": "assets/downloads/denpark/denpark-ls-series-catalogue.pdf",
+    "pages": 8,
+    "sizeMB": 6.82
+   },
+   {
+    "title": "Denpark LS2 Scanner Brochure",
+    "file": "assets/downloads/denpark/denpark-ls2-brochure.pdf",
+    "pages": 2,
+    "sizeMB": 2.18
+   },
+   {
+    "title": "Denpark IOS-C5 Intraoral Scanner Datasheet",
+    "file": "assets/downloads/denpark/denpark-ios-c5-datasheet.pdf",
+    "pages": 2,
+    "sizeMB": 2.87
+   }
+  ]
+ },
+ {
+  "slug": "disc",
+  "name": "DISC",
+  "country": "United Arab Emirates",
+  "logo": null,
+  "about": "Diamond cutting and separating disks, supplied in 16 profiles and three thicknesses (catalogue by Spectra Ceram Trading L.L.C., Dubai).",
+  "categories": [
+   "material"
+  ],
+  "productCount": 16,
+  "catalogs": [
+   {
+    "title": "Cutting & Separating Disks Catalogue 2026",
+    "file": "assets/downloads/disc/cutting-separating-disks-2026.pdf",
+    "pages": 11,
+    "sizeMB": 5.34
+   }
+  ]
+ },
+ {
+  "slug": "eraylar",
+  "name": "ERAYLAR",
+  "country": "Turkey",
+  "logo": "assets/brands/eraylar.webp",
+  "about": "Eraylar Akrilik Sanayi ve Diş Ticaret A.Ş. (Ankara) manufactures acrylic artificial teeth under the ERAY and ERAY DELUXE names, certified to ISO 22112 and EN ISO 13485.",
+  "categories": [
+   "material"
+  ],
+  "productCount": 2,
+  "catalogs": [
+   {
+    "title": "ERAY DELUXE Mould Chart",
+    "file": "assets/downloads/eraylar/eray-deluxe-mould-chart.pdf",
+    "pages": 8,
+    "sizeMB": 0.96
+   },
+   {
+    "title": "ERAY Mould Chart",
+    "file": "assets/downloads/eraylar/eray-mould-chart-tr.pdf",
+    "pages": 8,
+    "sizeMB": 0.49
+   }
+  ]
+ },
+ {
+  "slug": "fdt-resin",
+  "name": "FDT Resin",
+  "country": null,
+  "logo": null,
+  "about": "Resins for dental 3D printing, including the Pro Model Resin and Wax Resin ranges.",
+  "categories": [
+   "material"
+  ],
+  "productCount": 2,
+  "catalogs": []
+ },
+ {
+  "slug": "imt-metal-powder",
+  "name": "IMT Metal Powder",
+  "country": null,
+  "logo": null,
+  "about": "IMT develops metal powder materials for dental 3D printing and states ISO 13485, ISO 9001, CE and FDA certification on its brochure.",
+  "categories": [
+   "material"
+  ],
+  "productCount": 1,
+  "catalogs": [
+   {
+    "title": "IMT NiCr Metal Powder Datasheet",
+    "file": "assets/downloads/imt-metal-powder/imt-nicr-metal-powder.pdf",
+    "pages": 2,
+    "sizeMB": 0.13
+   }
+  ]
+ },
+ {
+  "slug": "jj-tools",
+  "name": "JJ Tools",
+  "country": "South Korea",
+  "logo": "assets/brands/jj-tools.webp",
+  "about": "JJ Tools Co., Ltd. makes carbide end mills, drills and thread mills in Korea: 18,619 tools in 278 items for steel, titanium, aluminium, graphite and composites.",
+  "categories": [
+   "material"
+  ],
+  "productCount": 12,
+  "catalogs": [
+   {
+    "title": "JJ Tools Carbide End Mills Catalogue",
+    "file": "assets/downloads/jj-tools/jj-tools-carbide-end-mills.pdf",
+    "pages": 533,
+    "sizeMB": 47.31
+   }
+  ]
+ },
+ {
+  "slug": "lustra",
+  "name": "LUSTRA",
+  "country": null,
+  "logo": null,
+  "about": "LUSTRA CAD/CAM restorative blocks.",
+  "categories": [
+   "material"
+  ],
+  "productCount": 1,
+  "catalogs": []
+ },
+ {
+  "slug": "pht",
+  "name": "PHT",
+  "country": null,
+  "logo": null,
+  "about": "PHT (New Technology) diamond polishing systems: Diamond Stone and Diamond Rubber polishers.",
+  "categories": [
+   "material"
+  ],
+  "productCount": 2,
+  "catalogs": []
+ },
+ {
+  "slug": "profeta",
+  "name": "Profeta",
+  "country": "China",
+  "logo": "assets/brands/profeta.webp",
+  "about": "Profeta Intelligent Technology Co., Ltd. (Nanjing) builds dedicated dental metal 3D printers, sold with a one-stop package of design software, slicing software, furnace and nitrogen generator.",
+  "categories": [
+   "equipment"
+  ],
+  "productCount": 2,
+  "catalogs": [
+   {
+    "title": "Profeta C120 Dental Metal 3D Printer",
+    "file": "assets/downloads/profeta/profeta-c120.pdf",
+    "pages": 2,
+    "sizeMB": 1.01
+   },
+   {
+    "title": "Profeta C150 Dental Metal 3D Printer",
+    "file": "assets/downloads/profeta/profeta-c150.pdf",
+    "pages": 2,
+    "sizeMB": 3.58
+   }
+  ]
+ },
+ {
+  "slug": "tcs",
+  "name": "TCS",
+  "country": null,
+  "logo": "assets/brands/tcs.webp",
+  "about": "TCS supplies dental resins, equipment and accessories, including thermoplastic resins for removable appliances.",
+  "categories": [
+   "material"
+  ],
+  "productCount": 4,
+  "catalogs": []
+ },
+ {
+  "slug": "teknik-dental",
+  "name": "Teknik Dental",
+  "country": null,
+  "logo": "assets/brands/teknik-dental.webp",
+  "about": "Teknik Dental has built dental furnaces since 1984 under the tegra name, from porcelain furnaces to high-speed zirconia sintering furnaces.",
+  "categories": [
+   "equipment"
+  ],
+  "productCount": 2,
+  "catalogs": [
+   {
+    "title": "tegra MP100S Porcelain Furnace Brochure",
+    "file": "assets/downloads/teknik-dental/tegra-mp100s-brochure.pdf",
+    "pages": 1,
+    "sizeMB": 10.27
+   },
+   {
+    "title": "tegra MP1500 Speed Multistep Brochure",
+    "file": "assets/downloads/teknik-dental/tegra-mp1500-speed-multistep-brochure.pdf",
+    "pages": 1,
+    "sizeMB": 0.93
+   }
+  ]
+ },
+ {
+  "slug": "yamahachi",
+  "name": "Yamahachi",
+  "country": "Japan",
+  "logo": "assets/brands/yamahachi.webp",
+  "about": "Yamahachi Dental Mfg., Co. (Gamagori, Aichi) supplies artificial teeth, CAD/CAM milling and 3D-print materials, resins, waxes, polishing materials and laboratory equipment.",
+  "categories": [
+   "equipment",
+   "material"
+  ],
+  "productCount": 86,
+  "catalogs": [
+   {
+    "title": "Yamahachi Product Catalog 2025-2026",
+    "file": "assets/downloads/yamahachi/yamahachi-product-catalog-2025-2026.pdf",
+    "pages": 29,
+    "sizeMB": 2.31
+   },
+   {
+    "title": "Yamahachi CAD/CAM PMMA & Wax Materials",
+    "file": "assets/downloads/yamahachi/yamahachi-pmma-and-wax.pdf",
+    "pages": 2,
+    "sizeMB": 0.21
+   }
+  ]
+ }
+]
