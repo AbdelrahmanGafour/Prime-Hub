@@ -73,8 +73,8 @@ document.addEventListener('DOMContentLoaded', () => {
       slides.forEach(s => s.classList.remove('is-active'));
       heroIndex = (i + slides.length) % slides.length;
       slides[heroIndex].classList.add('is-active');
-      slideCurrentEl.textContent = '0' + (heroIndex + 1);
-      progressEl.style.width = ((heroIndex + 1) / slides.length * 100) + '%';
+      if (slideCurrentEl) slideCurrentEl.textContent = '0' + (heroIndex + 1);
+      if (progressEl) progressEl.style.width = ((heroIndex + 1) / slides.length * 100) + '%';
     }
 
     function startHeroTimer() {
@@ -82,8 +82,8 @@ document.addEventListener('DOMContentLoaded', () => {
       heroTimer = setInterval(() => showSlide(heroIndex + 1), 5000);
     }
 
-    prevBtn.addEventListener('click', () => { showSlide(heroIndex - 1); startHeroTimer(); });
-    nextBtn.addEventListener('click', () => { showSlide(heroIndex + 1); startHeroTimer(); });
+    if (prevBtn) prevBtn.addEventListener('click', () => { showSlide(heroIndex - 1); startHeroTimer(); });
+    if (nextBtn) nextBtn.addEventListener('click', () => { showSlide(heroIndex + 1); startHeroTimer(); });
 
     showSlide(0);
     startHeroTimer();
