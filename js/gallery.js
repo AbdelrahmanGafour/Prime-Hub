@@ -5,7 +5,7 @@
   var d = document, DATA_URL = 'data/training-gallery.json';
   var fmt = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
   function esc(s) { var e = d.createElement('div'); e.textContent = s == null ? '' : s; return e.innerHTML; }
-  function date(s) { return fmt.format(new Date(s)); }
+  function date(s, it) { return it && it.dateLabel ? it.dateLabel : fmt.format(new Date(s)); }
   function counts(it) {
     var p = it.media.filter(function (m) { return m.type === 'image'; }).length, v = it.media.length - p;
     return { p: p, v: v };
@@ -21,7 +21,7 @@
       '<span class="chip chip--solid post__badge">' + esc(it.category) + '</span>' +
       '<div class="post__counts"><span><i class="fa-regular fa-image" aria-hidden="true"></i>' + c.p + '</span>' +
       (c.v ? '<span><i class="fa-solid fa-play" aria-hidden="true"></i>' + c.v + '</span>' : '') + '</div></div>' +
-      '<div class="post__body"><div class="post__meta"><span><i class="fa-regular fa-calendar" aria-hidden="true"></i>' + date(it.date) + '</span>' +
+      '<div class="post__body"><div class="post__meta"><span><i class="fa-regular fa-calendar" aria-hidden="true"></i>' + date(it.date, it) + '</span>' +
       '<span><i class="fa-solid fa-location-dot" aria-hidden="true"></i>' + esc(it.location) + '</span></div>' +
       '<h3>' + esc(it.title) + '</h3><p>' + esc(it.summary) + '</p>' +
       '<a class="link-arrow stretched" href="' + href + '">View gallery <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></div></article>';
@@ -66,7 +66,7 @@
       d.getElementById('gdType').textContent = kind === 'event' ? 'Event' : 'Course';
       d.getElementById('gdTitle').textContent = it.title;
       d.getElementById('gdLead').textContent = it.description;
-      var meta = '<span class="chip chip--orange"><i class="fa-regular fa-calendar" aria-hidden="true"></i>' + date(it.date) + '</span>' +
+      var meta = '<span class="chip chip--orange"><i class="fa-regular fa-calendar" aria-hidden="true"></i>' + date(it.date, it) + '</span>' +
         '<span class="chip"><i class="fa-solid fa-location-dot" aria-hidden="true"></i>' + esc(it.location) + '</span>' +
         '<span class="chip">' + esc(it.category) + '</span>' +
         '<span class="chip"><i class="fa-regular fa-image" aria-hidden="true"></i>' + c.p + ' photos</span>' +
@@ -79,7 +79,7 @@
       function render() {
         grid.innerHTML = shown.map(function (m, i) {
           return '<button type="button" class="mitem' + (m.type === 'video' ? ' mitem--video' : '') + '" data-i="' + i + '" aria-label="' + (m.type === 'video' ? 'Play video: ' : 'Open photo: ') + esc(m.caption || it.title) + '">' +
-            '<img src="' + esc(m.type === 'video' ? m.poster : m.src) + '" alt="" loading="lazy" decoding="async">' +
+            '<img src="' + esc(m.thumb || (m.type === 'video' ? m.poster : m.src)) + '" alt="" loading="lazy" decoding="async">' +
             (m.caption ? '<span class="mitem__cap">' + esc(m.caption) + '</span>' : '') + '</button>';
         }).join('');
       }

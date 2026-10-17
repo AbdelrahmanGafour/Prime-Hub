@@ -1,216 +1,255 @@
 {
  "events": [
   {
-   "slug": "cad-cam-open-day-2026",
-   "title": "CAD/CAM Open Day",
-   "date": "2026-09-12",
-   "location": "Training Center, Nasr City",
-   "category": "Open day",
-   "summary": "A full day of live scanning, design and milling demos with our brand partners.",
-   "description": "Technicians and dentists joined us for live demonstrations across the full digital workflow, from intraoral scanning to milling and sintering, with time to try each machine hands-on.",
-   "cover": "assets/img/pages/training-photo-1200.webp",
-   "media": [
-    {
-     "type": "image",
-     "src": "assets/img/pages/training-photo-1200.webp",
-     "caption": "CAD/CAM Open Day – photo 1"
-    },
-    {
-     "type": "image",
-     "src": "assets/img/pages/training-banner-1600.webp",
-     "caption": "CAD/CAM Open Day – photo 2"
-    },
-    {
-     "type": "video",
-     "src": null,
-     "poster": "assets/img/pages/about-photo-1000.webp",
-     "caption": "CAD/CAM Open Day – video 1"
-    },
-    {
-     "type": "image",
-     "src": "assets/img/pages/service-photo-1200.webp",
-     "caption": "CAD/CAM Open Day – photo 3"
-    },
-    {
-     "type": "image",
-     "src": "assets/img/pages/about-photo-1000.webp",
-     "caption": "CAD/CAM Open Day – photo 4"
-    },
-    {
-     "type": "video",
-     "src": null,
-     "poster": "assets/img/pexels-product-milling.jpg",
-     "caption": "CAD/CAM Open Day – video 2"
-    },
-    {
-     "type": "image",
-     "src": "assets/img/pexels-product-milling.jpg",
-     "caption": "CAD/CAM Open Day – photo 5"
-    },
-    {
-     "type": "image",
-     "src": "assets/img/pexels-product-scanner.jpg",
-     "caption": "CAD/CAM Open Day – photo 6"
-    },
-    {
-     "type": "image",
-     "src": "assets/img/pexels-product-furnace.jpg",
-     "caption": "CAD/CAM Open Day – photo 7"
-    }
-   ]
-  },
-  {
-   "slug": "zirconia-masterclass-2026",
-   "title": "Zirconia Masterclass with Guest Speaker",
-   "date": "2026-07-03",
-   "location": "Training Center, Nasr City",
-   "category": "Masterclass",
-   "summary": "A guest specialist covered sintering curves, shading and finishing for consistent zirconia results.",
-   "description": "The masterclass combined a short theory session with a practical shading and sintering workshop on our furnaces.",
-   "cover": "assets/img/pexels-product-milling.jpg",
-   "media": [
-    {
-     "type": "image",
-     "src": "assets/img/pexels-product-milling.jpg",
-     "caption": "Zirconia Masterclass with Guest Speaker – photo 1"
-    },
-    {
-     "type": "image",
-     "src": "assets/img/pexels-product-scanner.jpg",
-     "caption": "Zirconia Masterclass with Guest Speaker – photo 2"
-    },
-    {
-     "type": "video",
-     "src": null,
-     "poster": "assets/img/pexels-product-mixer.jpg",
-     "caption": "Zirconia Masterclass with Guest Speaker – video 1"
-    },
-    {
-     "type": "image",
-     "src": "assets/img/pexels-product-furnace.jpg",
-     "caption": "Zirconia Masterclass with Guest Speaker – photo 3"
-    },
-    {
-     "type": "image",
-     "src": "assets/img/pexels-product-mixer.jpg",
-     "caption": "Zirconia Masterclass with Guest Speaker – photo 4"
-    },
-    {
-     "type": "image",
-     "src": "assets/img/pexels-product-steamer.jpg",
-     "caption": "Zirconia Masterclass with Guest Speaker – photo 5"
-    },
-    {
-     "type": "image",
-     "src": "assets/img/pages/training-photo-1200.webp",
-     "caption": "Zirconia Masterclass with Guest Speaker – photo 6"
-    }
-   ]
-  },
-  {
-   "slug": "equipment-expo-cairo-2026",
-   "title": "Dental Equipment Expo – Cairo",
-   "date": "2026-04-18",
-   "location": "Cairo",
+   "slug": "idex-2026",
+   "title": "IDEX 2026 – Prime Hub Booth",
+   "date": "2026-01-01",
+   "dateLabel": "2026",
+   "location": "EIEC, Cairo, Egypt",
    "category": "Exhibition",
-   "summary": "Our stand at the annual dental exhibition: new scanners, mills and furnaces on show.",
-   "description": "Highlights from our exhibition stand, including live demos of the latest equipment from our authorized brands.",
-   "cover": "assets/img/pages/service-photo-1200.webp",
+   "summary": "Prime Hub at IDEX Cairo 2026: our stand, live demos and visitors at the Egypt International Exhibition Center.",
+   "description": "Highlights from our stand at IDEX Cairo 2026, held at the Egypt International Exhibition Center. Meet the team, see the equipment and materials we showcased, and browse moments with visitors and partners.",
+   "cover": "assets/img/events/idex-2026/01-640.webp",
    "media": [
     {
      "type": "image",
-     "src": "assets/img/pages/service-photo-1200.webp",
-     "caption": "Dental Equipment Expo – Cairo – photo 1"
+     "src": "assets/img/events/idex-2026/01.webp",
+     "thumb": "assets/img/events/idex-2026/01-640.webp",
+     "caption": ""
     },
     {
      "type": "image",
-     "src": "assets/img/pages/about-photo-1000.webp",
-     "caption": "Dental Equipment Expo – Cairo – photo 2"
-    },
-    {
-     "type": "video",
-     "src": null,
-     "poster": "assets/img/pexels-product-scanner.jpg",
-     "caption": "Dental Equipment Expo – Cairo – video 1"
+     "src": "assets/img/events/idex-2026/02.webp",
+     "thumb": "assets/img/events/idex-2026/02-640.webp",
+     "caption": ""
     },
     {
      "type": "image",
-     "src": "assets/img/pexels-product-milling.jpg",
-     "caption": "Dental Equipment Expo – Cairo – photo 3"
+     "src": "assets/img/events/idex-2026/03.webp",
+     "thumb": "assets/img/events/idex-2026/03-640.webp",
+     "caption": ""
     },
     {
      "type": "image",
-     "src": "assets/img/pexels-product-scanner.jpg",
-     "caption": "Dental Equipment Expo – Cairo – photo 4"
-    },
-    {
-     "type": "video",
-     "src": null,
-     "poster": "assets/img/pexels-product-furnace.jpg",
-     "caption": "Dental Equipment Expo – Cairo – video 2"
+     "src": "assets/img/events/idex-2026/04.webp",
+     "thumb": "assets/img/events/idex-2026/04-640.webp",
+     "caption": ""
     },
     {
      "type": "image",
-     "src": "assets/img/pexels-product-furnace.jpg",
-     "caption": "Dental Equipment Expo – Cairo – photo 5"
+     "src": "assets/img/events/idex-2026/05.webp",
+     "thumb": "assets/img/events/idex-2026/05-640.webp",
+     "caption": ""
     },
     {
      "type": "image",
-     "src": "assets/img/pexels-product-mixer.jpg",
-     "caption": "Dental Equipment Expo – Cairo – photo 6"
+     "src": "assets/img/events/idex-2026/06.webp",
+     "thumb": "assets/img/events/idex-2026/06-640.webp",
+     "caption": ""
     },
     {
      "type": "image",
-     "src": "assets/img/pexels-product-steamer.jpg",
-     "caption": "Dental Equipment Expo – Cairo – photo 7"
+     "src": "assets/img/events/idex-2026/07.webp",
+     "thumb": "assets/img/events/idex-2026/07-640.webp",
+     "caption": ""
     },
     {
      "type": "image",
-     "src": "assets/img/pages/training-photo-1200.webp",
-     "caption": "Dental Equipment Expo – Cairo – photo 8"
-    }
-   ]
-  },
-  {
-   "slug": "lab-owners-meetup-2026",
-   "title": "Lab Owners Meetup",
-   "date": "2026-02-07",
-   "location": "Training Center, Nasr City",
-   "category": "Seminar",
-   "summary": "An evening seminar for laboratory owners on workflow, maintenance and materials.",
-   "description": "Open discussion and short talks on running a digital lab efficiently, followed by networking.",
-   "cover": "assets/img/pages/about-photo-1000.webp",
-   "media": [
-    {
-     "type": "image",
-     "src": "assets/img/pages/about-photo-1000.webp",
-     "caption": "Lab Owners Meetup – photo 1"
+     "src": "assets/img/events/idex-2026/08.webp",
+     "thumb": "assets/img/events/idex-2026/08-640.webp",
+     "caption": ""
     },
     {
      "type": "image",
-     "src": "assets/img/pexels-product-milling.jpg",
-     "caption": "Lab Owners Meetup – photo 2"
-    },
-    {
-     "type": "video",
-     "src": null,
-     "poster": "assets/img/pexels-product-furnace.jpg",
-     "caption": "Lab Owners Meetup – video 1"
+     "src": "assets/img/events/idex-2026/09.webp",
+     "thumb": "assets/img/events/idex-2026/09-640.webp",
+     "caption": ""
     },
     {
      "type": "image",
-     "src": "assets/img/pexels-product-scanner.jpg",
-     "caption": "Lab Owners Meetup – photo 3"
+     "src": "assets/img/events/idex-2026/10.webp",
+     "thumb": "assets/img/events/idex-2026/10-640.webp",
+     "caption": ""
     },
     {
      "type": "image",
-     "src": "assets/img/pexels-product-furnace.jpg",
-     "caption": "Lab Owners Meetup – photo 4"
+     "src": "assets/img/events/idex-2026/11.webp",
+     "thumb": "assets/img/events/idex-2026/11-640.webp",
+     "caption": ""
     },
     {
      "type": "image",
-     "src": "assets/img/pexels-product-mixer.jpg",
-     "caption": "Lab Owners Meetup – photo 5"
+     "src": "assets/img/events/idex-2026/12.webp",
+     "thumb": "assets/img/events/idex-2026/12-640.webp",
+     "caption": ""
+    },
+    {
+     "type": "image",
+     "src": "assets/img/events/idex-2026/13.webp",
+     "thumb": "assets/img/events/idex-2026/13-640.webp",
+     "caption": ""
+    },
+    {
+     "type": "image",
+     "src": "assets/img/events/idex-2026/14.webp",
+     "thumb": "assets/img/events/idex-2026/14-640.webp",
+     "caption": ""
+    },
+    {
+     "type": "image",
+     "src": "assets/img/events/idex-2026/15.webp",
+     "thumb": "assets/img/events/idex-2026/15-640.webp",
+     "caption": ""
+    },
+    {
+     "type": "image",
+     "src": "assets/img/events/idex-2026/16.webp",
+     "thumb": "assets/img/events/idex-2026/16-640.webp",
+     "caption": ""
+    },
+    {
+     "type": "image",
+     "src": "assets/img/events/idex-2026/17.webp",
+     "thumb": "assets/img/events/idex-2026/17-640.webp",
+     "caption": ""
+    },
+    {
+     "type": "image",
+     "src": "assets/img/events/idex-2026/18.webp",
+     "thumb": "assets/img/events/idex-2026/18-640.webp",
+     "caption": ""
+    },
+    {
+     "type": "image",
+     "src": "assets/img/events/idex-2026/19.webp",
+     "thumb": "assets/img/events/idex-2026/19-640.webp",
+     "caption": ""
+    },
+    {
+     "type": "image",
+     "src": "assets/img/events/idex-2026/20.webp",
+     "thumb": "assets/img/events/idex-2026/20-640.webp",
+     "caption": ""
+    },
+    {
+     "type": "image",
+     "src": "assets/img/events/idex-2026/21.webp",
+     "thumb": "assets/img/events/idex-2026/21-640.webp",
+     "caption": ""
+    },
+    {
+     "type": "image",
+     "src": "assets/img/events/idex-2026/22.webp",
+     "thumb": "assets/img/events/idex-2026/22-640.webp",
+     "caption": ""
+    },
+    {
+     "type": "image",
+     "src": "assets/img/events/idex-2026/23.webp",
+     "thumb": "assets/img/events/idex-2026/23-640.webp",
+     "caption": ""
+    },
+    {
+     "type": "image",
+     "src": "assets/img/events/idex-2026/24.webp",
+     "thumb": "assets/img/events/idex-2026/24-640.webp",
+     "caption": ""
+    },
+    {
+     "type": "image",
+     "src": "assets/img/events/idex-2026/25.webp",
+     "thumb": "assets/img/events/idex-2026/25-640.webp",
+     "caption": ""
+    },
+    {
+     "type": "image",
+     "src": "assets/img/events/idex-2026/26.webp",
+     "thumb": "assets/img/events/idex-2026/26-640.webp",
+     "caption": ""
+    },
+    {
+     "type": "image",
+     "src": "assets/img/events/idex-2026/27.webp",
+     "thumb": "assets/img/events/idex-2026/27-640.webp",
+     "caption": ""
+    },
+    {
+     "type": "image",
+     "src": "assets/img/events/idex-2026/28.webp",
+     "thumb": "assets/img/events/idex-2026/28-640.webp",
+     "caption": ""
+    },
+    {
+     "type": "image",
+     "src": "assets/img/events/idex-2026/29.webp",
+     "thumb": "assets/img/events/idex-2026/29-640.webp",
+     "caption": ""
+    },
+    {
+     "type": "image",
+     "src": "assets/img/events/idex-2026/30.webp",
+     "thumb": "assets/img/events/idex-2026/30-640.webp",
+     "caption": ""
+    },
+    {
+     "type": "image",
+     "src": "assets/img/events/idex-2026/31.webp",
+     "thumb": "assets/img/events/idex-2026/31-640.webp",
+     "caption": ""
+    },
+    {
+     "type": "image",
+     "src": "assets/img/events/idex-2026/32.webp",
+     "thumb": "assets/img/events/idex-2026/32-640.webp",
+     "caption": ""
+    },
+    {
+     "type": "image",
+     "src": "assets/img/events/idex-2026/33.webp",
+     "thumb": "assets/img/events/idex-2026/33-640.webp",
+     "caption": ""
+    },
+    {
+     "type": "image",
+     "src": "assets/img/events/idex-2026/34.webp",
+     "thumb": "assets/img/events/idex-2026/34-640.webp",
+     "caption": ""
+    },
+    {
+     "type": "image",
+     "src": "assets/img/events/idex-2026/35.webp",
+     "thumb": "assets/img/events/idex-2026/35-640.webp",
+     "caption": ""
+    },
+    {
+     "type": "image",
+     "src": "assets/img/events/idex-2026/36.webp",
+     "thumb": "assets/img/events/idex-2026/36-640.webp",
+     "caption": ""
+    },
+    {
+     "type": "image",
+     "src": "assets/img/events/idex-2026/37.webp",
+     "thumb": "assets/img/events/idex-2026/37-640.webp",
+     "caption": ""
+    },
+    {
+     "type": "image",
+     "src": "assets/img/events/idex-2026/38.webp",
+     "thumb": "assets/img/events/idex-2026/38-640.webp",
+     "caption": ""
+    },
+    {
+     "type": "image",
+     "src": "assets/img/events/idex-2026/39.webp",
+     "thumb": "assets/img/events/idex-2026/39-640.webp",
+     "caption": ""
+    },
+    {
+     "type": "image",
+     "src": "assets/img/events/idex-2026/40.webp",
+     "thumb": "assets/img/events/idex-2026/40-640.webp",
+     "caption": ""
     }
    ]
   }
