@@ -123,7 +123,7 @@ body.is-scrolled .site-header .brand img{ height:40px; }
 .footer__col .footer__title{ color:#fff; font-size:.8125rem; letter-spacing:.14em; text-transform:uppercase; font-family:var(--f-body); font-weight:700; margin-bottom:20px; }
 .footer__col li{ margin-bottom:12px; }
 .footer__col a{ color:#b6c4df; font-size:.9375rem; transition:color .2s,padding .25s var(--ease); display:inline-block; }
-.footer__col a:hover{ color:#fff; padding-left:4px; }
+.footer__col a:hover{ color:#fff; }
 .footer__contact li{ display:flex; gap:12px; align-items:flex-start; font-size:.9375rem; }
 .footer__contact i{ color:var(--orange-400); margin-top:.3em; width:16px; text-align:center; }
 .footer__bottom{ border-top:1px solid rgba(255,255,255,.10); padding-block:22px; }
@@ -133,6 +133,8 @@ body.is-scrolled .site-header .brand img{ height:40px; }
 @media (max-width:560px){ .footer__grid{ grid-template-columns:1fr; } }
 :where(.site-footer) .btn--wa{ --_bg:var(--wa); --_fg:#fff; }
 :where(.site-footer) .btn--wa:hover{ filter:brightness(1.08); }
+.site-footer .btn--wa:hover, .site-footer .btn--wa:active{ transform:none; filter:none; }
+.site-footer .btn--wa:hover i{ transform:none; }
 /* 13. Floating UI: WhatsApp, back-to-top, mobile action bar, toast ------------------------------ */
 .fab{ position:fixed; right:max(18px,env(safe-area-inset-right)); z-index:var(--z-float); display:grid; place-items:center; border-radius:50%; box-shadow:var(--sh-3); transition:transform .25s var(--ease),opacity .25s,visibility .25s; }
 .fab--wa{ bottom:max(20px,env(safe-area-inset-bottom)); width:58px; height:58px; background:var(--wa); color:#fff; font-size:1.7rem; }

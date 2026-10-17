@@ -444,6 +444,8 @@ body.is-scrolled .subnav{ top:60px; }
 .footer__col a:hover{ color:#fff; padding-left:4px; }
 .footer__contact li{ display:flex; gap:12px; align-items:flex-start; font-size:.9375rem; }
 .footer__contact i{ color:var(--orange-400); margin-top:.3em; width:16px; text-align:center; }
+.site-footer .btn--wa:hover, .site-footer .btn--wa:active{ transform:none; filter:none; }
+.site-footer .btn--wa:hover i{ transform:none; }
 .footer__bottom{ border-top:1px solid rgba(255,255,255,.10); padding-block:22px; }
 .footer__bottom-inner{ display:flex; flex-wrap:wrap; justify-content:space-between; gap:10px 24px; font-size:.8125rem; color:#93a4c5; }
 .footer__legal{ display:flex; gap:22px; } .footer__legal a:hover{ color:#fff; }
