@@ -16,7 +16,7 @@ ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)),
 SITE_URL = os.environ.get("SITE_URL", "https://www.primehubeg.com").rstrip("/")
 PAGES = ["about", "products", "training", "service", "downloads", "contact"]
 PRODUCT_PAGES = sorted("products/" + f[:-5] for f in os.listdir(os.path.join(ROOT, "products")) if f.endswith(".html")) if os.path.isdir(os.path.join(ROOT, "products")) else []
-SHELL_PAGES = PAGES + ["404"] + PRODUCT_PAGES          # index.html keeps its own classic layout (own header/footer); 404 gets the shell
+SHELL_PAGES = PAGES + ["training-gallery", "404"] + PRODUCT_PAGES          # index.html keeps its own classic layout (own header/footer); 404 gets the shell
 read = lambda p: open(os.path.join(ROOT, p), encoding="utf-8").read()
 
 brands = json.load(open(os.path.join(ROOT, "data", "brands.json"), encoding="utf-8"))
